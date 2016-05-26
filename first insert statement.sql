@@ -5,7 +5,7 @@ from wifilog;
 
 -- Run from here
 insert into codespace
-select nextval('codespaceid_seq'), 'tudelft-access-points';
+select nextval('codespaceid_seq'), 'tudelft-wlan';
 
 insert into featureofinteresttype
 select nextval('featureofinteresttypeid_seq'), 'http://www.opengis.net/def/samplingFeatureType/OGC-OM/2.0/SF_SamplingPoint';
