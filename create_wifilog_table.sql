@@ -1,4 +1,4 @@
-CREATE TABLE wifilog 
+CREATE TABLE if NOT exists wifilog 
 (
  username text not null,
  mac text not null,
@@ -10,3 +10,4 @@ CREATE TABLE wifilog
  rssi integer, 
  importfile text
  );
+ 
