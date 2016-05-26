@@ -36,3 +36,18 @@ select nextval('offeringid_seq'), 'F', 'wifi_access_points', 1, 'WiFi Access Poi
 insert into featureofinterest 
 select nextval('featureofinterestid_seq'), 'F', 1, apname, 1, apname, 1, maploc, geom, NULL, NULL
 from access_points
+
+INSERT INTO series (
+    seriesid,
+    featureofinterestid,
+    observablepropertyid,
+    procedureid
+)
+1,
+(
+    SELECT featureofinteresid
+    FROM featureofinterest, wifilog
+    WHERE identifier=apname
+)
+1,
+2;
