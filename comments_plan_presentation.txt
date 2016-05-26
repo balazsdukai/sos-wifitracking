@@ -1,0 +1,5 @@
+Suggestion PvO: publish raw instead of (pre)processed data
+PvO: Why not use WFS instead of SOS
+MdV: Use SOS because of the time series 
+PvO: Espcially interested in the SES (which is not part of WFS) 
+MdV: NetC(?) for multiple observations, take a look at it!
