@@ -1,9 +1,4 @@
-﻿-- Doesn't work yet
-insert into textvalue 
-select nextval('observationid_seq'), mac 
-from wifilog;
-
--- Run from here
+﻿-- Run from here
 insert into codespace
 select nextval('codespaceid_seq'), 'tudelft-access-points';
 
@@ -13,7 +8,6 @@ select nextval('featureofinteresttypeid_seq'), 'http://www.opengis.net/def/sampl
 insert into proceduredescriptionformat
 select nextval('procdescformatid_seq'), 'http://www.opengis.net/sensorML/1.0.1';
 
---need to update this with rssi, snr, netid
 insert into unit
 select nextval('unitid_seq'), 'mac address';
 insert into unit
@@ -21,13 +15,6 @@ select nextval('unitid_seq'), 'db';
 insert into unit
 select nextval('unitid_seq'), 'netid';
 
-/*
--- If related feature is pointing to AP, how to specify nearest AP?
-insert into relatedfeature
-select nextval('relatedfeature_seq'), #;
-*/
-
--- I think this is correct
 insert into observationtype
 select nextval('observationtypeid_seq'), 'http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_Measurement';
 
