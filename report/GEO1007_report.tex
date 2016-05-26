@@ -1,0 +1,54 @@
+\documentclass{tudelft-report}
+\usepackage{natbib}
+% Start of 'ignore natbib' hack
+\let\bibhang\relax
+\let\citename\relax
+\let\bibfont\relax
+\let\Citeauthor\relax
+\expandafter\let\csname ver@natbib.sty\endcsname\relax
+\usepackage{changes}
+\usepackage{subcaption}
+\usepackage[export]{adjustbox}
+\usepackage{float}
+\restylefloat{table}
+\usepackage[style=authoryear,sorting=nyt,backend=biber]{biblatex}\usepackage{csquotes}
+\usepackage{hyperref}
+\usepackage[inline]{enumitem}
+\usepackage{xcolor}
+\usepackage{listings}
+\graphicspath{ {figures/} }
+\addbibresource{report.bib}
+\begin{document}
+\frontmatter
+\title[tudelft-white]{\fontsize{30}{5}\fontshape{sl}\selectfont Implementing a Sensor Observation Service for Wi-Fi tracking data}
+\subtitle[tudelft-white]{\fontsize{20}{1.2}\selectfont A case study of TU Delft Campus}
+\author[tudelft-white]{\fontsize{15}{10}\selectfont Balazs Dukai
+\vskip 0.15cm Matthijs Bon
+\vskip 0.15cm Xander den Duijn}
+\affiliation{Technische Universiteit Delft}
+\coverimage{cover_article.jpg}
+\setpagecolor{tudelft-cyan}
+\makecover[split]
+%% Include an optional title page.
+\input{title}	
+
+\input{preface}
+
+\tableofcontents
+
+%% Use Arabic numerals for the page numbers of the chapters.
+\mainmatter
+%\input{chapter-0}
+\input{chapter-1}
+\input{chapter-2}
+\input{chapter-3}
+\input{chapter-4}
+%% Use letters for the chapter numbers of the appendices.
+%%\appendix
+
+%\input{appendix-a}
+\nocite{*}
+\printbibliography
+
+\end{document}
+
