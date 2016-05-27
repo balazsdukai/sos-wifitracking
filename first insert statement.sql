@@ -37,6 +37,7 @@ insert into featureofinterest
 select nextval('featureofinterestid_seq'), 'F', 1, apname, 1, apname, 1, maploc, geom, NULL, NULL
 from access_points
 
+--OLD
 INSERT INTO series (
     seriesid,
     featureofinterestid,
@@ -51,3 +52,18 @@ INSERT INTO series (
 )
 1,
 2;
+
+--NEW??
+INSERT INTO series (
+seriesid,
+	featureofinterestid,
+    
+    observablepropertyid,
+    procedureid
+)
+SELECT nextval('seriesId_seq'), *
+from (
+
+    SELECT distinct featureofinterestid,1 ,1
+    FROM featureofinterest, wifilog
+    WHERE identifier=apname) as hola
