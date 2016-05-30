@@ -33,6 +33,7 @@ select nextval('observablepropertyid_seq'), 'F', 'snr', 1, 'Signal to Noise Rati
 insert into offering
 select nextval('offeringid_seq'), 'F', 'wifi_access_points', 1, 'WiFi Access Points', 1, 'Network of all WiFi Access Points';
 
+--run script that created access points table before inserting
 insert into featureofinterest 
 select nextval('featureofinterestid_seq'), 'F', 1, apname, 1, apname, 1, maploc, geom, NULL, NULL
 from access_points

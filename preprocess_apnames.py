@@ -5,7 +5,7 @@ import numpy as np
 #make sure the parameters are correct
 
 try:
-    conn = psycopg2.connect(database="sos_core", user="postgres", password="database2015", host="localhost", port="5432")
+    conn = psycopg2.connect(database="sosservice", user="team2", password="AlsoSprachZ!", host="wifitracking.bk.tudelft.nl", port="5432")
     print "Opened database successfully"
 except:
     print "I'm unable to connect to the database"
