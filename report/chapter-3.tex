@@ -1,1 +1,42 @@
-\chapter{Introduction}
+\chapter{Implementation}
+% General introduction, describes what we did and why
+% \textbf{mapped parameters/values}
+% diagram comes here
+
+\section{Preprocessing (of the wifilog data)}
+% - Setting up the SOS client for installation
+
+\section{Filling the tables}
+% - Introduction
+% - Filling of tables in the database
+% - Difficulties with filling discussed in the subsections
+
+\subsection{'Simple' tables}
+% The tables that could be filled 'easily'
+\textbf{codespace}\\
+FeatureOfInterest::codeSpace is the codespace attribute for the identifier (\textit{gml:identifier}) of the access points. As the GML 3.2. schema defines the \textit{gml:identifier} is a “special identifier is assigned to an object by the maintaining authority with the intention that it is used in references to the object.” Furthermore, the attribute \textit{codeSpace} is of type \textit{anyURI}. In the present case the Technical University Delft is the maintaining authority of the campus WLAN and with it the access points. Because there is no official repository that contains the identifiers of the access points, we defined the codespace as \textit{tudelft-wlan}.\\
+
+\textbf{name and codespacename}\\
+\textit{Codespacename} refers to the codespace for the \textit{name} of the \textit{featureOfInterest}. \textit{FeatureOfInterest:name} refers to \textit{gml:name} in the GML 3.2 schema. In the case of the TU Delft WLAN the access point names equal to the access point identifiers, thus they have the same codespace as well.\\
+
+\textbf{hibernatediscriminator}\\
+According to the SensorObservationService documentation provided by 52North’s wiki page, four tables require the attribute ‘hibernatediscriminator’. The wiki page describes this attribute as ‘only needed for internal purposes’, but this is rather unclear. Because there is no clear description on the value of this attribute, the value ‘F’ is chosen, as indicator for a ‘False’ value.
+
+\subsection{FeatureOfInterest}
+% Creating the access point table (Xander)
+% Using the buildings table
+% Extracting IDs from the apnames
+
+\subsection{Series}
+% What exactly is a serie?
+% Series vs old concept
+% Complex constraint
+
+\subsection{Observation}
+% Difficulties with inserting
+% First and last timestamp automatically from timeseries API
+
+\subsection{ComplexValue}
+% Could not use this because of not released version, so used TextValue
+% See recommendations for newer versions
+

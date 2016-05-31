@@ -13,6 +13,8 @@
 \restylefloat{table}
 \usepackage[style=authoryear,sorting=nyt,backend=biber]{biblatex}\usepackage{csquotes}
 \usepackage{hyperref}
+\usepackage{booktabs}
+\usepackage[justification=centering]{caption}
 \usepackage[inline]{enumitem}
 \usepackage{xcolor}
 \usepackage{listings}
@@ -21,28 +23,25 @@
 \begin{document}
 \frontmatter
 \title[tudelft-white]{\fontsize{30}{5}\fontshape{sl}\selectfont Implementing a Sensor Observation Service for Wi-Fi tracking data}
-\subtitle[tudelft-white]{\fontsize{20}{1.2}\selectfont A case study of TU Delft Campus}
-\author[tudelft-white]{\fontsize{15}{10}\selectfont Balazs Dukai
-\vskip 0.15cm Matthijs Bon
-\vskip 0.15cm Xander den Duijn}
+\author[tudelft-white]{\fontsize{15}{10}\selectfont Matthijs Bon
+\vskip 0.15cm Xander den Duijn
+\vskip 0.15cm Balazs Dukai}
 \affiliation{Technische Universiteit Delft}
 \coverimage{cover_article.jpg}
 \setpagecolor{tudelft-cyan}
 \makecover[split]
 %% Include an optional title page.
 \input{title}	
-
 \input{preface}
-
 \tableofcontents
 
 %% Use Arabic numerals for the page numbers of the chapters.
 \mainmatter
-%\input{chapter-0}
 \input{chapter-1}
 \input{chapter-2}
 \input{chapter-3}
 \input{chapter-4}
+\input{chapter-5}
 %% Use letters for the chapter numbers of the appendices.
 %%\appendix
 
