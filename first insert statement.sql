@@ -95,9 +95,9 @@ asstime+sesdur as resulttime,
 geom as samplinggeometry
 
 from series, (
-
+--join wifilog and feature of interest
 select *
 from wifilog, featureofinterest
 where wifilog.apname=featureofinterest.identifier) as a
-
+--join with series table
 where series.featureofinterestid = a.featureofinterestid) as b
