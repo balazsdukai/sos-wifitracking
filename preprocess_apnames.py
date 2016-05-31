@@ -20,7 +20,7 @@ SQL1 = "drop table if exists t1; \
         id int, \
         apname text, \
         maploc text\
-        )"
+        );"
 
 cur.execute(SQL1)
 
@@ -60,23 +60,21 @@ call(dumpTable, shell = True)
 SQL3 =  "drop table if exists access_points; \
         create table access_points \
         ( \
-        id int, \
+        id serial, \
         apname text,\
         maploc text, \
         geom geometry \
         )"
 cur.execute(SQL3)
 
-#insert values into access_points (and drop temporary table)
-SQL4 =  "insert into access_points\
-        select t1.id, apname, t1.maploc, geometry \
-        from t1, buildings\
-        where t1.id = buildings.id; \
-        drop table t1"
+# insert values into access_points (and drop temporary table)
+SQL4 =  "insert into access_points (apname, maploc, geom)\
+         select distinct on (t1.apname) t1.apname, t1.maploc, geometry \
+         from t1, buildings\
+         where t1.id = buildings.id; \
+         drop table t1;"
+        
 cur.execute(SQL4)
-
-
-
 
 conn.commit()
 
