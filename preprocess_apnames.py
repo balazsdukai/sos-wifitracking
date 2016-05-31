@@ -11,7 +11,7 @@ def main():
     cur.execute(open("create_wifilog_table.sql", "r").read())
     conn.commit()
     limit = raw_input('Row limit for the wifilog: ')
-    dumpTable = 'psql -c "\copy (select * from wifilog limit {}) TO STDIN" -h wifitracking.bk.tudelft.nl -d wifi -U team2 | psql -c "\copy wifilog FROM STDOUT" -U postgres -d sos_wifitracking'.format(limit)
+    dumpTable = 'psql -c "\copy (select * from wifilog limit {}) TO STDIN" -h wifitracking.bk.tudelft.nl -d wifi -U team2 | psql -c "\copy wifilog FROM STDOUT" -U {} -d {}'.format(limit, username, dbname)
     call(dumpTable, shell = True)
    
     # Create temporary table 
@@ -31,7 +31,7 @@ def main():
     # Dump the building table from the wifi database into the sos database
     cur.execute('create table if not exists buildings (id integer, name text, geometry geometry, x double precision, y double precision)')
     conn.commit()
-    dumpTable = 'psql -c "\copy (select * from buildings) TO STDIN" -h wifitracking.bk.tudelft.nl -d wifi -U team2 | psql -c "\copy buildings FROM STDOUT" -U postgres -d sos_wifitracking'
+    dumpTable = 'psql -c "\copy (select * from buildings) TO STDIN" -h wifitracking.bk.tudelft.nl -d wifi -U team2 | psql -c "\copy buildings FROM STDOUT" -U {} -d {}'.format(username, dbname)
     call(dumpTable, shell = True)
 
     # Create final table; access_points
