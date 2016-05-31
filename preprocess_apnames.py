@@ -1,11 +1,12 @@
 import psycopg2
 import numpy as np
+from subprocess import call
 
 #make connection with the database
 #make sure the parameters are correct
 
 try:
-    conn = psycopg2.connect(database="sosservice", user="team2", password="AlsoSprachZ!", host="wifitracking.bk.tudelft.nl", port="5432")
+    conn = psycopg2.connect(database="sos_wifitracking_core", user="bdukai", password="ERBAgoNd1#", host="localhost", port="5432")
     print "Opened database successfully"
 except:
     print "I'm unable to connect to the database"
@@ -51,6 +52,10 @@ for i in range(len(result)):
                 values {}".format(item)
     cur.execute(statement)
 
+#dump the building table from the wifi database into the sos database
+dumpTable = "pg_dump -t buildings -C -h wifitracking.bk.tudelft.nl -U team2 wifi | psql -h localhost -U bdukai sos_wifitracking_core"
+call(dumpTable, shell = True)
+
 #create final table; access_points
 SQL3 =  "drop table if exists access_points; \
         create table access_points \
@@ -65,8 +70,8 @@ cur.execute(SQL3)
 #insert values into access_points (and drop temporary table)
 SQL4 =  "insert into access_points\
         select t1.id, apname, t1.maploc, geometry \
-        from t1, bld\
-        where t1.id = bld.id; \
+        from t1, buildings\
+        where t1.id = buildings.id; \
         drop table t1"
 cur.execute(SQL4)
 
