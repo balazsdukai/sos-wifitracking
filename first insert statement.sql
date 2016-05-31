@@ -18,7 +18,7 @@ select nextval('unitid_seq'), 'netid';
 insert into observationtype
 select nextval('observationtypeid_seq'), 'http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_Measurement';
 
-insert into "procedure"
+insert into procedure
 select nextval('procedureid_seq'), 'F', 1, 'wifi_access_point', 1, 'Scan', 1, 'WiFi Scan', 'F', 'F';
 
 insert into observableproperty
@@ -38,66 +38,12 @@ insert into featureofinterest
 select nextval('featureofinterestid_seq'), 'F', 1, apname, 1, apname, 1, maploc, geom, NULL, NULL
 from access_points
 
---OLD
-INSERT INTO series (
-    seriesid,
-    featureofinterestid,
-    observablepropertyid,
-    procedureid
-)
-1,
-(
-    SELECT featureofinteresid
-    FROM featureofinterest, wifilog
-    WHERE identifier=apname
-)
-1,
-2;
-
---NEW??
 INSERT INTO series (
 	seriesid,
 	featureofinterestid,  
     observablepropertyid,
-    procedureid,
-	firsttimestamp
-)
-SELECT nextval('seriesId_seq'), *
-from (
-
-    SELECT distinct featureofinterestid,1 ,1
+    procedureid)
+SELECT nextval('seriesid_seq'), *
+from (SELECT DISTINCT featureofinterestid, 1 ,1
     FROM featureofinterest, wifilog
     WHERE identifier=apname) as hola
-	
---observations	
-
-insert into observation(
-observationid,
-seriesid,
-phenomenontimestart,
-phenomenontimeend,
-resulttime,
-codespace,
-unitid,
-samplinggeometry)
-
-SELECT nextval('observationid_seq'),* 
-from (
-
-select 
-series.seriesid, 
-asstime as phenomenontimestart, 
-asstime+sesdur as phenomenontimeend, 
-asstime+sesdur as resulttime, 
-1 as codespace, 
-'description' as description, 
-1 as unitid, 
-geom as samplinggeometry
-
-from series, (
---join wifilog and feature of interest
-select *
-from wifilog, featureofinterest
-where wifilog.apname=featureofinterest.identifier) as a
---join with series table
-where series.featureofinterestid = a.featureofinterestid) as b
