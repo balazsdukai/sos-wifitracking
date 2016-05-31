@@ -28,7 +28,7 @@ SQL1 = '''
     1 as codespace, 
     'description' as description, 
     1 as unitid, 
-    geom as samplinggeometry,
+    st_asewkb(geom) as samplinggeometry,
     mac
 
     from series, (
@@ -56,7 +56,7 @@ for i in result:
     codespace,
     unitid,
     samplinggeometry) values(
-    {}, {}, '{}', '{}', '{}', 1, 'description', 1, {})'''.format(obs_id, i[seriesid], i[phenemenontimestart], i[phenemenontimeend], i[resulttime],i[samplinggeometry])  
+    {}, {}, '{}', '{}', '{}', 1, 'description', 1, st_geomfromewkt({}))'''.format(obs_id, i[seriesid], i[phenemenontimestart], i[phenemenontimeend], i[resulttime],i[samplinggeometry])  
     cur.execute(SQL2)
 
     SQL3 = '''insert into textvalue(
