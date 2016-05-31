@@ -56,11 +56,11 @@ INSERT INTO series (
 
 --NEW??
 INSERT INTO series (
-seriesid,
-	featureofinterestid,
-    
+	seriesid,
+	featureofinterestid,  
     observablepropertyid,
-    procedureid
+    procedureid,
+	firsttimestamp
 )
 SELECT nextval('seriesId_seq'), *
 from (
@@ -68,3 +68,36 @@ from (
     SELECT distinct featureofinterestid,1 ,1
     FROM featureofinterest, wifilog
     WHERE identifier=apname) as hola
+	
+--observations	
+
+insert into observation(
+observationid,
+seriesid,
+phenomenontimestart,
+phenomenontimeend,
+resulttime,
+codespace,
+unitid,
+samplinggeometry)
+
+SELECT nextval('observationid_seq'),* 
+from (
+
+select 
+series.seriesid, 
+asstime as phenomenontimestart, 
+asstime+sesdur as phenomenontimeend, 
+asstime+sesdur as resulttime, 
+1 as codespace, 
+'description' as description, 
+1 as unitid, 
+geom as samplinggeometry
+
+from series, (
+
+select *
+from wifilog, featureofinterest
+where wifilog.apname=featureofinterest.identifier) as a
+
+where series.featureofinterestid = a.featureofinterestid) as b
