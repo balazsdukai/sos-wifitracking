@@ -6,7 +6,7 @@ from subprocess import call
 #make sure the parameters are correct
 
 try:
-    conn = psycopg2.connect(database="sos_core", user="postgres", password="database2015", host="localhost", port="5432")
+    conn = psycopg2.connect(database="sos_wifitracking_core", user="bdukai", password="ERBAgoNd1#", host="localhost", port="5432")
     print "Opened database successfully"
 except:
     print "I'm unable to connect to the database"
@@ -28,7 +28,7 @@ SQL1 = '''
     1 as codespace, 
     'description' as description, 
     1 as unitid, 
-    st_asewkb(geom) as samplinggeometry,
+    st_asewkt(geom) as samplinggeometry,
     mac
 
     from series, (
@@ -54,14 +54,15 @@ for i in result:
     phenomenontimeend,
     resulttime,
     codespace,
+    description,
     unitid,
     samplinggeometry) values(
-    {}, {}, '{}', '{}', '{}', 1, 'description', 1, st_geomfromewkt({}))'''.format(obs_id, i[seriesid], i[phenemenontimestart], i[phenemenontimeend], i[resulttime],i[samplinggeometry])  
+    {}, {}, '{}', '{}', '{}', 1, 'description', 1, st_geomfromewkt('{}'))'''.format(obs_id, i[seriesid], i[phenemenontimestart], i[phenemenontimeend], i[resulttime],i[samplinggeometry])  
     cur.execute(SQL2)
 
     SQL3 = '''insert into textvalue(
     observationid,
-    value) values {}, {}'''.format(obs_id, i[mac])
+    value) values ({}, '{}');'''.format(obs_id, i[mac])
     cur.execute(SQL3)
     conn.commit()
 
