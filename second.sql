@@ -2,7 +2,7 @@
 drop table if exists access_points;
 create table access_points
 (
-    id int,
+    id serial,
     apname text,
     maploc text,
     geom geometry
