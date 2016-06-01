@@ -47,3 +47,19 @@ SELECT nextval('seriesid_seq'), *
 from (SELECT DISTINCT featureofinterestid, 1 ,1
     FROM featureofinterest, wifilog
     WHERE identifier=apname) as hola
+    
+    
+INSERT INTO observationhasoffering
+SELECT observationid, 1 
+FROM observation;
+
+INSERT INTO observationconstellation (
+    observationconstellationid,
+    observablepropertyid,
+    procedureid,
+    observationtypeid,
+    offeringid)
+SELECT nextval('observationconstellationid_seq'), 1, 1, 1, 1;
+
+
+
