@@ -1,1 +1,60 @@
 \chapter{Introduction}
+% General introduction, scope of the project
+This report describes the process and results of the assignment for the GEO1007 course in the MSc Geomatics programme. For this assignment, the authors chose one of seven topics. The chosen topic focusses on implementing a Sensor Observation Service to publish the tracking data derived from the geomatics synthesis project on a server and test it in a SOS client, such as the 52 North application. \\\\
+A Sensor Observation Service (SOS) is a service standardized by the Open Geospatial Consortium (OGC). The standard defines a web service interface for the discovery and retrieval of real time or archived data produced by all kinds of sensors like mobile or stationary as well as in-situ or remote sensors (OGC, 2016). A sensor can measure multiple things, e.g. a meteorological sensor can observe properties such as temperature, wind speed, humidity. The SOS standard focusses mainly on the observations of these sensors. \\
+In this project, the focus lies on the Wi-Fi network of the TU Delft campus. The wireless access points (AP) used in the Wi-Fi network can be seen as sensors, and the devices registered by the APs can be seen as the measurement. Each devices can be identified by its unique mac address, but also other properties can be measured, i.e. the received signal strength and the signal to noise ratio (SNR). These are all observations that can be retrieved using a SOS. In the next sections the research question, objectives, methods and tools will be discussed.
+
+\section{Problem description}
+% What are we going to research, what are we going to build/develop?
+%%% Include literature here? That there hasnt been any implementation of SOS for wifi tracking data untill now? %%%
+
+During this project, the research will be guided by the following question:\\
+\textit{How can the 52North webapplication be used to publish and visualize the WiFi tracking data from the TU Delft eduroam network?}\\
+
+This research question can be divided into the following subjects which need to be addressed:
+\begin{itemize}
+\item Research the 52North database model for a SOS
+\item Setting up the SOS server
+\item Testing the SOS client
+\end{itemize}
+
+These questions can be answerd once the goals and objectives have been established.
+
+\section{Objectives}
+% What is the purpose of the research (what will it solve), what is the purpose of the developed app (what can a user do with it)?
+% Must, Should, Could, Won't
+To answer the research question and subquestions, the purpose of the research has to be clearly defined. The purpose of the research is captured into two main objectives:
+\begin{itemize}
+\item To provide a method for publishing WiFi-based tracking data through an SOS service and visualize the data in a client. The user can view and subset the data in the client and eventually download it. This allows a quick, preliminary data filtering which speeds up the data analysis workflow.
+\item To set up a SES service which pushes newly added tracking data to the client/user.
+\end{itemize}
+To dive deeper into the steps that need to be taken to answer the research question, the objectives can be divided into sub-goals:\\
+\begin{itemize}
+\item Automatically transform the raw WiFi-logs from the PostgreSQL database to an SOS-compliant data model.
+\item Functionality to download raw WiFi-logs or trajectories.
+\item Time series tracking data (subset WiFi-logs with time range) in the client
+\end{itemize}
+Finally, to structure the objectives and goals and to define the scope of the project, the objectives are grouped using the MoSCoW rules (see \autoref{table:moscow}). To achieve these goals, implementation of the SOS Core Profile is necessary, comprising the mandatory operations: GetCapabilities, DescribeSensor, GetObservation.\\
+\begin{table}[]
+\centering
+\begin{tabular}{@{}llll@{}}
+\toprule
+\textbf{MUST}                                                                                                                                        & \textbf{SHOULD}                                                                                                                                                         \\ \midrule
+\begin{tabular}[c]{@{}l@{}}Automatically transform the raw WiFi-logs \\ from the PostgreSQL database to an SOS-\\ compliant data model.\end{tabular} & \begin{tabular}[c]{@{}l@{}}Functionality to download raw WiFi-logs or \\ trajectories.\end{tabular}                                                                     \\
+                                                                                                                                                     &                                                                                                                                                                         \\
+\begin{tabular}[c]{@{}l@{}}Time series tracking data (subset WiFi-logs \\ with time range) in the client\end{tabular}                                &                                                                                                                                                                         \\ \midrule
+\textbf{COULD}                                                                                                                                       & \textbf{WONT}                                                                                                                                                           \\ \midrule
+                                                                                                                                                     & \begin{tabular}[c]{@{}l@{}}Push notification to the user when new data \\ is available\end{tabular}                                                                     \\
+                                                                                                                                                     &                                                                                                                                                                         \\
+                                                                                                                                                     & \begin{tabular}[c]{@{}l@{}}Push new data to the user. When subscribing, \\ the user can decide to either receive the raw \\ WiFi-logs or the trajectories.\end{tabular}
+\caption{MoSCoW Rules}
+\label{table:moscow}
+\end{tabular}
+\end{table}
+
+\section{Methods}
+% What methods do we use to get to the objectives?
+
+
+\subsection{Tools}
+% The tools we used, e.g. SQL / PostgreSQL, Python, 52N application
