@@ -6,7 +6,7 @@ from subprocess import call
 #make sure the parameters are correct
 
 try:
-    conn = psycopg2.connect(database="sos_wifitracking_core", user="bdukai", password="ERBAgoNd1#", host="localhost", port="5432")
+    conn = psycopg2.connect(database="sosservice", user="team2", password="AlsoSprachZ!", host="wifitracking.bk.tudelft.nl", port="5432")
     print "Opened database successfully"
 except:
     print "I'm unable to connect to the database"

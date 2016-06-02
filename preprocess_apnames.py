@@ -11,7 +11,7 @@ def main():
     cur.execute(open("create_wifilog_table.sql", "r").read())
     conn.commit()
     limit = raw_input('Row limit for the wifilog: ')
-    dumpTable = 'psql -c "\copy (select * from wifilog limit {}) TO STDIN" -h wifitracking.bk.tudelft.nl -d wifi -U team2 | psql -c "\copy wifilog FROM STDOUT" -U {} -d {}'.format(limit, username, dbname)
+    dumpTable = 'psql -c "\copy (select * from wifilog limit {}) TO STDIN" -h wifitracking.bk.tudelft.nl -d wifi -U team2 | psql -c "\copy wifilog FROM STDOUT" -U team2 -h wifitracking.bk.tudelft.nl -d sosservice'.format(limit)#, username, dbname)
     call(dumpTable, shell = True)
    
     # Create temporary table 
@@ -31,7 +31,7 @@ def main():
     # Dump the building table from the wifi database into the sos database
     cur.execute('create table if not exists buildings (id integer, name text, geometry geometry, x double precision, y double precision)')
     conn.commit()
-    dumpTable = 'psql -c "\copy (select * from buildings) TO STDIN" -h wifitracking.bk.tudelft.nl -d wifi -U team2 | psql -c "\copy buildings FROM STDOUT" -U {} -d {}'.format(username, dbname)
+    dumpTable = 'psql -c "\copy (select * from buildings) TO STDIN" -h wifitracking.bk.tudelft.nl -d wifi -U team2 | psql -c "\copy buildings FROM STDOUT" -U team2 -h wifitracking.bk.tudelft.nl -d sosservice'#.format(username, dbname)
     call(dumpTable, shell = True)
 
     # Create final table; access_points
@@ -56,7 +56,7 @@ if __name__ == '__main__':
         dbname = raw_input('Name of database: ')
         username = raw_input('Username: ')
         passw = raw_input('Password: ')
-        conn = psycopg2.connect(database=dbname, user=username, password=passw, host="localhost", port="5432")
+        conn = psycopg2.connect(database=dbname, user=username, password=passw, host="wifitracking.bk.tudelft.nl", port="5432")
         cur = conn.cursor()
         print "Opened database successfully"
     except:
