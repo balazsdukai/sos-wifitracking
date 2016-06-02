@@ -1,0 +1,2973 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sos:GetObservationResponse xmlns:sos="http://www.opengis.net/sos/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:om="http://www.opengis.net/om/2.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.opengis.net/swes/2.0 http://schemas.opengis.net/swes/2.0/swes.xsd http://www.opengis.net/sos/2.0 http://schemas.opengis.net/sos/2.0/sosGetObservation.xsd http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd http://www.opengis.net/om/2.0 http://schemas.opengis.net/om/2.0/observation.xsd">
+  <sos:observationData>
+    <om:OM_Observation gml:id="o_5">
+      <gml:description>description</gml:description>
+      <om:type xlink:href="http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_TextObservation"/>
+      <om:phenomenonTime>
+        <gml:TimePeriod gml:id="phenomenonTime_5">
+          <gml:beginPosition>2016-04-04T18:27:35.000Z</gml:beginPosition>
+          <gml:endPosition>2016-04-04T18:32:39.000Z</gml:endPosition>
+        </gml:TimePeriod>
+      </om:phenomenonTime>
+      <om:resultTime>
+        <gml:TimeInstant gml:id="ti_258A61D8CAFCD87175D451E3E7F49CAADDC334A6">
+          <gml:timePosition>2016-04-04T18:32:39.000Z</gml:timePosition>
+        </gml:TimeInstant>
+      </om:resultTime>
+      <om:procedure xlink:href="wifi_access_point" xlink:title="Scan"/>
+      <om:parameter>
+        <om:NamedValue>
+          <om:name xlink:href="http://www.opengis.net/def/param-name/OGC-OM/2.0/samplingGeometry"/>
+          <om:value xmlns:ns="http://www.opengis.net/gml/3.2" xsi:type="ns:GeometryPropertyType">
+            <ns:Point ns:id="point_B987A94F35DE40D3BB7F40183259F62593D9C17D">
+              <ns:pos srsName="http://www.opengis.net/def/crs/EPSG/0/0">4.37096071809295 52.0028218180504</ns:pos>
+            </ns:Point>
+          </om:value>
+        </om:NamedValue>
+      </om:parameter>
+      <om:observedProperty xlink:href="mac_address" xlink:title="Mac"/>
+      <om:featureOfInterest xlink:href="A-30-0-036" xlink:title="A-30-0-036"/>
+      <om:result xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">hJQOPV5UH1bGueYGNNTzKrmDLzpRRtRpZYY984UUGC0=</om:result>
+    </om:OM_Observation>
+  </sos:observationData>
+  <sos:observationData>
+    <om:OM_Observation gml:id="o_62">
+      <gml:description>description</gml:description>
+      <om:type xlink:href="http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_TextObservation"/>
+      <om:phenomenonTime>
+        <gml:TimePeriod gml:id="phenomenonTime_62">
+          <gml:beginPosition>2016-04-04T09:31:02.000Z</gml:beginPosition>
+          <gml:endPosition>2016-04-04T09:36:09.000Z</gml:endPosition>
+        </gml:TimePeriod>
+      </om:phenomenonTime>
+      <om:resultTime>
+        <gml:TimeInstant gml:id="ti_BB63D662BEEC18A6C7202AC3C0A064085FA45D18">
+          <gml:timePosition>2016-04-04T09:36:09.000Z</gml:timePosition>
+        </gml:TimeInstant>
+      </om:resultTime>
+      <om:procedure xlink:href="wifi_access_point" xlink:title="Scan"/>
+      <om:parameter>
+        <om:NamedValue>
+          <om:name xlink:href="http://www.opengis.net/def/param-name/OGC-OM/2.0/samplingGeometry"/>
+          <om:value xmlns:ns="http://www.opengis.net/gml/3.2" xsi:type="ns:GeometryPropertyType">
+            <ns:Point ns:id="point_94D31FCF70BE5AB7D73536C2BE042047A740780E">
+              <ns:pos srsName="http://www.opengis.net/def/crs/EPSG/0/0">4.37346394905794 51.9988525836389</ns:pos>
+            </ns:Point>
+          </om:value>
+        </om:NamedValue>
+      </om:parameter>
+      <om:observedProperty xlink:href="mac_address" xlink:title="Mac"/>
+      <om:featureOfInterest xlink:href="A-36-0-123" xlink:title="A-36-0-123"/>
+      <om:result xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">F8C0TXvMYfYAP8qKtLmONf6+c9UuikYWoccV/o2Wcn0=</om:result>
+    </om:OM_Observation>
+  </sos:observationData>
+  <sos:observationData>
+    <om:OM_Observation gml:id="o_24">
+      <gml:description>description</gml:description>
+      <om:type xlink:href="http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_TextObservation"/>
+      <om:phenomenonTime>
+        <gml:TimePeriod gml:id="phenomenonTime_24">
+          <gml:beginPosition>2016-04-04T14:17:21.000Z</gml:beginPosition>
+          <gml:endPosition>2016-04-04T14:27:45.000Z</gml:endPosition>
+        </gml:TimePeriod>
+      </om:phenomenonTime>
+      <om:resultTime>
+        <gml:TimeInstant gml:id="ti_2BD8A59E7A4C12536EBBCCA17F997E1DDD493C22">
+          <gml:timePosition>2016-04-04T14:27:45.000Z</gml:timePosition>
+        </gml:TimeInstant>
+      </om:resultTime>
+      <om:procedure xlink:href="wifi_access_point" xlink:title="Scan"/>
+      <om:parameter>
+        <om:NamedValue>
+          <om:name xlink:href="http://www.opengis.net/def/param-name/OGC-OM/2.0/samplingGeometry"/>
+          <om:value xmlns:ns="http://www.opengis.net/gml/3.2" xsi:type="ns:GeometryPropertyType">
+            <ns:Point ns:id="point_C79709ED71E7D4C768DF8594D7E2CA1945419127">
+              <ns:pos srsName="http://www.opengis.net/def/crs/EPSG/0/0">4.37053698152436 52.0056562098059</ns:pos>
+            </ns:Point>
+          </om:value>
+        </om:NamedValue>
+      </om:parameter>
+      <om:observedProperty xlink:href="mac_address" xlink:title="Mac"/>
+      <om:featureOfInterest xlink:href="A-08-D-005" xlink:title="A-08-D-005"/>
+      <om:result xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">i0sxrQTUt34MWIn8YsuihnyyjUJchfibwi+3icirT20=</om:result>
+    </om:OM_Observation>
+  </sos:observationData>
+  <sos:observationData>
+    <om:OM_Observation gml:id="o_69">
+      <gml:description>description</gml:description>
+      <om:type xlink:href="http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_TextObservation"/>
+      <om:phenomenonTime>
+        <gml:TimePeriod gml:id="phenomenonTime_69">
+          <gml:beginPosition>2016-04-04T09:31:02.000Z</gml:beginPosition>
+          <gml:endPosition>2016-04-04T09:36:09.000Z</gml:endPosition>
+        </gml:TimePeriod>
+      </om:phenomenonTime>
+      <om:resultTime>
+        <gml:TimeInstant gml:id="ti_1CC52958FF401AA0356684957F72EBD1894B5F72">
+          <gml:timePosition>2016-04-04T09:36:09.000Z</gml:timePosition>
+        </gml:TimeInstant>
+      </om:resultTime>
+      <om:procedure xlink:href="wifi_access_point" xlink:title="Scan"/>
+      <om:parameter>
+        <om:NamedValue>
+          <om:name xlink:href="http://www.opengis.net/def/param-name/OGC-OM/2.0/samplingGeometry"/>
+          <om:value xmlns:ns="http://www.opengis.net/gml/3.2" xsi:type="ns:GeometryPropertyType">
+            <ns:Point ns:id="point_DA2BCFEBCE09EFEBC5783FCFF9B83272F16323D4">
+              <ns:pos srsName="http://www.opengis.net/def/crs/EPSG/0/0">4.3690096404798 52.0024338288824</ns:pos>
+            </ns:Point>
+          </om:value>
+        </om:NamedValue>
+      </om:parameter>
+      <om:observedProperty xlink:href="mac_address" xlink:title="Mac"/>
+      <om:featureOfInterest xlink:href="A-31-0-021" xlink:title="A-31-0-021"/>
+      <om:result xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">9UHpulunuwjd6LKyJ5vNPr5D2hYtO2nZkOAaHVlc+1s=</om:result>
+    </om:OM_Observation>
+  </sos:observationData>
+  <sos:observationData>
+    <om:OM_Observation gml:id="o_96">
+      <gml:description>description</gml:description>
+      <om:type xlink:href="http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_SWEArrayObservation"/>
+      <om:phenomenonTime>
+        <gml:TimePeriod gml:id="phenomenonTime_96">
+          <gml:beginPosition>2016-04-04T10:49:36.000Z</gml:beginPosition>
+          <gml:endPosition>2016-04-04T12:28:23.000Z</gml:endPosition>
+        </gml:TimePeriod>
+      </om:phenomenonTime>
+      <om:resultTime>
+        <gml:TimeInstant gml:id="ti_EB18026F86293210E4B5BA379F138527D1520EA1">
+          <gml:timePosition>2016-04-04T10:54:36.000Z</gml:timePosition>
+        </gml:TimeInstant>
+      </om:resultTime>
+      <om:procedure xlink:href="wifi_access_point" xlink:title="Scan"/>
+      <om:parameter>
+        <om:NamedValue>
+          <om:name xlink:href="http://www.opengis.net/def/param-name/OGC-OM/2.0/samplingGeometry"/>
+          <om:value xmlns:ns="http://www.opengis.net/gml/3.2" xsi:type="ns:GeometryPropertyType">
+            <ns:Point ns:id="point_D301846159939E9859073316B68499EBD28BBB27">
+              <ns:pos srsName="http://www.opengis.net/def/crs/EPSG/0/0">4.36951442415562 52.0015085932109</ns:pos>
+            </ns:Point>
+          </om:value>
+        </om:NamedValue>
+      </om:parameter>
+      <om:observedProperty xlink:href="mac_address" xlink:title="Mac"/>
+      <om:featureOfInterest xlink:href="A-132-0-050" xlink:title="A-132-0-050"/>
+      <om:result xmlns:ns="http://www.opengis.net/swe/2.0" xsi:type="ns:DataArrayPropertyType">
+        <ns:DataArray>
+          <ns:elementCount>
+            <ns:Count>
+              <ns:value>2</ns:value>
+            </ns:Count>
+          </ns:elementCount>
+          <ns:elementType name="Components">
+            <ns:DataRecord>
+              <ns:field name="phenomenonTime">
+                <ns:TimeRange definition="http://www.opengis.net/def/property/OGC/0/PhenomenonTime">
+                  <ns:uom xlink:href="http://www.opengis.net/def/uom/ISO-8601/0/Gregorian"/>
+                </ns:TimeRange>
+              </ns:field>
+              <ns:field name="mac_address">
+                <ns:Text definition="mac_address"/>
+              </ns:field>
+            </ns:DataRecord>
+          </ns:elementType>
+          <ns:encoding>
+            <ns:TextEncoding blockSeparator="@@" decimalSeparator="." tokenSeparator=","/>
+          </ns:encoding>
+          <ns:values>2016-04-04T10:49:36.000Z/2016-04-04T10:54:36.000Z,W8cTUDrM2FbpbU8Iagu2F5z0BwhISyK/eB0gdyubO/I=@@2016-04-04T11:52:02.000Z/2016-04-04T12:28:23.000Z,W8cTUDrM2FbpbU8Iagu2F5z0BwhISyK/eB0gdyubO/I=</ns:values>
+        </ns:DataArray>
+      </om:result>
+    </om:OM_Observation>
+  </sos:observationData>
+  <sos:observationData>
+    <om:OM_Observation gml:id="o_80">
+      <gml:description>description</gml:description>
+      <om:type xlink:href="http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_SWEArrayObservation"/>
+      <om:phenomenonTime>
+        <gml:TimePeriod gml:id="phenomenonTime_80">
+          <gml:beginPosition>2016-04-04T13:40:56.000Z</gml:beginPosition>
+          <gml:endPosition>2016-04-04T17:57:01.000Z</gml:endPosition>
+        </gml:TimePeriod>
+      </om:phenomenonTime>
+      <om:resultTime>
+        <gml:TimeInstant gml:id="ti_621E2EBD6696066F7CAD1FF764DC9C6AC53D2C2E">
+          <gml:timePosition>2016-04-04T13:46:07.000Z</gml:timePosition>
+        </gml:TimeInstant>
+      </om:resultTime>
+      <om:procedure xlink:href="wifi_access_point" xlink:title="Scan"/>
+      <om:parameter>
+        <om:NamedValue>
+          <om:name xlink:href="http://www.opengis.net/def/param-name/OGC-OM/2.0/samplingGeometry"/>
+          <om:value xmlns:ns="http://www.opengis.net/gml/3.2" xsi:type="ns:GeometryPropertyType">
+            <ns:Point ns:id="point_9B643D97BAA5FAB6B6797B1A17013828CF3AB886">
+              <ns:pos srsName="http://www.opengis.net/def/crs/EPSG/0/0">4.37142624632561 52.0008242350308</ns:pos>
+            </ns:Point>
+          </om:value>
+        </om:NamedValue>
+      </om:parameter>
+      <om:observedProperty xlink:href="mac_address" xlink:title="Mac"/>
+      <om:featureOfInterest xlink:href="A-134-0-027" xlink:title="A-134-0-027"/>
+      <om:result xmlns:ns="http://www.opengis.net/swe/2.0" xsi:type="ns:DataArrayPropertyType">
+        <ns:DataArray>
+          <ns:elementCount>
+            <ns:Count>
+              <ns:value>2</ns:value>
+            </ns:Count>
+          </ns:elementCount>
+          <ns:elementType name="Components">
+            <ns:DataRecord>
+              <ns:field name="phenomenonTime">
+                <ns:TimeRange definition="http://www.opengis.net/def/property/OGC/0/PhenomenonTime">
+                  <ns:uom xlink:href="http://www.opengis.net/def/uom/ISO-8601/0/Gregorian"/>
+                </ns:TimeRange>
+              </ns:field>
+              <ns:field name="mac_address">
+                <ns:Text definition="mac_address"/>
+              </ns:field>
+            </ns:DataRecord>
+          </ns:elementType>
+          <ns:encoding>
+            <ns:TextEncoding blockSeparator="@@" decimalSeparator="." tokenSeparator=","/>
+          </ns:encoding>
+          <ns:values>2016-04-04T13:40:56.000Z/2016-04-04T13:46:07.000Z,ZR793mQT/degBrdgL5OhoOE7PndMoeYZI18lpf3qp54=@@2016-04-04T17:46:55.000Z/2016-04-04T17:57:01.000Z,uMmHzADGthZeUIy1hsTQBSkNc6/MHD5NYmuKxcyZPMc=</ns:values>
+        </ns:DataArray>
+      </om:result>
+    </om:OM_Observation>
+  </sos:observationData>
+  <sos:observationData>
+    <om:OM_Observation gml:id="o_19">
+      <gml:description>description</gml:description>
+      <om:type xlink:href="http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_TextObservation"/>
+      <om:phenomenonTime>
+        <gml:TimePeriod gml:id="phenomenonTime_19">
+          <gml:beginPosition>2016-04-04T13:35:45.000Z</gml:beginPosition>
+          <gml:endPosition>2016-04-04T13:40:56.000Z</gml:endPosition>
+        </gml:TimePeriod>
+      </om:phenomenonTime>
+      <om:resultTime>
+        <gml:TimeInstant gml:id="ti_80F03872D34BFD46EC48D57004525AB8D7654E0D">
+          <gml:timePosition>2016-04-04T13:40:56.000Z</gml:timePosition>
+        </gml:TimeInstant>
+      </om:resultTime>
+      <om:procedure xlink:href="wifi_access_point" xlink:title="Scan"/>
+      <om:parameter>
+        <om:NamedValue>
+          <om:name xlink:href="http://www.opengis.net/def/param-name/OGC-OM/2.0/samplingGeometry"/>
+          <om:value xmlns:ns="http://www.opengis.net/gml/3.2" xsi:type="ns:GeometryPropertyType">
+            <ns:Point ns:id="point_B28505B54999652EB91FD0F9C9A2A95578242B49">
+              <ns:pos srsName="http://www.opengis.net/def/crs/EPSG/0/0">4.37053698152436 52.0056562098059</ns:pos>
+            </ns:Point>
+          </om:value>
+        </om:NamedValue>
+      </om:parameter>
+      <om:observedProperty xlink:href="mac_address" xlink:title="Mac"/>
+      <om:featureOfInterest xlink:href="A-08-E-104" xlink:title="A-08-E-104"/>
+      <om:result xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">i0sxrQTUt34MWIn8YsuihnyyjUJchfibwi+3icirT20=</om:result>
+    </om:OM_Observation>
+  </sos:observationData>
+  <sos:observationData>
+    <om:OM_Observation gml:id="o_21">
+      <gml:description>description</gml:description>
+      <om:type xlink:href="http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_TextObservation"/>
+      <om:phenomenonTime>
+        <gml:TimePeriod gml:id="phenomenonTime_21">
+          <gml:beginPosition>2016-04-04T14:01:43.000Z</gml:beginPosition>
+          <gml:endPosition>2016-04-04T14:06:54.000Z</gml:endPosition>
+        </gml:TimePeriod>
+      </om:phenomenonTime>
+      <om:resultTime>
+        <gml:TimeInstant gml:id="ti_DD528F73E2E3A12266A0458E8EB19FCB15528C34">
+          <gml:timePosition>2016-04-04T14:06:54.000Z</gml:timePosition>
+        </gml:TimeInstant>
+      </om:resultTime>
+      <om:procedure xlink:href="wifi_access_point" xlink:title="Scan"/>
+      <om:parameter>
+        <om:NamedValue>
+          <om:name xlink:href="http://www.opengis.net/def/param-name/OGC-OM/2.0/samplingGeometry"/>
+          <om:value xmlns:ns="http://www.opengis.net/gml/3.2" xsi:type="ns:GeometryPropertyType">
+            <ns:Point ns:id="point_E711A13369EDE2EE7F561C11567381707D473667">
+              <ns:pos srsName="http://www.opengis.net/def/crs/EPSG/0/0">4.37053698152436 52.0056562098059</ns:pos>
+            </ns:Point>
+          </om:value>
+        </om:NamedValue>
+      </om:parameter>
+      <om:observedProperty xlink:href="mac_address" xlink:title="Mac"/>
+      <om:featureOfInterest xlink:href="A-08-H-003" xlink:title="A-08-H-003"/>
+      <om:result xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">i0sxrQTUt34MWIn8YsuihnyyjUJchfibwi+3icirT20=</om:result>
+    </om:OM_Observation>
+  </sos:observationData>
+  <sos:observationData>
+    <om:OM_Observation gml:id="o_42">
+      <gml:description>description</gml:description>
+      <om:type xlink:href="http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_TextObservation"/>
+      <om:phenomenonTime>
+        <gml:TimePeriod gml:id="phenomenonTime_42">
+          <gml:beginPosition>2016-04-04T12:33:35.000Z</gml:beginPosition>
+          <gml:endPosition>2016-04-04T12:43:56.000Z</gml:endPosition>
+        </gml:TimePeriod>
+      </om:phenomenonTime>
+      <om:resultTime>
+        <gml:TimeInstant gml:id="ti_59B1C81A15AEC6D11A3AD43A294856F8FFFB130D">
+          <gml:timePosition>2016-04-04T12:43:56.000Z</gml:timePosition>
+        </gml:TimeInstant>
+      </om:resultTime>
+      <om:procedure xlink:href="wifi_access_point" xlink:title="Scan"/>
+      <om:parameter>
+        <om:NamedValue>
+          <om:name xlink:href="http://www.opengis.net/def/param-name/OGC-OM/2.0/samplingGeometry"/>
+          <om:value xmlns:ns="http://www.opengis.net/gml/3.2" xsi:type="ns:GeometryPropertyType">
+            <ns:Point ns:id="point_D8F6DE4BF0FC3BF98B8DFFF7B5A367378C12161D">
+              <ns:pos srsName="http://www.opengis.net/def/crs/EPSG/0/0">4.37550578727327 51.9988856445979</ns:pos>
+            </ns:Point>
+          </om:value>
+        </om:NamedValue>
+      </om:parameter>
+      <om:observedProperty xlink:href="mac_address" xlink:title="Mac"/>
+      <om:featureOfInterest xlink:href="A-23-0-007" xlink:title="A-23-0-007"/>
+      <om:result xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">eyQgmhRLlQ+Q/rO5QJ9CRHVqggwSFsJBKKhyS+E2ja8=</om:result>
+    </om:OM_Observation>
+  </sos:observationData>
+  <sos:observationData>
+    <om:OM_Observation gml:id="o_107">
+      <gml:description>description</gml:description>
+      <om:type xlink:href="http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_TextObservation"/>
+      <om:phenomenonTime>
+        <gml:TimePeriod gml:id="phenomenonTime_107">
+          <gml:beginPosition>2016-04-04T15:36:59.000Z</gml:beginPosition>
+          <gml:endPosition>2016-04-04T15:42:12.000Z</gml:endPosition>
+        </gml:TimePeriod>
+      </om:phenomenonTime>
+      <om:resultTime>
+        <gml:TimeInstant gml:id="ti_B0C342B65F4717F3426BF431BA880135576295BF">
+          <gml:timePosition>2016-04-04T15:42:12.000Z</gml:timePosition>
+        </gml:TimeInstant>
+      </om:resultTime>
+      <om:procedure xlink:href="wifi_access_point" xlink:title="Scan"/>
+      <om:parameter>
+        <om:NamedValue>
+          <om:name xlink:href="http://www.opengis.net/def/param-name/OGC-OM/2.0/samplingGeometry"/>
+          <om:value xmlns:ns="http://www.opengis.net/gml/3.2" xsi:type="ns:GeometryPropertyType">
+            <ns:Point ns:id="point_46532A13A163923FA314268086310FD26E0EB68F">
+              <ns:pos srsName="http://www.opengis.net/def/crs/EPSG/0/0">4.36951442415562 52.0015085932109</ns:pos>
+            </ns:Point>
+          </om:value>
+        </om:NamedValue>
+      </om:parameter>
+      <om:observedProperty xlink:href="mac_address" xlink:title="Mac"/>
+      <om:featureOfInterest xlink:href="A-132-0-058" xlink:title="A-132-0-058"/>
+      <om:result xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">W8cTUDrM2FbpbU8Iagu2F5z0BwhISyK/eB0gdyubO/I=</om:result>
+    </om:OM_Observation>
+  </sos:observationData>
+  <sos:observationData>
+    <om:OM_Observation gml:id="o_43">
+      <gml:description>description</gml:description>
+      <om:type xlink:href="http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_TextObservation"/>
+      <om:phenomenonTime>
+        <gml:TimePeriod gml:id="phenomenonTime_43">
+          <gml:beginPosition>2016-04-04T12:43:57.000Z</gml:beginPosition>
+          <gml:endPosition>2016-04-04T12:59:28.000Z</gml:endPosition>
+        </gml:TimePeriod>
+      </om:phenomenonTime>
+      <om:resultTime>
+        <gml:TimeInstant gml:id="ti_004D4D2D7363B13FAAB155D1DF8E98AE312B4CB7">
+          <gml:timePosition>2016-04-04T12:59:28.000Z</gml:timePosition>
+        </gml:TimeInstant>
+      </om:resultTime>
+      <om:procedure xlink:href="wifi_access_point" xlink:title="Scan"/>
+      <om:parameter>
+        <om:NamedValue>
+          <om:name xlink:href="http://www.opengis.net/def/param-name/OGC-OM/2.0/samplingGeometry"/>
+          <om:value xmlns:ns="http://www.opengis.net/gml/3.2" xsi:type="ns:GeometryPropertyType">
+            <ns:Point ns:id="point_DD1A908B63913731BC67EDCF7BECD0A106897F6B">
+              <ns:pos srsName="http://www.opengis.net/def/crs/EPSG/0/0">4.37550578727327 51.9988856445979</ns:pos>
+            </ns:Point>
+          </om:value>
+        </om:NamedValue>
+      </om:parameter>
+      <om:observedProperty xlink:href="mac_address" xlink:title="Mac"/>
+      <om:featureOfInterest xlink:href="A-23-0-044" xlink:title="A-23-0-044"/>
+      <om:result xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">eyQgmhRLlQ+Q/rO5QJ9CRHVqggwSFsJBKKhyS+E2ja8=</om:result>
+    </om:OM_Observation>
+  </sos:observationData>
+  <sos:observationData>
+    <om:OM_Observation gml:id="o_86">
+      <gml:description>description</gml:description>
+      <om:type xlink:href="http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_TextObservation"/>
+      <om:phenomenonTime>
+        <gml:TimePeriod gml:id="phenomenonTime_86">
+          <gml:beginPosition>2016-04-04T18:07:17.000Z</gml:beginPosition>
+          <gml:endPosition>2016-04-04T18:12:21.000Z</gml:endPosition>
+        </gml:TimePeriod>
+      </om:phenomenonTime>
+      <om:resultTime>
+        <gml:TimeInstant gml:id="ti_922EA726C42A7094BDC50E987901F187A726B60C">
+          <gml:timePosition>2016-04-04T18:12:21.000Z</gml:timePosition>
+        </gml:TimeInstant>
+      </om:resultTime>
+      <om:procedure xlink:href="wifi_access_point" xlink:title="Scan"/>
+      <om:parameter>
+        <om:NamedValue>
+          <om:name xlink:href="http://www.opengis.net/def/param-name/OGC-OM/2.0/samplingGeometry"/>
+          <om:value xmlns:ns="http://www.opengis.net/gml/3.2" xsi:type="ns:GeometryPropertyType">
+            <ns:Point ns:id="point_5A4E9D8FE4B0EB5F5FF743FA55105C6CFE282249">
+              <ns:pos srsName="http://www.opengis.net/def/crs/EPSG/0/0">4.3690096404798 52.0024338288824</ns:pos>
+            </ns:Point>
+          </om:value>
+        </om:NamedValue>
+      </om:parameter>
+      <om:observedProperty xlink:href="mac_address" xlink:title="Mac"/>
+      <om:featureOfInterest xlink:href="A-31-0-060" xlink:title="A-31-0-060"/>
+      <om:result xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">8OZx8NngjYfymL/gdK4R8EmzGJ7AESgwVdfcTvNk1eg=</om:result>
+    </om:OM_Observation>
+  </sos:observationData>
+  <sos:observationData>
+    <om:OM_Observation gml:id="o_93">
+      <gml:description>description</gml:description>
+      <om:type xlink:href="http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_SWEArrayObservation"/>
+      <om:phenomenonTime>
+        <gml:TimePeriod gml:id="phenomenonTime_93">
+          <gml:beginPosition>2016-04-04T09:46:25.000Z</gml:beginPosition>
+          <gml:endPosition>2016-04-04T14:59:08.000Z</gml:endPosition>
+        </gml:TimePeriod>
+      </om:phenomenonTime>
+      <om:resultTime>
+        <gml:TimeInstant gml:id="ti_8D8CC0F7F967C34D50057C759C06DD62AD628045">
+          <gml:timePosition>2016-04-04T09:51:25.000Z</gml:timePosition>
+        </gml:TimeInstant>
+      </om:resultTime>
+      <om:procedure xlink:href="wifi_access_point" xlink:title="Scan"/>
+      <om:parameter>
+        <om:NamedValue>
+          <om:name xlink:href="http://www.opengis.net/def/param-name/OGC-OM/2.0/samplingGeometry"/>
+          <om:value xmlns:ns="http://www.opengis.net/gml/3.2" xsi:type="ns:GeometryPropertyType">
+            <ns:Point ns:id="point_512574D916A6AF679A464502F9D7A1ED12FB6EF0">
+              <ns:pos srsName="http://www.opengis.net/def/crs/EPSG/0/0">4.36951442415562 52.0015085932109</ns:pos>
+            </ns:Point>
+          </om:value>
+        </om:NamedValue>
+      </om:parameter>
+      <om:observedProperty xlink:href="mac_address" xlink:title="Mac"/>
+      <om:featureOfInterest xlink:href="A-132-0-001" xlink:title="A-132-0-001"/>
+      <om:result xmlns:ns="http://www.opengis.net/swe/2.0" xsi:type="ns:DataArrayPropertyType">
+        <ns:DataArray>
+          <ns:elementCount>
+            <ns:Count>
+              <ns:value>3</ns:value>
+            </ns:Count>
+          </ns:elementCount>
+          <ns:elementType name="Components">
+            <ns:DataRecord>
+              <ns:field name="phenomenonTime">
+                <ns:TimeRange definition="http://www.opengis.net/def/property/OGC/0/PhenomenonTime">
+                  <ns:uom xlink:href="http://www.opengis.net/def/uom/ISO-8601/0/Gregorian"/>
+                </ns:TimeRange>
+              </ns:field>
+              <ns:field name="mac_address">
+                <ns:Text definition="mac_address"/>
+              </ns:field>
+            </ns:DataRecord>
+          </ns:elementType>
+          <ns:encoding>
+            <ns:TextEncoding blockSeparator="@@" decimalSeparator="." tokenSeparator=","/>
+          </ns:encoding>
+          <ns:values>2016-04-04T09:46:25.000Z/2016-04-04T09:51:25.000Z,W8cTUDrM2FbpbU8Iagu2F5z0BwhISyK/eB0gdyubO/I=@@2016-04-04T13:25:23.000Z/2016-04-04T14:43:26.000Z,W8cTUDrM2FbpbU8Iagu2F5z0BwhISyK/eB0gdyubO/I=@@2016-04-04T14:48:45.000Z/2016-04-04T14:59:08.000Z,W8cTUDrM2FbpbU8Iagu2F5z0BwhISyK/eB0gdyubO/I=</ns:values>
+        </ns:DataArray>
+      </om:result>
+    </om:OM_Observation>
+  </sos:observationData>
+  <sos:observationData>
+    <om:OM_Observation gml:id="o_33">
+      <gml:description>description</gml:description>
+      <om:type xlink:href="http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_TextObservation"/>
+      <om:phenomenonTime>
+        <gml:TimePeriod gml:id="phenomenonTime_33">
+          <gml:beginPosition>2016-04-04T20:08:51.000Z</gml:beginPosition>
+          <gml:endPosition>2016-04-04T20:13:55.000Z</gml:endPosition>
+        </gml:TimePeriod>
+      </om:phenomenonTime>
+      <om:resultTime>
+        <gml:TimeInstant gml:id="ti_F23788B6ECAB7C34E38E86434D8603ED121331E9">
+          <gml:timePosition>2016-04-04T20:13:55.000Z</gml:timePosition>
+        </gml:TimeInstant>
+      </om:resultTime>
+      <om:procedure xlink:href="wifi_access_point" xlink:title="Scan"/>
+      <om:parameter>
+        <om:NamedValue>
+          <om:name xlink:href="http://www.opengis.net/def/param-name/OGC-OM/2.0/samplingGeometry"/>
+          <om:value xmlns:ns="http://www.opengis.net/gml/3.2" xsi:type="ns:GeometryPropertyType">
+            <ns:Point ns:id="point_60D59F832D9AE707844BCD9F0DD196B31DD78BCF">
+              <ns:pos srsName="http://www.opengis.net/def/crs/EPSG/0/0">4.37053698152436 52.0056562098059</ns:pos>
+            </ns:Point>
+          </om:value>
+        </om:NamedValue>
+      </om:parameter>
+      <om:observedProperty xlink:href="mac_address" xlink:title="Mac"/>
+      <om:featureOfInterest xlink:href="A-08-E-008" xlink:title="A-08-E-008"/>
+      <om:result xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">i0sxrQTUt34MWIn8YsuihnyyjUJchfibwi+3icirT20=</om:result>
+    </om:OM_Observation>
+  </sos:observationData>
+  <sos:observationData>
+    <om:OM_Observation gml:id="o_106">
+      <gml:description>description</gml:description>
+      <om:type xlink:href="http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_TextObservation"/>
+      <om:phenomenonTime>
+        <gml:TimePeriod gml:id="phenomenonTime_106">
+          <gml:beginPosition>2016-04-04T15:14:51.000Z</gml:beginPosition>
+          <gml:endPosition>2016-04-04T15:19:51.000Z</gml:endPosition>
+        </gml:TimePeriod>
+      </om:phenomenonTime>
+      <om:resultTime>
+        <gml:TimeInstant gml:id="ti_5F49DFB345AB816848E2BDE49ECFF458C327D896">
+          <gml:timePosition>2016-04-04T15:19:51.000Z</gml:timePosition>
+        </gml:TimeInstant>
+      </om:resultTime>
+      <om:procedure xlink:href="wifi_access_point" xlink:title="Scan"/>
+      <om:parameter>
+        <om:NamedValue>
+          <om:name xlink:href="http://www.opengis.net/def/param-name/OGC-OM/2.0/samplingGeometry"/>
+          <om:value xmlns:ns="http://www.opengis.net/gml/3.2" xsi:type="ns:GeometryPropertyType">
+            <ns:Point ns:id="point_CE7F97DE64BFE1074A41A53D276D571B13B7A15F">
+              <ns:pos srsName="http://www.opengis.net/def/crs/EPSG/0/0">4.36951442415562 52.0015085932109</ns:pos>
+            </ns:Point>
+          </om:value>
+        </om:NamedValue>
+      </om:parameter>
+      <om:observedProperty xlink:href="mac_address" xlink:title="Mac"/>
+      <om:featureOfInterest xlink:href="A-132-0-027" xlink:title="A-132-0-027"/>
+      <om:result xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">W8cTUDrM2FbpbU8Iagu2F5z0BwhISyK/eB0gdyubO/I=</om:result>
+    </om:OM_Observation>
+  </sos:observationData>
+  <sos:observationData>
+    <om:OM_Observation gml:id="o_94">
+      <gml:description>description</gml:description>
+      <om:type xlink:href="http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_TextObservation"/>
+      <om:phenomenonTime>
+        <gml:TimePeriod gml:id="phenomenonTime_94">
+          <gml:beginPosition>2016-04-04T10:28:30.000Z</gml:beginPosition>
+          <gml:endPosition>2016-04-04T10:33:39.000Z</gml:endPosition>
+        </gml:TimePeriod>
+      </om:phenomenonTime>
+      <om:resultTime>
+        <gml:TimeInstant gml:id="ti_72F83C7082C9C81BF73813A879D2C314BA01AAB5">
+          <gml:timePosition>2016-04-04T10:33:39.000Z</gml:timePosition>
+        </gml:TimeInstant>
+      </om:resultTime>
+      <om:procedure xlink:href="wifi_access_point" xlink:title="Scan"/>
+      <om:parameter>
+        <om:NamedValue>
+          <om:name xlink:href="http://www.opengis.net/def/param-name/OGC-OM/2.0/samplingGeometry"/>
+          <om:value xmlns:ns="http://www.opengis.net/gml/3.2" xsi:type="ns:GeometryPropertyType">
+            <ns:Point ns:id="point_B90A306E934C18A8047AFF5F330C45FBAAEEC406">
+              <ns:pos srsName="http://www.opengis.net/def/crs/EPSG/0/0">4.36951442415562 52.0015085932109</ns:pos>
+            </ns:Point>
+          </om:value>
+        </om:NamedValue>
+      </om:parameter>
+      <om:observedProperty xlink:href="mac_address" xlink:title="Mac"/>
+      <om:featureOfInterest xlink:href="A-132-0-096" xlink:title="A-132-0-096"/>
+      <om:result xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">W8cTUDrM2FbpbU8Iagu2F5z0BwhISyK/eB0gdyubO/I=</om:result>
+    </om:OM_Observation>
+  </sos:observationData>
+  <sos:observationData>
+    <om:OM_Observation gml:id="o_36">
+      <gml:description>description</gml:description>
+      <om:type xlink:href="http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_SWEArrayObservation"/>
+      <om:phenomenonTime>
+        <gml:TimePeriod gml:id="phenomenonTime_36">
+          <gml:beginPosition>2016-04-04T09:31:02.000Z</gml:beginPosition>
+          <gml:endPosition>2016-04-04T15:09:38.000Z</gml:endPosition>
+        </gml:TimePeriod>
+      </om:phenomenonTime>
+      <om:resultTime>
+        <gml:TimeInstant gml:id="ti_37042C76D3B915AFC27B60562CEABD1AF753426A">
+          <gml:timePosition>2016-04-04T09:36:09.000Z</gml:timePosition>
+        </gml:TimeInstant>
+      </om:resultTime>
+      <om:procedure xlink:href="wifi_access_point" xlink:title="Scan"/>
+      <om:parameter>
+        <om:NamedValue>
+          <om:name xlink:href="http://www.opengis.net/def/param-name/OGC-OM/2.0/samplingGeometry"/>
+          <om:value xmlns:ns="http://www.opengis.net/gml/3.2" xsi:type="ns:GeometryPropertyType">
+            <ns:Point ns:id="point_7670802D84FD163AF688E8D960C46FAEAA474C85">
+              <ns:pos srsName="http://www.opengis.net/def/crs/EPSG/0/0">4.37550578727327 51.9988856445979</ns:pos>
+            </ns:Point>
+          </om:value>
+        </om:NamedValue>
+      </om:parameter>
+      <om:observedProperty xlink:href="mac_address" xlink:title="Mac"/>
+      <om:featureOfInterest xlink:href="A-23-0-049" xlink:title="A-23-0-049"/>
+      <om:result xmlns:ns="http://www.opengis.net/swe/2.0" xsi:type="ns:DataArrayPropertyType">
+        <ns:DataArray>
+          <ns:elementCount>
+            <ns:Count>
+              <ns:value>2</ns:value>
+            </ns:Count>
+          </ns:elementCount>
+          <ns:elementType name="Components">
+            <ns:DataRecord>
+              <ns:field name="phenomenonTime">
+                <ns:TimeRange definition="http://www.opengis.net/def/property/OGC/0/PhenomenonTime">
+                  <ns:uom xlink:href="http://www.opengis.net/def/uom/ISO-8601/0/Gregorian"/>
+                </ns:TimeRange>
+              </ns:field>
+              <ns:field name="mac_address">
+                <ns:Text definition="mac_address"/>
+              </ns:field>
+            </ns:DataRecord>
+          </ns:elementType>
+          <ns:encoding>
+            <ns:TextEncoding blockSeparator="@@" decimalSeparator="." tokenSeparator=","/>
+          </ns:encoding>
+          <ns:values>2016-04-04T09:31:02.000Z/2016-04-04T09:36:09.000Z,eyQgmhRLlQ+Q/rO5QJ9CRHVqggwSFsJBKKhyS+E2ja8=@@2016-04-04T15:04:27.000Z/2016-04-04T15:09:38.000Z,eyQgmhRLlQ+Q/rO5QJ9CRHVqggwSFsJBKKhyS+E2ja8=</ns:values>
+        </ns:DataArray>
+      </om:result>
+    </om:OM_Observation>
+  </sos:observationData>
+  <sos:observationData>
+    <om:OM_Observation gml:id="o_55">
+      <gml:description>description</gml:description>
+      <om:type xlink:href="http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_TextObservation"/>
+      <om:phenomenonTime>
+        <gml:TimePeriod gml:id="phenomenonTime_55">
+          <gml:beginPosition>2016-04-04T16:55:34.000Z</gml:beginPosition>
+          <gml:endPosition>2016-04-04T17:00:43.000Z</gml:endPosition>
+        </gml:TimePeriod>
+      </om:phenomenonTime>
+      <om:resultTime>
+        <gml:TimeInstant gml:id="ti_6FD9E0BF39A3CEC785EF141F0081A982DA850C1E">
+          <gml:timePosition>2016-04-04T17:00:43.000Z</gml:timePosition>
+        </gml:TimeInstant>
+      </om:resultTime>
+      <om:procedure xlink:href="wifi_access_point" xlink:title="Scan"/>
+      <om:parameter>
+        <om:NamedValue>
+          <om:name xlink:href="http://www.opengis.net/def/param-name/OGC-OM/2.0/samplingGeometry"/>
+          <om:value xmlns:ns="http://www.opengis.net/gml/3.2" xsi:type="ns:GeometryPropertyType">
+            <ns:Point ns:id="point_DF48F336C0B6267806C864A5AE4DB17B63FC120F">
+              <ns:pos srsName="http://www.opengis.net/def/crs/EPSG/0/0">4.37550578727327 51.9988856445979</ns:pos>
+            </ns:Point>
+          </om:value>
+        </om:NamedValue>
+      </om:parameter>
+      <om:observedProperty xlink:href="mac_address" xlink:title="Mac"/>
+      <om:featureOfInterest xlink:href="A-23-0-108" xlink:title="A-23-0-108"/>
+      <om:result xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">eyQgmhRLlQ+Q/rO5QJ9CRHVqggwSFsJBKKhyS+E2ja8=</om:result>
+    </om:OM_Observation>
+  </sos:observationData>
+  <sos:observationData>
+    <om:OM_Observation gml:id="o_2">
+      <gml:description>description</gml:description>
+      <om:type xlink:href="http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_TextObservation"/>
+      <om:phenomenonTime>
+        <gml:TimePeriod gml:id="phenomenonTime_2">
+          <gml:beginPosition>2016-04-04T11:57:14.000Z</gml:beginPosition>
+          <gml:endPosition>2016-04-04T12:02:25.000Z</gml:endPosition>
+        </gml:TimePeriod>
+      </om:phenomenonTime>
+      <om:resultTime>
+        <gml:TimeInstant gml:id="ti_12CA585ECCD53F7BB29747ECD0F68179C39FDB86">
+          <gml:timePosition>2016-04-04T12:02:25.000Z</gml:timePosition>
+        </gml:TimeInstant>
+      </om:resultTime>
+      <om:procedure xlink:href="wifi_access_point" xlink:title="Scan"/>
+      <om:parameter>
+        <om:NamedValue>
+          <om:name xlink:href="http://www.opengis.net/def/param-name/OGC-OM/2.0/samplingGeometry"/>
+          <om:value xmlns:ns="http://www.opengis.net/gml/3.2" xsi:type="ns:GeometryPropertyType">
+            <ns:Point ns:id="point_817A8E35F7F43C449EBF3ED83532BB6C2EE17B23">
+              <ns:pos srsName="http://www.opengis.net/def/crs/EPSG/0/0">4.37096071809295 52.0028218180504</ns:pos>
+            </ns:Point>
+          </om:value>
+        </om:NamedValue>
+      </om:parameter>
+      <om:observedProperty xlink:href="mac_address" xlink:title="Mac"/>
+      <om:featureOfInterest xlink:href="A-30-0-043" xlink:title="A-30-0-043"/>
+      <om:result xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">hJQOPV5UH1bGueYGNNTzKrmDLzpRRtRpZYY984UUGC0=</om:result>
+    </om:OM_Observation>
+  </sos:observationData>
+  <sos:observationData>
+    <om:OM_Observation gml:id="o_49">
+      <gml:description>description</gml:description>
+      <om:type xlink:href="http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_TextObservation"/>
+      <om:phenomenonTime>
+        <gml:TimePeriod gml:id="phenomenonTime_49">
+          <gml:beginPosition>2016-04-04T14:38:14.000Z</gml:beginPosition>
+          <gml:endPosition>2016-04-04T14:43:26.000Z</gml:endPosition>
+        </gml:TimePeriod>
+      </om:phenomenonTime>
+      <om:resultTime>
+        <gml:TimeInstant gml:id="ti_CD77C1DD54FB97B1F39A91FA2858F62BE71245E7">
+          <gml:timePosition>2016-04-04T14:43:26.000Z</gml:timePosition>
+        </gml:TimeInstant>
+      </om:resultTime>
+      <om:procedure xlink:href="wifi_access_point" xlink:title="Scan"/>
+      <om:parameter>
+        <om:NamedValue>
+          <om:name xlink:href="http://www.opengis.net/def/param-name/OGC-OM/2.0/samplingGeometry"/>
+          <om:value xmlns:ns="http://www.opengis.net/gml/3.2" xsi:type="ns:GeometryPropertyType">
+            <ns:Point ns:id="point_18C9A045AA2C8DC2F9F9F0DC33A23A76CAA23B51">
+              <ns:pos srsName="http://www.opengis.net/def/crs/EPSG/0/0">4.37550578727327 51.9988856445979</ns:pos>
+            </ns:Point>
+          </om:value>
+        </om:NamedValue>
+      </om:parameter>
+      <om:observedProperty xlink:href="mac_address" xlink:title="Mac"/>
+      <om:featureOfInterest xlink:href="A-23-0-031" xlink:title="A-23-0-031"/>
+      <om:result xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">eyQgmhRLlQ+Q/rO5QJ9CRHVqggwSFsJBKKhyS+E2ja8=</om:result>
+    </om:OM_Observation>
+  </sos:observationData>
+  <sos:observationData>
+    <om:OM_Observation gml:id="o_35">
+      <gml:description>description</gml:description>
+      <om:type xlink:href="http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_SWEArrayObservation"/>
+      <om:phenomenonTime>
+        <gml:TimePeriod gml:id="phenomenonTime_35">
+          <gml:beginPosition>2016-04-04T08:35:03.000Z</gml:beginPosition>
+          <gml:endPosition>2016-04-04T16:55:33.000Z</gml:endPosition>
+        </gml:TimePeriod>
+      </om:phenomenonTime>
+      <om:resultTime>
+        <gml:TimeInstant gml:id="ti_E44D2F2AAB047905F48BC6A3E021FDF27A4AB795">
+          <gml:timePosition>2016-04-04T09:31:01.000Z</gml:timePosition>
+        </gml:TimeInstant>
+      </om:resultTime>
+      <om:procedure xlink:href="wifi_access_point" xlink:title="Scan"/>
+      <om:parameter>
+        <om:NamedValue>
+          <om:name xlink:href="http://www.opengis.net/def/param-name/OGC-OM/2.0/samplingGeometry"/>
+          <om:value xmlns:ns="http://www.opengis.net/gml/3.2" xsi:type="ns:GeometryPropertyType">
+            <ns:Point ns:id="point_86D185E8ECC2FBC9CEFC7669D13CFC9A97D23D3E">
+              <ns:pos srsName="http://www.opengis.net/def/crs/EPSG/0/0">4.37550578727327 51.9988856445979</ns:pos>
+            </ns:Point>
+          </om:value>
+        </om:NamedValue>
+      </om:parameter>
+      <om:observedProperty xlink:href="mac_address" xlink:title="Mac"/>
+      <om:featureOfInterest xlink:href="A-23-0-051" xlink:title="A-23-0-051"/>
+      <om:result xmlns:ns="http://www.opengis.net/swe/2.0" xsi:type="ns:DataArrayPropertyType">
+        <ns:DataArray>
+          <ns:elementCount>
+            <ns:Count>
+              <ns:value>5</ns:value>
+            </ns:Count>
+          </ns:elementCount>
+          <ns:elementType name="Components">
+            <ns:DataRecord>
+              <ns:field name="phenomenonTime">
+                <ns:TimeRange definition="http://www.opengis.net/def/property/OGC/0/PhenomenonTime">
+                  <ns:uom xlink:href="http://www.opengis.net/def/uom/ISO-8601/0/Gregorian"/>
+                </ns:TimeRange>
+              </ns:field>
+              <ns:field name="mac_address">
+                <ns:Text definition="mac_address"/>
+              </ns:field>
+            </ns:DataRecord>
+          </ns:elementType>
+          <ns:encoding>
+            <ns:TextEncoding blockSeparator="@@" decimalSeparator="." tokenSeparator=","/>
+          </ns:encoding>
+          <ns:values>2016-04-04T08:35:03.000Z/2016-04-04T09:31:01.000Z,eyQgmhRLlQ+Q/rO5QJ9CRHVqggwSFsJBKKhyS+E2ja8=@@2016-04-04T09:36:09.000Z/2016-04-04T10:54:46.000Z,eyQgmhRLlQ+Q/rO5QJ9CRHVqggwSFsJBKKhyS+E2ja8=@@2016-04-04T11:15:39.000Z/2016-04-04T11:31:14.000Z,eyQgmhRLlQ+Q/rO5QJ9CRHVqggwSFsJBKKhyS+E2ja8=@@2016-04-04T13:56:30.000Z/2016-04-04T14:12:06.000Z,eyQgmhRLlQ+Q/rO5QJ9CRHVqggwSFsJBKKhyS+E2ja8=@@2016-04-04T15:47:25.000Z/2016-04-04T16:55:33.000Z,eyQgmhRLlQ+Q/rO5QJ9CRHVqggwSFsJBKKhyS+E2ja8=</ns:values>
+        </ns:DataArray>
+      </om:result>
+    </om:OM_Observation>
+  </sos:observationData>
+  <sos:observationData>
+    <om:OM_Observation gml:id="o_110">
+      <gml:description>description</gml:description>
+      <om:type xlink:href="http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_TextObservation"/>
+      <om:phenomenonTime>
+        <gml:TimePeriod gml:id="phenomenonTime_110">
+          <gml:beginPosition>2016-04-04T17:11:02.000Z</gml:beginPosition>
+          <gml:endPosition>2016-04-04T17:16:02.000Z</gml:endPosition>
+        </gml:TimePeriod>
+      </om:phenomenonTime>
+      <om:resultTime>
+        <gml:TimeInstant gml:id="ti_D8CC7647609AA665E575747EA52DF843DFE65DD4">
+          <gml:timePosition>2016-04-04T17:16:02.000Z</gml:timePosition>
+        </gml:TimeInstant>
+      </om:resultTime>
+      <om:procedure xlink:href="wifi_access_point" xlink:title="Scan"/>
+      <om:parameter>
+        <om:NamedValue>
+          <om:name xlink:href="http://www.opengis.net/def/param-name/OGC-OM/2.0/samplingGeometry"/>
+          <om:value xmlns:ns="http://www.opengis.net/gml/3.2" xsi:type="ns:GeometryPropertyType">
+            <ns:Point ns:id="point_529174C054B9712B8FA9BD8974F3A29CBCA0F133">
+              <ns:pos srsName="http://www.opengis.net/def/crs/EPSG/0/0">4.37142624632561 52.0008242350308</ns:pos>
+            </ns:Point>
+          </om:value>
+        </om:NamedValue>
+      </om:parameter>
+      <om:observedProperty xlink:href="mac_address" xlink:title="Mac"/>
+      <om:featureOfInterest xlink:href="A-134-0-112" xlink:title="A-134-0-112"/>
+      <om:result xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">uMmHzADGthZeUIy1hsTQBSkNc6/MHD5NYmuKxcyZPMc=</om:result>
+    </om:OM_Observation>
+  </sos:observationData>
+  <sos:observationData>
+    <om:OM_Observation gml:id="o_47">
+      <gml:description>description</gml:description>
+      <om:type xlink:href="http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_TextObservation"/>
+      <om:phenomenonTime>
+        <gml:TimePeriod gml:id="phenomenonTime_47">
+          <gml:beginPosition>2016-04-04T14:12:06.000Z</gml:beginPosition>
+          <gml:endPosition>2016-04-04T14:17:20.000Z</gml:endPosition>
+        </gml:TimePeriod>
+      </om:phenomenonTime>
+      <om:resultTime>
+        <gml:TimeInstant gml:id="ti_8363FE8717F2BBD36200F08AF02869D6995BDA82">
+          <gml:timePosition>2016-04-04T14:17:20.000Z</gml:timePosition>
+        </gml:TimeInstant>
+      </om:resultTime>
+      <om:procedure xlink:href="wifi_access_point" xlink:title="Scan"/>
+      <om:parameter>
+        <om:NamedValue>
+          <om:name xlink:href="http://www.opengis.net/def/param-name/OGC-OM/2.0/samplingGeometry"/>
+          <om:value xmlns:ns="http://www.opengis.net/gml/3.2" xsi:type="ns:GeometryPropertyType">
+            <ns:Point ns:id="point_4905DD025508784FA379C9766A977123094EAF35">
+              <ns:pos srsName="http://www.opengis.net/def/crs/EPSG/0/0">4.37550578727327 51.9988856445979</ns:pos>
+            </ns:Point>
+          </om:value>
+        </om:NamedValue>
+      </om:parameter>
+      <om:observedProperty xlink:href="mac_address" xlink:title="Mac"/>
+      <om:featureOfInterest xlink:href="A-23-0-096" xlink:title="A-23-0-096"/>
+      <om:result xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">eyQgmhRLlQ+Q/rO5QJ9CRHVqggwSFsJBKKhyS+E2ja8=</om:result>
+    </om:OM_Observation>
+  </sos:observationData>
+  <sos:observationData>
+    <om:OM_Observation gml:id="o_52">
+      <gml:description>description</gml:description>
+      <om:type xlink:href="http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_SWEArrayObservation"/>
+      <om:phenomenonTime>
+        <gml:TimePeriod gml:id="phenomenonTime_52">
+          <gml:beginPosition>2016-04-04T15:09:39.000Z</gml:beginPosition>
+          <gml:endPosition>2016-04-04T15:47:24.000Z</gml:endPosition>
+        </gml:TimePeriod>
+      </om:phenomenonTime>
+      <om:resultTime>
+        <gml:TimeInstant gml:id="ti_7F7A7546B06E0E27C36BA9580F0E7FB467598C64">
+          <gml:timePosition>2016-04-04T15:25:12.000Z</gml:timePosition>
+        </gml:TimeInstant>
+      </om:resultTime>
+      <om:procedure xlink:href="wifi_access_point" xlink:title="Scan"/>
+      <om:parameter>
+        <om:NamedValue>
+          <om:name xlink:href="http://www.opengis.net/def/param-name/OGC-OM/2.0/samplingGeometry"/>
+          <om:value xmlns:ns="http://www.opengis.net/gml/3.2" xsi:type="ns:GeometryPropertyType">
+            <ns:Point ns:id="point_EF91E5477412EBB3162A3F5EBD19116F0123C0A4">
+              <ns:pos srsName="http://www.opengis.net/def/crs/EPSG/0/0">4.37550578727327 51.9988856445979</ns:pos>
+            </ns:Point>
+          </om:value>
+        </om:NamedValue>
+      </om:parameter>
+      <om:observedProperty xlink:href="mac_address" xlink:title="Mac"/>
+      <om:featureOfInterest xlink:href="A-23-0-077" xlink:title="A-23-0-077"/>
+      <om:result xmlns:ns="http://www.opengis.net/swe/2.0" xsi:type="ns:DataArrayPropertyType">
+        <ns:DataArray>
+          <ns:elementCount>
+            <ns:Count>
+              <ns:value>2</ns:value>
+            </ns:Count>
+          </ns:elementCount>
+          <ns:elementType name="Components">
+            <ns:DataRecord>
+              <ns:field name="phenomenonTime">
+                <ns:TimeRange definition="http://www.opengis.net/def/property/OGC/0/PhenomenonTime">
+                  <ns:uom xlink:href="http://www.opengis.net/def/uom/ISO-8601/0/Gregorian"/>
+                </ns:TimeRange>
+              </ns:field>
+              <ns:field name="mac_address">
+                <ns:Text definition="mac_address"/>
+              </ns:field>
+            </ns:DataRecord>
+          </ns:elementType>
+          <ns:encoding>
+            <ns:TextEncoding blockSeparator="@@" decimalSeparator="." tokenSeparator=","/>
+          </ns:encoding>
+          <ns:values>2016-04-04T15:09:39.000Z/2016-04-04T15:25:12.000Z,eyQgmhRLlQ+Q/rO5QJ9CRHVqggwSFsJBKKhyS+E2ja8=@@2016-04-04T15:31:46.000Z/2016-04-04T15:47:24.000Z,eyQgmhRLlQ+Q/rO5QJ9CRHVqggwSFsJBKKhyS+E2ja8=</ns:values>
+        </ns:DataArray>
+      </om:result>
+    </om:OM_Observation>
+  </sos:observationData>
+  <sos:observationData>
+    <om:OM_Observation gml:id="o_8">
+      <gml:description>description</gml:description>
+      <om:type xlink:href="http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_TextObservation"/>
+      <om:phenomenonTime>
+        <gml:TimePeriod gml:id="phenomenonTime_8">
+          <gml:beginPosition>2016-04-04T01:24:19.000Z</gml:beginPosition>
+          <gml:endPosition>2016-04-04T01:34:19.000Z</gml:endPosition>
+        </gml:TimePeriod>
+      </om:phenomenonTime>
+      <om:resultTime>
+        <gml:TimeInstant gml:id="ti_903F5F2696A5B65B4BBC198ED4CA465F2EDA2DCF">
+          <gml:timePosition>2016-04-04T01:34:19.000Z</gml:timePosition>
+        </gml:TimeInstant>
+      </om:resultTime>
+      <om:procedure xlink:href="wifi_access_point" xlink:title="Scan"/>
+      <om:parameter>
+        <om:NamedValue>
+          <om:name xlink:href="http://www.opengis.net/def/param-name/OGC-OM/2.0/samplingGeometry"/>
+          <om:value xmlns:ns="http://www.opengis.net/gml/3.2" xsi:type="ns:GeometryPropertyType">
+            <ns:Point ns:id="point_4EE0F1A5B8A8814EDDBCECD4A0E255EED4259D9D">
+              <ns:pos srsName="http://www.opengis.net/def/crs/EPSG/0/0">4.37558001672138 52.0026454610105</ns:pos>
+            </ns:Point>
+          </om:value>
+        </om:NamedValue>
+      </om:parameter>
+      <om:observedProperty xlink:href="mac_address" xlink:title="Mac"/>
+      <om:featureOfInterest xlink:href="A-21-0-046" xlink:title="A-21-0-046"/>
+      <om:result xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">i0sxrQTUt34MWIn8YsuihnyyjUJchfibwi+3icirT20=</om:result>
+    </om:OM_Observation>
+  </sos:observationData>
+  <sos:observationData>
+    <om:OM_Observation gml:id="o_68">
+      <gml:description>description</gml:description>
+      <om:type xlink:href="http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_SWEArrayObservation"/>
+      <om:phenomenonTime>
+        <gml:TimePeriod gml:id="phenomenonTime_68">
+          <gml:beginPosition>2016-04-04T09:25:55.000Z</gml:beginPosition>
+          <gml:endPosition>2016-04-04T23:21:02.000Z</gml:endPosition>
+        </gml:TimePeriod>
+      </om:phenomenonTime>
+      <om:resultTime>
+        <gml:TimeInstant gml:id="ti_86F8FBDB0147B71FA319941B2A15CB3A0E0EEDB3">
+          <gml:timePosition>2016-04-04T09:31:01.000Z</gml:timePosition>
+        </gml:TimeInstant>
+      </om:resultTime>
+      <om:procedure xlink:href="wifi_access_point" xlink:title="Scan"/>
+      <om:parameter>
+        <om:NamedValue>
+          <om:name xlink:href="http://www.opengis.net/def/param-name/OGC-OM/2.0/samplingGeometry"/>
+          <om:value xmlns:ns="http://www.opengis.net/gml/3.2" xsi:type="ns:GeometryPropertyType">
+            <ns:Point ns:id="point_2F559C8CE7A273FE8E264018DC23ADA7EAECC14A">
+              <ns:pos srsName="http://www.opengis.net/def/crs/EPSG/0/0">4.3690096404798 52.0024338288824</ns:pos>
+            </ns:Point>
+          </om:value>
+        </om:NamedValue>
+      </om:parameter>
+      <om:observedProperty xlink:href="mac_address" xlink:title="Mac"/>
+      <om:featureOfInterest xlink:href="A-31-0-006" xlink:title="A-31-0-006"/>
+      <om:result xmlns:ns="http://www.opengis.net/swe/2.0" xsi:type="ns:DataArrayPropertyType">
+        <ns:DataArray>
+          <ns:elementCount>
+            <ns:Count>
+              <ns:value>5</ns:value>
+            </ns:Count>
+          </ns:elementCount>
+          <ns:elementType name="Components">
+            <ns:DataRecord>
+              <ns:field name="phenomenonTime">
+                <ns:TimeRange definition="http://www.opengis.net/def/property/OGC/0/PhenomenonTime">
+                  <ns:uom xlink:href="http://www.opengis.net/def/uom/ISO-8601/0/Gregorian"/>
+                </ns:TimeRange>
+              </ns:field>
+              <ns:field name="mac_address">
+                <ns:Text definition="mac_address"/>
+              </ns:field>
+            </ns:DataRecord>
+          </ns:elementType>
+          <ns:encoding>
+            <ns:TextEncoding blockSeparator="@@" decimalSeparator="." tokenSeparator=","/>
+          </ns:encoding>
+          <ns:values>2016-04-04T09:25:55.000Z/2016-04-04T09:31:01.000Z,9UHpulunuwjd6LKyJ5vNPr5D2hYtO2nZkOAaHVlc+1s=@@2016-04-04T11:31:15.000Z/2016-04-04T12:07:38.000Z,9UHpulunuwjd6LKyJ5vNPr5D2hYtO2nZkOAaHVlc+1s=@@2016-04-04T12:23:13.000Z/2016-04-04T16:50:23.000Z,9UHpulunuwjd6LKyJ5vNPr5D2hYtO2nZkOAaHVlc+1s=@@2016-04-04T19:08:04.000Z/2016-04-04T20:34:11.000Z,9UHpulunuwjd6LKyJ5vNPr5D2hYtO2nZkOAaHVlc+1s=@@2016-04-04T20:54:29.000Z/2016-04-04T23:21:02.000Z,9UHpulunuwjd6LKyJ5vNPr5D2hYtO2nZkOAaHVlc+1s=</ns:values>
+        </ns:DataArray>
+      </om:result>
+    </om:OM_Observation>
+  </sos:observationData>
+  <sos:observationData>
+    <om:OM_Observation gml:id="o_56">
+      <gml:description>description</gml:description>
+      <om:type xlink:href="http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_TextObservation"/>
+      <om:phenomenonTime>
+        <gml:TimePeriod gml:id="phenomenonTime_56">
+          <gml:beginPosition>2016-04-04T17:00:44.000Z</gml:beginPosition>
+          <gml:endPosition>2016-04-04T17:05:44.000Z</gml:endPosition>
+        </gml:TimePeriod>
+      </om:phenomenonTime>
+      <om:resultTime>
+        <gml:TimeInstant gml:id="ti_BEC574082C89976B5B77BDACA17396211CD7B40F">
+          <gml:timePosition>2016-04-04T17:05:44.000Z</gml:timePosition>
+        </gml:TimeInstant>
+      </om:resultTime>
+      <om:procedure xlink:href="wifi_access_point" xlink:title="Scan"/>
+      <om:parameter>
+        <om:NamedValue>
+          <om:name xlink:href="http://www.opengis.net/def/param-name/OGC-OM/2.0/samplingGeometry"/>
+          <om:value xmlns:ns="http://www.opengis.net/gml/3.2" xsi:type="ns:GeometryPropertyType">
+            <ns:Point ns:id="point_08728E5D2C5F71D35039799A5A68CA93510EDF01">
+              <ns:pos srsName="http://www.opengis.net/def/crs/EPSG/0/0">4.37550578727327 51.9988856445979</ns:pos>
+            </ns:Point>
+          </om:value>
+        </om:NamedValue>
+      </om:parameter>
+      <om:observedProperty xlink:href="mac_address" xlink:title="Mac"/>
+      <om:featureOfInterest xlink:href="A-23-0-054" xlink:title="A-23-0-054"/>
+      <om:result xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">eyQgmhRLlQ+Q/rO5QJ9CRHVqggwSFsJBKKhyS+E2ja8=</om:result>
+    </om:OM_Observation>
+  </sos:observationData>
+  <sos:observationData>
+    <om:OM_Observation gml:id="o_95">
+      <gml:description>description</gml:description>
+      <om:type xlink:href="http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_TextObservation"/>
+      <om:phenomenonTime>
+        <gml:TimePeriod gml:id="phenomenonTime_95">
+          <gml:beginPosition>2016-04-04T10:44:25.000Z</gml:beginPosition>
+          <gml:endPosition>2016-04-04T10:49:35.000Z</gml:endPosition>
+        </gml:TimePeriod>
+      </om:phenomenonTime>
+      <om:resultTime>
+        <gml:TimeInstant gml:id="ti_654780633E14609175B6FC2FD456B820C2D338D3">
+          <gml:timePosition>2016-04-04T10:49:35.000Z</gml:timePosition>
+        </gml:TimeInstant>
+      </om:resultTime>
+      <om:procedure xlink:href="wifi_access_point" xlink:title="Scan"/>
+      <om:parameter>
+        <om:NamedValue>
+          <om:name xlink:href="http://www.opengis.net/def/param-name/OGC-OM/2.0/samplingGeometry"/>
+          <om:value xmlns:ns="http://www.opengis.net/gml/3.2" xsi:type="ns:GeometryPropertyType">
+            <ns:Point ns:id="point_26CF65589D717B8D150A84210528E9EA6CD91CD5">
+              <ns:pos srsName="http://www.opengis.net/def/crs/EPSG/0/0">4.36951442415562 52.0015085932109</ns:pos>
+            </ns:Point>
+          </om:value>
+        </om:NamedValue>
+      </om:parameter>
+      <om:observedProperty xlink:href="mac_address" xlink:title="Mac"/>
+      <om:featureOfInterest xlink:href="A-132-0-111" xlink:title="A-132-0-111"/>
+      <om:result xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">W8cTUDrM2FbpbU8Iagu2F5z0BwhISyK/eB0gdyubO/I=</om:result>
+    </om:OM_Observation>
+  </sos:observationData>
+  <sos:observationData>
+    <om:OM_Observation gml:id="o_81">
+      <gml:description>description</gml:description>
+      <om:type xlink:href="http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_SWEArrayObservation"/>
+      <om:phenomenonTime>
+        <gml:TimePeriod gml:id="phenomenonTime_81">
+          <gml:beginPosition>2016-04-04T13:46:08.000Z</gml:beginPosition>
+          <gml:endPosition>2016-04-04T14:53:56.000Z</gml:endPosition>
+        </gml:TimePeriod>
+      </om:phenomenonTime>
+      <om:resultTime>
+        <gml:TimeInstant gml:id="ti_4DB4AF4369CFF5E8BE09988C900D97DA0E052FA8">
+          <gml:timePosition>2016-04-04T13:51:19.000Z</gml:timePosition>
+        </gml:TimeInstant>
+      </om:resultTime>
+      <om:procedure xlink:href="wifi_access_point" xlink:title="Scan"/>
+      <om:parameter>
+        <om:NamedValue>
+          <om:name xlink:href="http://www.opengis.net/def/param-name/OGC-OM/2.0/samplingGeometry"/>
+          <om:value xmlns:ns="http://www.opengis.net/gml/3.2" xsi:type="ns:GeometryPropertyType">
+            <ns:Point ns:id="point_0D22EF27723D58FA3EDF09804AC2423FCDF4270C">
+              <ns:pos srsName="http://www.opengis.net/def/crs/EPSG/0/0">4.37142624632561 52.0008242350308</ns:pos>
+            </ns:Point>
+          </om:value>
+        </om:NamedValue>
+      </om:parameter>
+      <om:observedProperty xlink:href="mac_address" xlink:title="Mac"/>
+      <om:featureOfInterest xlink:href="A-134-0-012" xlink:title="A-134-0-012"/>
+      <om:result xmlns:ns="http://www.opengis.net/swe/2.0" xsi:type="ns:DataArrayPropertyType">
+        <ns:DataArray>
+          <ns:elementCount>
+            <ns:Count>
+              <ns:value>2</ns:value>
+            </ns:Count>
+          </ns:elementCount>
+          <ns:elementType name="Components">
+            <ns:DataRecord>
+              <ns:field name="phenomenonTime">
+                <ns:TimeRange definition="http://www.opengis.net/def/property/OGC/0/PhenomenonTime">
+                  <ns:uom xlink:href="http://www.opengis.net/def/uom/ISO-8601/0/Gregorian"/>
+                </ns:TimeRange>
+              </ns:field>
+              <ns:field name="mac_address">
+                <ns:Text definition="mac_address"/>
+              </ns:field>
+            </ns:DataRecord>
+          </ns:elementType>
+          <ns:encoding>
+            <ns:TextEncoding blockSeparator="@@" decimalSeparator="." tokenSeparator=","/>
+          </ns:encoding>
+          <ns:values>2016-04-04T13:46:08.000Z/2016-04-04T13:51:19.000Z,ZR793mQT/degBrdgL5OhoOE7PndMoeYZI18lpf3qp54=@@2016-04-04T14:48:45.000Z/2016-04-04T14:53:56.000Z,ZR793mQT/degBrdgL5OhoOE7PndMoeYZI18lpf3qp54=</ns:values>
+        </ns:DataArray>
+      </om:result>
+    </om:OM_Observation>
+  </sos:observationData>
+  <sos:observationData>
+    <om:OM_Observation gml:id="o_87">
+      <gml:description>description</gml:description>
+      <om:type xlink:href="http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_TextObservation"/>
+      <om:phenomenonTime>
+        <gml:TimePeriod gml:id="phenomenonTime_87">
+          <gml:beginPosition>2016-04-04T18:12:21.000Z</gml:beginPosition>
+          <gml:endPosition>2016-04-04T18:17:25.000Z</gml:endPosition>
+        </gml:TimePeriod>
+      </om:phenomenonTime>
+      <om:resultTime>
+        <gml:TimeInstant gml:id="ti_6A579F47353FB624483921C9BB3D96DD5A726B07">
+          <gml:timePosition>2016-04-04T18:17:25.000Z</gml:timePosition>
+        </gml:TimeInstant>
+      </om:resultTime>
+      <om:procedure xlink:href="wifi_access_point" xlink:title="Scan"/>
+      <om:parameter>
+        <om:NamedValue>
+          <om:name xlink:href="http://www.opengis.net/def/param-name/OGC-OM/2.0/samplingGeometry"/>
+          <om:value xmlns:ns="http://www.opengis.net/gml/3.2" xsi:type="ns:GeometryPropertyType">
+            <ns:Point ns:id="point_06BA76B9CAB9C84FDE538441803EEE5B6AD6DF76">
+              <ns:pos srsName="http://www.opengis.net/def/crs/EPSG/0/0">4.3690096404798 52.0024338288824</ns:pos>
+            </ns:Point>
+          </om:value>
+        </om:NamedValue>
+      </om:parameter>
+      <om:observedProperty xlink:href="mac_address" xlink:title="Mac"/>
+      <om:featureOfInterest xlink:href="A-31-0-030" xlink:title="A-31-0-030"/>
+      <om:result xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">8OZx8NngjYfymL/gdK4R8EmzGJ7AESgwVdfcTvNk1eg=</om:result>
+    </om:OM_Observation>
+  </sos:observationData>
+  <sos:observationData>
+    <om:OM_Observation gml:id="o_25">
+      <gml:description>description</gml:description>
+      <om:type xlink:href="http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_TextObservation"/>
+      <om:phenomenonTime>
+        <gml:TimePeriod gml:id="phenomenonTime_25">
+          <gml:beginPosition>2016-04-04T14:27:45.000Z</gml:beginPosition>
+          <gml:endPosition>2016-04-04T14:33:01.000Z</gml:endPosition>
+        </gml:TimePeriod>
+      </om:phenomenonTime>
+      <om:resultTime>
+        <gml:TimeInstant gml:id="ti_5B3B4C67D5A1759C00808F759D9AEBD830C55CBA">
+          <gml:timePosition>2016-04-04T14:33:01.000Z</gml:timePosition>
+        </gml:TimeInstant>
+      </om:resultTime>
+      <om:procedure xlink:href="wifi_access_point" xlink:title="Scan"/>
+      <om:parameter>
+        <om:NamedValue>
+          <om:name xlink:href="http://www.opengis.net/def/param-name/OGC-OM/2.0/samplingGeometry"/>
+          <om:value xmlns:ns="http://www.opengis.net/gml/3.2" xsi:type="ns:GeometryPropertyType">
+            <ns:Point ns:id="point_59CE999BC2647BF4C212123CF5FF05D0A3907B9C">
+              <ns:pos srsName="http://www.opengis.net/def/crs/EPSG/0/0">4.37053698152436 52.0056562098059</ns:pos>
+            </ns:Point>
+          </om:value>
+        </om:NamedValue>
+      </om:parameter>
+      <om:observedProperty xlink:href="mac_address" xlink:title="Mac"/>
+      <om:featureOfInterest xlink:href="A-08--E-003" xlink:title="A-08--E-003"/>
+      <om:result xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">i0sxrQTUt34MWIn8YsuihnyyjUJchfibwi+3icirT20=</om:result>
+    </om:OM_Observation>
+  </sos:observationData>
+  <sos:observationData>
+    <om:OM_Observation gml:id="o_11">
+      <gml:description>description</gml:description>
+      <om:type xlink:href="http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_SWEArrayObservation"/>
+      <om:phenomenonTime>
+        <gml:TimePeriod gml:id="phenomenonTime_11">
+          <gml:beginPosition>2016-04-04T01:44:21.000Z</gml:beginPosition>
+          <gml:endPosition>2016-04-04T20:18:55.000Z</gml:endPosition>
+        </gml:TimePeriod>
+      </om:phenomenonTime>
+      <om:resultTime>
+        <gml:TimeInstant gml:id="ti_F26579CB74D8E65060C1E6984A608F27DF48AEE6">
+          <gml:timePosition>2016-04-04T01:49:21.000Z</gml:timePosition>
+        </gml:TimeInstant>
+      </om:resultTime>
+      <om:procedure xlink:href="wifi_access_point" xlink:title="Scan"/>
+      <om:parameter>
+        <om:NamedValue>
+          <om:name xlink:href="http://www.opengis.net/def/param-name/OGC-OM/2.0/samplingGeometry"/>
+          <om:value xmlns:ns="http://www.opengis.net/gml/3.2" xsi:type="ns:GeometryPropertyType">
+            <ns:Point ns:id="point_00DF1718D009179B7F134AF8A36A8CDED0826DAC">
+              <ns:pos srsName="http://www.opengis.net/def/crs/EPSG/0/0">4.37053698152436 52.0056562098059</ns:pos>
+            </ns:Point>
+          </om:value>
+        </om:NamedValue>
+      </om:parameter>
+      <om:observedProperty xlink:href="mac_address" xlink:title="Mac"/>
+      <om:featureOfInterest xlink:href="A-08-F-001" xlink:title="A-08-F-001"/>
+      <om:result xmlns:ns="http://www.opengis.net/swe/2.0" xsi:type="ns:DataArrayPropertyType">
+        <ns:DataArray>
+          <ns:elementCount>
+            <ns:Count>
+              <ns:value>2</ns:value>
+            </ns:Count>
+          </ns:elementCount>
+          <ns:elementType name="Components">
+            <ns:DataRecord>
+              <ns:field name="phenomenonTime">
+                <ns:TimeRange definition="http://www.opengis.net/def/property/OGC/0/PhenomenonTime">
+                  <ns:uom xlink:href="http://www.opengis.net/def/uom/ISO-8601/0/Gregorian"/>
+                </ns:TimeRange>
+              </ns:field>
+              <ns:field name="mac_address">
+                <ns:Text definition="mac_address"/>
+              </ns:field>
+            </ns:DataRecord>
+          </ns:elementType>
+          <ns:encoding>
+            <ns:TextEncoding blockSeparator="@@" decimalSeparator="." tokenSeparator=","/>
+          </ns:encoding>
+          <ns:values>2016-04-04T01:44:21.000Z/2016-04-04T01:49:21.000Z,i0sxrQTUt34MWIn8YsuihnyyjUJchfibwi+3icirT20=@@2016-04-04T20:13:55.000Z/2016-04-04T20:18:55.000Z,i0sxrQTUt34MWIn8YsuihnyyjUJchfibwi+3icirT20=</ns:values>
+        </ns:DataArray>
+      </om:result>
+    </om:OM_Observation>
+  </sos:observationData>
+  <sos:observationData>
+    <om:OM_Observation gml:id="o_98">
+      <gml:description>description</gml:description>
+      <om:type xlink:href="http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_SWEArrayObservation"/>
+      <om:phenomenonTime>
+        <gml:TimePeriod gml:id="phenomenonTime_98">
+          <gml:beginPosition>2016-04-04T11:36:26.000Z</gml:beginPosition>
+          <gml:endPosition>2016-04-04T12:48:57.000Z</gml:endPosition>
+        </gml:TimePeriod>
+      </om:phenomenonTime>
+      <om:resultTime>
+        <gml:TimeInstant gml:id="ti_70545631495C0A0A8216515B3B3DFF786C5442F1">
+          <gml:timePosition>2016-04-04T11:46:39.000Z</gml:timePosition>
+        </gml:TimeInstant>
+      </om:resultTime>
+      <om:procedure xlink:href="wifi_access_point" xlink:title="Scan"/>
+      <om:parameter>
+        <om:NamedValue>
+          <om:name xlink:href="http://www.opengis.net/def/param-name/OGC-OM/2.0/samplingGeometry"/>
+          <om:value xmlns:ns="http://www.opengis.net/gml/3.2" xsi:type="ns:GeometryPropertyType">
+            <ns:Point ns:id="point_35C88FFDCA3BABCFE6856376BA1D821A38759BA3">
+              <ns:pos srsName="http://www.opengis.net/def/crs/EPSG/0/0">4.36951442415562 52.0015085932109</ns:pos>
+            </ns:Point>
+          </om:value>
+        </om:NamedValue>
+      </om:parameter>
+      <om:observedProperty xlink:href="mac_address" xlink:title="Mac"/>
+      <om:featureOfInterest xlink:href="A-132-0-097" xlink:title="A-132-0-097"/>
+      <om:result xmlns:ns="http://www.opengis.net/swe/2.0" xsi:type="ns:DataArrayPropertyType">
+        <ns:DataArray>
+          <ns:elementCount>
+            <ns:Count>
+              <ns:value>2</ns:value>
+            </ns:Count>
+          </ns:elementCount>
+          <ns:elementType name="Components">
+            <ns:DataRecord>
+              <ns:field name="phenomenonTime">
+                <ns:TimeRange definition="http://www.opengis.net/def/property/OGC/0/PhenomenonTime">
+                  <ns:uom xlink:href="http://www.opengis.net/def/uom/ISO-8601/0/Gregorian"/>
+                </ns:TimeRange>
+              </ns:field>
+              <ns:field name="mac_address">
+                <ns:Text definition="mac_address"/>
+              </ns:field>
+            </ns:DataRecord>
+          </ns:elementType>
+          <ns:encoding>
+            <ns:TextEncoding blockSeparator="@@" decimalSeparator="." tokenSeparator=","/>
+          </ns:encoding>
+          <ns:values>2016-04-04T11:36:26.000Z/2016-04-04T11:46:39.000Z,W8cTUDrM2FbpbU8Iagu2F5z0BwhISyK/eB0gdyubO/I=@@2016-04-04T12:38:47.000Z/2016-04-04T12:48:57.000Z,W8cTUDrM2FbpbU8Iagu2F5z0BwhISyK/eB0gdyubO/I=</ns:values>
+        </ns:DataArray>
+      </om:result>
+    </om:OM_Observation>
+  </sos:observationData>
+  <sos:observationData>
+    <om:OM_Observation gml:id="o_30">
+      <gml:description>description</gml:description>
+      <om:type xlink:href="http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_TextObservation"/>
+      <om:phenomenonTime>
+        <gml:TimePeriod gml:id="phenomenonTime_30">
+          <gml:beginPosition>2016-04-04T16:40:01.000Z</gml:beginPosition>
+          <gml:endPosition>2016-04-04T17:16:10.000Z</gml:endPosition>
+        </gml:TimePeriod>
+      </om:phenomenonTime>
+      <om:resultTime>
+        <gml:TimeInstant gml:id="ti_55E10F5F53C5921E30BD95908FBC116D446BD7EB">
+          <gml:timePosition>2016-04-04T17:16:10.000Z</gml:timePosition>
+        </gml:TimeInstant>
+      </om:resultTime>
+      <om:procedure xlink:href="wifi_access_point" xlink:title="Scan"/>
+      <om:parameter>
+        <om:NamedValue>
+          <om:name xlink:href="http://www.opengis.net/def/param-name/OGC-OM/2.0/samplingGeometry"/>
+          <om:value xmlns:ns="http://www.opengis.net/gml/3.2" xsi:type="ns:GeometryPropertyType">
+            <ns:Point ns:id="point_C58FE4E450AEB197EE7A93467F85F980C6D6A27A">
+              <ns:pos srsName="http://www.opengis.net/def/crs/EPSG/0/0">4.37053698152436 52.0056562098059</ns:pos>
+            </ns:Point>
+          </om:value>
+        </om:NamedValue>
+      </om:parameter>
+      <om:observedProperty xlink:href="mac_address" xlink:title="Mac"/>
+      <om:featureOfInterest xlink:href="A-08-F-103" xlink:title="A-08-F-103"/>
+      <om:result xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">i0sxrQTUt34MWIn8YsuihnyyjUJchfibwi+3icirT20=</om:result>
+    </om:OM_Observation>
+  </sos:observationData>
+  <sos:observationData>
+    <om:OM_Observation gml:id="o_61">
+      <gml:description>description</gml:description>
+      <om:type xlink:href="http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_SWEArrayObservation"/>
+      <om:phenomenonTime>
+        <gml:TimePeriod gml:id="phenomenonTime_61">
+          <gml:beginPosition>2016-04-04T08:50:15.000Z</gml:beginPosition>
+          <gml:endPosition>2016-04-04T10:28:12.000Z</gml:endPosition>
+        </gml:TimePeriod>
+      </om:phenomenonTime>
+      <om:resultTime>
+        <gml:TimeInstant gml:id="ti_E08450C0E8FE9ABE3A3848011E5269A666F7067D">
+          <gml:timePosition>2016-04-04T09:31:01.000Z</gml:timePosition>
+        </gml:TimeInstant>
+      </om:resultTime>
+      <om:procedure xlink:href="wifi_access_point" xlink:title="Scan"/>
+      <om:parameter>
+        <om:NamedValue>
+          <om:name xlink:href="http://www.opengis.net/def/param-name/OGC-OM/2.0/samplingGeometry"/>
+          <om:value xmlns:ns="http://www.opengis.net/gml/3.2" xsi:type="ns:GeometryPropertyType">
+            <ns:Point ns:id="point_57489D3E69F75FB0EDB7A6FD862863C039E2911A">
+              <ns:pos srsName="http://www.opengis.net/def/crs/EPSG/0/0">4.37346394905794 51.9988525836389</ns:pos>
+            </ns:Point>
+          </om:value>
+        </om:NamedValue>
+      </om:parameter>
+      <om:observedProperty xlink:href="mac_address" xlink:title="Mac"/>
+      <om:featureOfInterest xlink:href="A-36-0-023" xlink:title="A-36-0-023"/>
+      <om:result xmlns:ns="http://www.opengis.net/swe/2.0" xsi:type="ns:DataArrayPropertyType">
+        <ns:DataArray>
+          <ns:elementCount>
+            <ns:Count>
+              <ns:value>2</ns:value>
+            </ns:Count>
+          </ns:elementCount>
+          <ns:elementType name="Components">
+            <ns:DataRecord>
+              <ns:field name="phenomenonTime">
+                <ns:TimeRange definition="http://www.opengis.net/def/property/OGC/0/PhenomenonTime">
+                  <ns:uom xlink:href="http://www.opengis.net/def/uom/ISO-8601/0/Gregorian"/>
+                </ns:TimeRange>
+              </ns:field>
+              <ns:field name="mac_address">
+                <ns:Text definition="mac_address"/>
+              </ns:field>
+            </ns:DataRecord>
+          </ns:elementType>
+          <ns:encoding>
+            <ns:TextEncoding blockSeparator="@@" decimalSeparator="." tokenSeparator=","/>
+          </ns:encoding>
+          <ns:values>2016-04-04T08:50:15.000Z/2016-04-04T09:31:01.000Z,F8C0TXvMYfYAP8qKtLmONf6+c9UuikYWoccV/o2Wcn0=@@2016-04-04T10:23:12.000Z/2016-04-04T10:28:12.000Z,i0sxrQTUt34MWIn8YsuihnyyjUJchfibwi+3icirT20=</ns:values>
+        </ns:DataArray>
+      </om:result>
+    </om:OM_Observation>
+  </sos:observationData>
+  <sos:observationData>
+    <om:OM_Observation gml:id="o_109">
+      <gml:description>description</gml:description>
+      <om:type xlink:href="http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_TextObservation"/>
+      <om:phenomenonTime>
+        <gml:TimePeriod gml:id="phenomenonTime_109">
+          <gml:beginPosition>2016-04-04T17:16:11.000Z</gml:beginPosition>
+          <gml:endPosition>2016-04-04T17:21:11.000Z</gml:endPosition>
+        </gml:TimePeriod>
+      </om:phenomenonTime>
+      <om:resultTime>
+        <gml:TimeInstant gml:id="ti_11222D9570F3778A8CDC564F304034F6BD5798D7">
+          <gml:timePosition>2016-04-04T17:21:11.000Z</gml:timePosition>
+        </gml:TimeInstant>
+      </om:resultTime>
+      <om:procedure xlink:href="wifi_access_point" xlink:title="Scan"/>
+      <om:parameter>
+        <om:NamedValue>
+          <om:name xlink:href="http://www.opengis.net/def/param-name/OGC-OM/2.0/samplingGeometry"/>
+          <om:value xmlns:ns="http://www.opengis.net/gml/3.2" xsi:type="ns:GeometryPropertyType">
+            <ns:Point ns:id="point_76FC2169171F062A6C186D43B0C14463B3A0C3AF">
+              <ns:pos srsName="http://www.opengis.net/def/crs/EPSG/0/0">4.37120211221402 52.0086132164098</ns:pos>
+            </ns:Point>
+          </om:value>
+        </om:NamedValue>
+      </om:parameter>
+      <om:observedProperty xlink:href="mac_address" xlink:title="Mac"/>
+      <om:featureOfInterest xlink:href="A-05-0-020" xlink:title="A-05-0-020"/>
+      <om:result xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">zfwSD5wTax8HCDyDgUA87CAszipG3JaNBt6e9E48R1c=</om:result>
+    </om:OM_Observation>
+  </sos:observationData>
+  <sos:observationData>
+    <om:OM_Observation gml:id="o_103">
+      <gml:description>description</gml:description>
+      <om:type xlink:href="http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_TextObservation"/>
+      <om:phenomenonTime>
+        <gml:TimePeriod gml:id="phenomenonTime_103">
+          <gml:beginPosition>2016-04-04T14:43:27.000Z</gml:beginPosition>
+          <gml:endPosition>2016-04-04T14:48:45.000Z</gml:endPosition>
+        </gml:TimePeriod>
+      </om:phenomenonTime>
+      <om:resultTime>
+        <gml:TimeInstant gml:id="ti_A61D849B2E883C8A375D515E459EDED6D87E1FD1">
+          <gml:timePosition>2016-04-04T14:48:45.000Z</gml:timePosition>
+        </gml:TimeInstant>
+      </om:resultTime>
+      <om:procedure xlink:href="wifi_access_point" xlink:title="Scan"/>
+      <om:parameter>
+        <om:NamedValue>
+          <om:name xlink:href="http://www.opengis.net/def/param-name/OGC-OM/2.0/samplingGeometry"/>
+          <om:value xmlns:ns="http://www.opengis.net/gml/3.2" xsi:type="ns:GeometryPropertyType">
+            <ns:Point ns:id="point_28F16ADAA37954EBCF47F307EE493626CE3905C1">
+              <ns:pos srsName="http://www.opengis.net/def/crs/EPSG/0/0">4.36951442415562 52.0015085932109</ns:pos>
+            </ns:Point>
+          </om:value>
+        </om:NamedValue>
+      </om:parameter>
+      <om:observedProperty xlink:href="mac_address" xlink:title="Mac"/>
+      <om:featureOfInterest xlink:href="A-132-0-004" xlink:title="A-132-0-004"/>
+      <om:result xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">W8cTUDrM2FbpbU8Iagu2F5z0BwhISyK/eB0gdyubO/I=</om:result>
+    </om:OM_Observation>
+  </sos:observationData>
+  <sos:observationData>
+    <om:OM_Observation gml:id="o_22">
+      <gml:description>description</gml:description>
+      <om:type xlink:href="http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_TextObservation"/>
+      <om:phenomenonTime>
+        <gml:TimePeriod gml:id="phenomenonTime_22">
+          <gml:beginPosition>2016-04-04T14:06:55.000Z</gml:beginPosition>
+          <gml:endPosition>2016-04-04T14:12:06.000Z</gml:endPosition>
+        </gml:TimePeriod>
+      </om:phenomenonTime>
+      <om:resultTime>
+        <gml:TimeInstant gml:id="ti_82AD30CBE6AF499CC087773374104BCA358D47B4">
+          <gml:timePosition>2016-04-04T14:12:06.000Z</gml:timePosition>
+        </gml:TimeInstant>
+      </om:resultTime>
+      <om:procedure xlink:href="wifi_access_point" xlink:title="Scan"/>
+      <om:parameter>
+        <om:NamedValue>
+          <om:name xlink:href="http://www.opengis.net/def/param-name/OGC-OM/2.0/samplingGeometry"/>
+          <om:value xmlns:ns="http://www.opengis.net/gml/3.2" xsi:type="ns:GeometryPropertyType">
+            <ns:Point ns:id="point_3960B28D301AACC24475493C679739C6F80C440C">
+              <ns:pos srsName="http://www.opengis.net/def/crs/EPSG/0/0">4.37053698152436 52.0056562098059</ns:pos>
+            </ns:Point>
+          </om:value>
+        </om:NamedValue>
+      </om:parameter>
+      <om:observedProperty xlink:href="mac_address" xlink:title="Mac"/>
+      <om:featureOfInterest xlink:href="A-08-J-005" xlink:title="A-08-J-005"/>
+      <om:result xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">i0sxrQTUt34MWIn8YsuihnyyjUJchfibwi+3icirT20=</om:result>
+    </om:OM_Observation>
+  </sos:observationData>
+  <sos:observationData>
+    <om:OM_Observation gml:id="o_59">
+      <gml:description>description</gml:description>
+      <om:type xlink:href="http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_SWEArrayObservation"/>
+      <om:phenomenonTime>
+        <gml:TimePeriod gml:id="phenomenonTime_59">
+          <gml:beginPosition>2016-04-04T08:40:07.000Z</gml:beginPosition>
+          <gml:endPosition>2016-04-04T15:52:38.000Z</gml:endPosition>
+        </gml:TimePeriod>
+      </om:phenomenonTime>
+      <om:resultTime>
+        <gml:TimeInstant gml:id="ti_FE71FAE5E913187D6E2DC99D0F3D7667D0F2B42A">
+          <gml:timePosition>2016-04-04T08:45:11.000Z</gml:timePosition>
+        </gml:TimeInstant>
+      </om:resultTime>
+      <om:procedure xlink:href="wifi_access_point" xlink:title="Scan"/>
+      <om:parameter>
+        <om:NamedValue>
+          <om:name xlink:href="http://www.opengis.net/def/param-name/OGC-OM/2.0/samplingGeometry"/>
+          <om:value xmlns:ns="http://www.opengis.net/gml/3.2" xsi:type="ns:GeometryPropertyType">
+            <ns:Point ns:id="point_7BAD668D8AFDB1E92881420919C9F29A67D7389C">
+              <ns:pos srsName="http://www.opengis.net/def/crs/EPSG/0/0">4.37346394905794 51.9988525836389</ns:pos>
+            </ns:Point>
+          </om:value>
+        </om:NamedValue>
+      </om:parameter>
+      <om:observedProperty xlink:href="mac_address" xlink:title="Mac"/>
+      <om:featureOfInterest xlink:href="A-36-0-121" xlink:title="A-36-0-121"/>
+      <om:result xmlns:ns="http://www.opengis.net/swe/2.0" xsi:type="ns:DataArrayPropertyType">
+        <ns:DataArray>
+          <ns:elementCount>
+            <ns:Count>
+              <ns:value>4</ns:value>
+            </ns:Count>
+          </ns:elementCount>
+          <ns:elementType name="Components">
+            <ns:DataRecord>
+              <ns:field name="phenomenonTime">
+                <ns:TimeRange definition="http://www.opengis.net/def/property/OGC/0/PhenomenonTime">
+                  <ns:uom xlink:href="http://www.opengis.net/def/uom/ISO-8601/0/Gregorian"/>
+                </ns:TimeRange>
+              </ns:field>
+              <ns:field name="mac_address">
+                <ns:Text definition="mac_address"/>
+              </ns:field>
+            </ns:DataRecord>
+          </ns:elementType>
+          <ns:encoding>
+            <ns:TextEncoding blockSeparator="@@" decimalSeparator="." tokenSeparator=","/>
+          </ns:encoding>
+          <ns:values>2016-04-04T08:40:07.000Z/2016-04-04T08:45:11.000Z,F8C0TXvMYfYAP8qKtLmONf6+c9UuikYWoccV/o2Wcn0=@@2016-04-04T09:36:09.000Z/2016-04-04T12:43:57.000Z,F8C0TXvMYfYAP8qKtLmONf6+c9UuikYWoccV/o2Wcn0=@@2016-04-04T12:49:08.000Z/2016-04-04T15:25:12.000Z,F8C0TXvMYfYAP8qKtLmONf6+c9UuikYWoccV/o2Wcn0=@@2016-04-04T15:31:46.000Z/2016-04-04T15:52:38.000Z,F8C0TXvMYfYAP8qKtLmONf6+c9UuikYWoccV/o2Wcn0=</ns:values>
+        </ns:DataArray>
+      </om:result>
+    </om:OM_Observation>
+  </sos:observationData>
+  <sos:observationData>
+    <om:OM_Observation gml:id="o_105">
+      <gml:description>description</gml:description>
+      <om:type xlink:href="http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_TextObservation"/>
+      <om:phenomenonTime>
+        <gml:TimePeriod gml:id="phenomenonTime_105">
+          <gml:beginPosition>2016-04-04T14:59:09.000Z</gml:beginPosition>
+          <gml:endPosition>2016-04-04T15:14:51.000Z</gml:endPosition>
+        </gml:TimePeriod>
+      </om:phenomenonTime>
+      <om:resultTime>
+        <gml:TimeInstant gml:id="ti_A74C70E7D726BF7BA835F267206D9C73B91F5FFE">
+          <gml:timePosition>2016-04-04T15:14:51.000Z</gml:timePosition>
+        </gml:TimeInstant>
+      </om:resultTime>
+      <om:procedure xlink:href="wifi_access_point" xlink:title="Scan"/>
+      <om:parameter>
+        <om:NamedValue>
+          <om:name xlink:href="http://www.opengis.net/def/param-name/OGC-OM/2.0/samplingGeometry"/>
+          <om:value xmlns:ns="http://www.opengis.net/gml/3.2" xsi:type="ns:GeometryPropertyType">
+            <ns:Point ns:id="point_F81ACAAAC1ED4FE835AB7C6DAAEDCAF2032AE04F">
+              <ns:pos srsName="http://www.opengis.net/def/crs/EPSG/0/0">4.36951442415562 52.0015085932109</ns:pos>
+            </ns:Point>
+          </om:value>
+        </om:NamedValue>
+      </om:parameter>
+      <om:observedProperty xlink:href="mac_address" xlink:title="Mac"/>
+      <om:featureOfInterest xlink:href="A-132-0-081" xlink:title="A-132-0-081"/>
+      <om:result xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">W8cTUDrM2FbpbU8Iagu2F5z0BwhISyK/eB0gdyubO/I=</om:result>
+    </om:OM_Observation>
+  </sos:observationData>
+  <sos:observationData>
+    <om:OM_Observation gml:id="o_89">
+      <gml:description>description</gml:description>
+      <om:type xlink:href="http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_TextObservation"/>
+      <om:phenomenonTime>
+        <gml:TimePeriod gml:id="phenomenonTime_89">
+          <gml:beginPosition>2016-04-04T18:27:35.000Z</gml:beginPosition>
+          <gml:endPosition>2016-04-04T19:13:07.000Z</gml:endPosition>
+        </gml:TimePeriod>
+      </om:phenomenonTime>
+      <om:resultTime>
+        <gml:TimeInstant gml:id="ti_546EE54347350DCF3C3554BF823F29E1FEC2A45C">
+          <gml:timePosition>2016-04-04T19:13:07.000Z</gml:timePosition>
+        </gml:TimeInstant>
+      </om:resultTime>
+      <om:procedure xlink:href="wifi_access_point" xlink:title="Scan"/>
+      <om:parameter>
+        <om:NamedValue>
+          <om:name xlink:href="http://www.opengis.net/def/param-name/OGC-OM/2.0/samplingGeometry"/>
+          <om:value xmlns:ns="http://www.opengis.net/gml/3.2" xsi:type="ns:GeometryPropertyType">
+            <ns:Point ns:id="point_3DC8244C5546700E35416F0FF4531AD9731F6709">
+              <ns:pos srsName="http://www.opengis.net/def/crs/EPSG/0/0">4.3690096404798 52.0024338288824</ns:pos>
+            </ns:Point>
+          </om:value>
+        </om:NamedValue>
+      </om:parameter>
+      <om:observedProperty xlink:href="mac_address" xlink:title="Mac"/>
+      <om:featureOfInterest xlink:href="A-31-0-025" xlink:title="A-31-0-025"/>
+      <om:result xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">8OZx8NngjYfymL/gdK4R8EmzGJ7AESgwVdfcTvNk1eg=</om:result>
+    </om:OM_Observation>
+  </sos:observationData>
+  <sos:observationData>
+    <om:OM_Observation gml:id="o_20">
+      <gml:description>description</gml:description>
+      <om:type xlink:href="http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_TextObservation"/>
+      <om:phenomenonTime>
+        <gml:TimePeriod gml:id="phenomenonTime_20">
+          <gml:beginPosition>2016-04-04T13:40:56.000Z</gml:beginPosition>
+          <gml:endPosition>2016-04-04T14:01:43.000Z</gml:endPosition>
+        </gml:TimePeriod>
+      </om:phenomenonTime>
+      <om:resultTime>
+        <gml:TimeInstant gml:id="ti_B41E520DF653E7BC7196B6D90D435C89AD917680">
+          <gml:timePosition>2016-04-04T14:01:43.000Z</gml:timePosition>
+        </gml:TimeInstant>
+      </om:resultTime>
+      <om:procedure xlink:href="wifi_access_point" xlink:title="Scan"/>
+      <om:parameter>
+        <om:NamedValue>
+          <om:name xlink:href="http://www.opengis.net/def/param-name/OGC-OM/2.0/samplingGeometry"/>
+          <om:value xmlns:ns="http://www.opengis.net/gml/3.2" xsi:type="ns:GeometryPropertyType">
+            <ns:Point ns:id="point_CBE2E8DEC1F1347CDECCCC7683011CFB1F889A92">
+              <ns:pos srsName="http://www.opengis.net/def/crs/EPSG/0/0">4.37053698152436 52.0056562098059</ns:pos>
+            </ns:Point>
+          </om:value>
+        </om:NamedValue>
+      </om:parameter>
+      <om:observedProperty xlink:href="mac_address" xlink:title="Mac"/>
+      <om:featureOfInterest xlink:href="A-08-H-002" xlink:title="A-08-H-002"/>
+      <om:result xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">i0sxrQTUt34MWIn8YsuihnyyjUJchfibwi+3icirT20=</om:result>
+    </om:OM_Observation>
+  </sos:observationData>
+  <sos:observationData>
+    <om:OM_Observation gml:id="o_10">
+      <gml:description>description</gml:description>
+      <om:type xlink:href="http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_SWEArrayObservation"/>
+      <om:phenomenonTime>
+        <gml:TimePeriod gml:id="phenomenonTime_10">
+          <gml:beginPosition>2016-04-04T01:39:21.000Z</gml:beginPosition>
+          <gml:endPosition>2016-04-04T08:35:01.000Z</gml:endPosition>
+        </gml:TimePeriod>
+      </om:phenomenonTime>
+      <om:resultTime>
+        <gml:TimeInstant gml:id="ti_B3079EC3204FCB6C425F5039E16B615499DA9B45">
+          <gml:timePosition>2016-04-04T01:44:21.000Z</gml:timePosition>
+        </gml:TimeInstant>
+      </om:resultTime>
+      <om:procedure xlink:href="wifi_access_point" xlink:title="Scan"/>
+      <om:parameter>
+        <om:NamedValue>
+          <om:name xlink:href="http://www.opengis.net/def/param-name/OGC-OM/2.0/samplingGeometry"/>
+          <om:value xmlns:ns="http://www.opengis.net/gml/3.2" xsi:type="ns:GeometryPropertyType">
+            <ns:Point ns:id="point_2D48A879B3269AB729B383E2B02C796504D76895">
+              <ns:pos srsName="http://www.opengis.net/def/crs/EPSG/0/0">4.37041133388247 52.0038354674135</ns:pos>
+            </ns:Point>
+          </om:value>
+        </om:NamedValue>
+      </om:parameter>
+      <om:observedProperty xlink:href="mac_address" xlink:title="Mac"/>
+      <om:featureOfInterest xlink:href="A-12-0-108" xlink:title="A-12-0-108"/>
+      <om:result xmlns:ns="http://www.opengis.net/swe/2.0" xsi:type="ns:DataArrayPropertyType">
+        <ns:DataArray>
+          <ns:elementCount>
+            <ns:Count>
+              <ns:value>2</ns:value>
+            </ns:Count>
+          </ns:elementCount>
+          <ns:elementType name="Components">
+            <ns:DataRecord>
+              <ns:field name="phenomenonTime">
+                <ns:TimeRange definition="http://www.opengis.net/def/property/OGC/0/PhenomenonTime">
+                  <ns:uom xlink:href="http://www.opengis.net/def/uom/ISO-8601/0/Gregorian"/>
+                </ns:TimeRange>
+              </ns:field>
+              <ns:field name="mac_address">
+                <ns:Text definition="mac_address"/>
+              </ns:field>
+            </ns:DataRecord>
+          </ns:elementType>
+          <ns:encoding>
+            <ns:TextEncoding blockSeparator="@@" decimalSeparator="." tokenSeparator=","/>
+          </ns:encoding>
+          <ns:values>2016-04-04T01:39:21.000Z/2016-04-04T01:44:21.000Z,i0sxrQTUt34MWIn8YsuihnyyjUJchfibwi+3icirT20=@@2016-04-04T08:30:01.000Z/2016-04-04T08:35:01.000Z,F8C0TXvMYfYAP8qKtLmONf6+c9UuikYWoccV/o2Wcn0=</ns:values>
+        </ns:DataArray>
+      </om:result>
+    </om:OM_Observation>
+  </sos:observationData>
+  <sos:observationData>
+    <om:OM_Observation gml:id="o_38">
+      <gml:description>description</gml:description>
+      <om:type xlink:href="http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_TextObservation"/>
+      <om:phenomenonTime>
+        <gml:TimePeriod gml:id="phenomenonTime_38">
+          <gml:beginPosition>2016-04-04T10:54:47.000Z</gml:beginPosition>
+          <gml:endPosition>2016-04-04T11:05:15.000Z</gml:endPosition>
+        </gml:TimePeriod>
+      </om:phenomenonTime>
+      <om:resultTime>
+        <gml:TimeInstant gml:id="ti_E43F3F254AF98BE274493E75FC967D52CBD34F4A">
+          <gml:timePosition>2016-04-04T11:05:15.000Z</gml:timePosition>
+        </gml:TimeInstant>
+      </om:resultTime>
+      <om:procedure xlink:href="wifi_access_point" xlink:title="Scan"/>
+      <om:parameter>
+        <om:NamedValue>
+          <om:name xlink:href="http://www.opengis.net/def/param-name/OGC-OM/2.0/samplingGeometry"/>
+          <om:value xmlns:ns="http://www.opengis.net/gml/3.2" xsi:type="ns:GeometryPropertyType">
+            <ns:Point ns:id="point_007457CEF997A4920E6249718B6E39EA26F9F458">
+              <ns:pos srsName="http://www.opengis.net/def/crs/EPSG/0/0">4.37550578727327 51.9988856445979</ns:pos>
+            </ns:Point>
+          </om:value>
+        </om:NamedValue>
+      </om:parameter>
+      <om:observedProperty xlink:href="mac_address" xlink:title="Mac"/>
+      <om:featureOfInterest xlink:href="A-23-0-005" xlink:title="A-23-0-005"/>
+      <om:result xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">eyQgmhRLlQ+Q/rO5QJ9CRHVqggwSFsJBKKhyS+E2ja8=</om:result>
+    </om:OM_Observation>
+  </sos:observationData>
+  <sos:observationData>
+    <om:OM_Observation gml:id="o_1">
+      <gml:description>description</gml:description>
+      <om:type xlink:href="http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_TextObservation"/>
+      <om:phenomenonTime>
+        <gml:TimePeriod gml:id="phenomenonTime_1">
+          <gml:beginPosition>2016-04-04T10:33:52.000Z</gml:beginPosition>
+          <gml:endPosition>2016-04-04T10:38:52.000Z</gml:endPosition>
+        </gml:TimePeriod>
+      </om:phenomenonTime>
+      <om:resultTime>
+        <gml:TimeInstant gml:id="ti_9BA6F1A8B7625221CE5423981FD39C6F64F91356">
+          <gml:timePosition>2016-04-04T10:38:52.000Z</gml:timePosition>
+        </gml:TimeInstant>
+      </om:resultTime>
+      <om:procedure xlink:href="wifi_access_point" xlink:title="Scan"/>
+      <om:parameter>
+        <om:NamedValue>
+          <om:name xlink:href="http://www.opengis.net/def/param-name/OGC-OM/2.0/samplingGeometry"/>
+          <om:value xmlns:ns="http://www.opengis.net/gml/3.2" xsi:type="ns:GeometryPropertyType">
+            <ns:Point ns:id="point_3137162D0EE52920B3A3460D676C78000D07E512">
+              <ns:pos srsName="http://www.opengis.net/def/crs/EPSG/0/0">4.37041133388247 52.0038354674135</ns:pos>
+            </ns:Point>
+          </om:value>
+        </om:NamedValue>
+      </om:parameter>
+      <om:observedProperty xlink:href="mac_address" xlink:title="Mac"/>
+      <om:featureOfInterest xlink:href="A-12-0-104" xlink:title="A-12-0-104"/>
+      <om:result xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">hJQOPV5UH1bGueYGNNTzKrmDLzpRRtRpZYY984UUGC0=</om:result>
+    </om:OM_Observation>
+  </sos:observationData>
+  <sos:observationData>
+    <om:OM_Observation gml:id="o_111">
+      <gml:description>description</gml:description>
+      <om:type xlink:href="http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_TextObservation"/>
+      <om:phenomenonTime>
+        <gml:TimePeriod gml:id="phenomenonTime_111">
+          <gml:beginPosition>2016-04-04T17:26:27.000Z</gml:beginPosition>
+          <gml:endPosition>2016-04-04T17:31:27.000Z</gml:endPosition>
+        </gml:TimePeriod>
+      </om:phenomenonTime>
+      <om:resultTime>
+        <gml:TimeInstant gml:id="ti_7EC09AF1F77F9FCADF38900997D9959AAF84B995">
+          <gml:timePosition>2016-04-04T17:31:27.000Z</gml:timePosition>
+        </gml:TimeInstant>
+      </om:resultTime>
+      <om:procedure xlink:href="wifi_access_point" xlink:title="Scan"/>
+      <om:parameter>
+        <om:NamedValue>
+          <om:name xlink:href="http://www.opengis.net/def/param-name/OGC-OM/2.0/samplingGeometry"/>
+          <om:value xmlns:ns="http://www.opengis.net/gml/3.2" xsi:type="ns:GeometryPropertyType">
+            <ns:Point ns:id="point_3C1E04FAD32DADF628EAE7B2FF92553AC1A80AC1">
+              <ns:pos srsName="http://www.opengis.net/def/crs/EPSG/0/0">4.37142624632561 52.0008242350308</ns:pos>
+            </ns:Point>
+          </om:value>
+        </om:NamedValue>
+      </om:parameter>
+      <om:observedProperty xlink:href="mac_address" xlink:title="Mac"/>
+      <om:featureOfInterest xlink:href="A-134-0-026" xlink:title="A-134-0-026"/>
+      <om:result xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">uMmHzADGthZeUIy1hsTQBSkNc6/MHD5NYmuKxcyZPMc=</om:result>
+    </om:OM_Observation>
+  </sos:observationData>
+  <sos:observationData>
+    <om:OM_Observation gml:id="o_113">
+      <gml:description>description</gml:description>
+      <om:type xlink:href="http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_TextObservation"/>
+      <om:phenomenonTime>
+        <gml:TimePeriod gml:id="phenomenonTime_113">
+          <gml:beginPosition>2016-04-04T12:54:19.000Z</gml:beginPosition>
+          <gml:endPosition>2016-04-04T12:59:29.000Z</gml:endPosition>
+        </gml:TimePeriod>
+      </om:phenomenonTime>
+      <om:resultTime>
+        <gml:TimeInstant gml:id="ti_08FB4C10E25722923368EDF4822F0CC9A0930DB7">
+          <gml:timePosition>2016-04-04T12:59:29.000Z</gml:timePosition>
+        </gml:TimeInstant>
+      </om:resultTime>
+      <om:procedure xlink:href="wifi_access_point" xlink:title="Scan"/>
+      <om:parameter>
+        <om:NamedValue>
+          <om:name xlink:href="http://www.opengis.net/def/param-name/OGC-OM/2.0/samplingGeometry"/>
+          <om:value xmlns:ns="http://www.opengis.net/gml/3.2" xsi:type="ns:GeometryPropertyType">
+            <ns:Point ns:id="point_A93981870E37F8DB14185DEC7F545BDF6BECB29D">
+              <ns:pos srsName="http://www.opengis.net/def/crs/EPSG/0/0">4.37053698152436 52.0056562098059</ns:pos>
+            </ns:Point>
+          </om:value>
+        </om:NamedValue>
+      </om:parameter>
+      <om:observedProperty xlink:href="mac_address" xlink:title="Mac"/>
+      <om:featureOfInterest xlink:href="A-08-C-204" xlink:title="A-08-C-204"/>
+      <om:result xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">ETFjt/s1CnRTBOFjh4GyjGUNYcuSZhEmbi2vYRrpFHc=</om:result>
+    </om:OM_Observation>
+  </sos:observationData>
+  <sos:observationData>
+    <om:OM_Observation gml:id="o_91">
+      <gml:description>description</gml:description>
+      <om:type xlink:href="http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_TextObservation"/>
+      <om:phenomenonTime>
+        <gml:TimePeriod gml:id="phenomenonTime_91">
+          <gml:beginPosition>2016-04-04T19:23:14.000Z</gml:beginPosition>
+          <gml:endPosition>2016-04-04T19:28:17.000Z</gml:endPosition>
+        </gml:TimePeriod>
+      </om:phenomenonTime>
+      <om:resultTime>
+        <gml:TimeInstant gml:id="ti_ECBA1DE0591E90030E9AF9846DFB0EBE9C793597">
+          <gml:timePosition>2016-04-04T19:28:17.000Z</gml:timePosition>
+        </gml:TimeInstant>
+      </om:resultTime>
+      <om:procedure xlink:href="wifi_access_point" xlink:title="Scan"/>
+      <om:parameter>
+        <om:NamedValue>
+          <om:name xlink:href="http://www.opengis.net/def/param-name/OGC-OM/2.0/samplingGeometry"/>
+          <om:value xmlns:ns="http://www.opengis.net/gml/3.2" xsi:type="ns:GeometryPropertyType">
+            <ns:Point ns:id="point_D59E3F580051E230EC2D4E5FBDD9C436BCA759B5">
+              <ns:pos srsName="http://www.opengis.net/def/crs/EPSG/0/0">4.3690096404798 52.0024338288824</ns:pos>
+            </ns:Point>
+          </om:value>
+        </om:NamedValue>
+      </om:parameter>
+      <om:observedProperty xlink:href="mac_address" xlink:title="Mac"/>
+      <om:featureOfInterest xlink:href="A-31-0-032" xlink:title="A-31-0-032"/>
+      <om:result xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">8OZx8NngjYfymL/gdK4R8EmzGJ7AESgwVdfcTvNk1eg=</om:result>
+    </om:OM_Observation>
+  </sos:observationData>
+  <sos:observationData>
+    <om:OM_Observation gml:id="o_23">
+      <gml:description>description</gml:description>
+      <om:type xlink:href="http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_TextObservation"/>
+      <om:phenomenonTime>
+        <gml:TimePeriod gml:id="phenomenonTime_23">
+          <gml:beginPosition>2016-04-04T14:12:06.000Z</gml:beginPosition>
+          <gml:endPosition>2016-04-04T14:17:20.000Z</gml:endPosition>
+        </gml:TimePeriod>
+      </om:phenomenonTime>
+      <om:resultTime>
+        <gml:TimeInstant gml:id="ti_5E0F4EEA2F24BD1BD0234AFA44B8E087183D7B22">
+          <gml:timePosition>2016-04-04T14:17:20.000Z</gml:timePosition>
+        </gml:TimeInstant>
+      </om:resultTime>
+      <om:procedure xlink:href="wifi_access_point" xlink:title="Scan"/>
+      <om:parameter>
+        <om:NamedValue>
+          <om:name xlink:href="http://www.opengis.net/def/param-name/OGC-OM/2.0/samplingGeometry"/>
+          <om:value xmlns:ns="http://www.opengis.net/gml/3.2" xsi:type="ns:GeometryPropertyType">
+            <ns:Point ns:id="point_5522776617FDDB8A2A4F8C7508D9B9667C2F78BC">
+              <ns:pos srsName="http://www.opengis.net/def/crs/EPSG/0/0">4.37053698152436 52.0056562098059</ns:pos>
+            </ns:Point>
+          </om:value>
+        </om:NamedValue>
+      </om:parameter>
+      <om:observedProperty xlink:href="mac_address" xlink:title="Mac"/>
+      <om:featureOfInterest xlink:href="A-08-D-004" xlink:title="A-08-D-004"/>
+      <om:result xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">i0sxrQTUt34MWIn8YsuihnyyjUJchfibwi+3icirT20=</om:result>
+    </om:OM_Observation>
+  </sos:observationData>
+  <sos:observationData>
+    <om:OM_Observation gml:id="o_114">
+      <gml:description>description</gml:description>
+      <om:type xlink:href="http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_SWEArrayObservation"/>
+      <om:phenomenonTime>
+        <gml:TimePeriod gml:id="phenomenonTime_114">
+          <gml:beginPosition>2016-04-04T12:59:29.000Z</gml:beginPosition>
+          <gml:endPosition>2016-04-04T13:35:44.000Z</gml:endPosition>
+        </gml:TimePeriod>
+      </om:phenomenonTime>
+      <om:resultTime>
+        <gml:TimeInstant gml:id="ti_C24332D89FD75CA51ACF12CAE803C5197027574D">
+          <gml:timePosition>2016-04-04T13:04:39.000Z</gml:timePosition>
+        </gml:TimeInstant>
+      </om:resultTime>
+      <om:procedure xlink:href="wifi_access_point" xlink:title="Scan"/>
+      <om:parameter>
+        <om:NamedValue>
+          <om:name xlink:href="http://www.opengis.net/def/param-name/OGC-OM/2.0/samplingGeometry"/>
+          <om:value xmlns:ns="http://www.opengis.net/gml/3.2" xsi:type="ns:GeometryPropertyType">
+            <ns:Point ns:id="point_893A77CE6FD2E60E2756F6E53B8B7CC872CABB9A">
+              <ns:pos srsName="http://www.opengis.net/def/crs/EPSG/0/0">4.37053698152436 52.0056562098059</ns:pos>
+            </ns:Point>
+          </om:value>
+        </om:NamedValue>
+      </om:parameter>
+      <om:observedProperty xlink:href="mac_address" xlink:title="Mac"/>
+      <om:featureOfInterest xlink:href="A-08-E-204" xlink:title="A-08-E-204"/>
+      <om:result xmlns:ns="http://www.opengis.net/swe/2.0" xsi:type="ns:DataArrayPropertyType">
+        <ns:DataArray>
+          <ns:elementCount>
+            <ns:Count>
+              <ns:value>2</ns:value>
+            </ns:Count>
+          </ns:elementCount>
+          <ns:elementType name="Components">
+            <ns:DataRecord>
+              <ns:field name="phenomenonTime">
+                <ns:TimeRange definition="http://www.opengis.net/def/property/OGC/0/PhenomenonTime">
+                  <ns:uom xlink:href="http://www.opengis.net/def/uom/ISO-8601/0/Gregorian"/>
+                </ns:TimeRange>
+              </ns:field>
+              <ns:field name="mac_address">
+                <ns:Text definition="mac_address"/>
+              </ns:field>
+            </ns:DataRecord>
+          </ns:elementType>
+          <ns:encoding>
+            <ns:TextEncoding blockSeparator="@@" decimalSeparator="." tokenSeparator=","/>
+          </ns:encoding>
+          <ns:values>2016-04-04T12:59:29.000Z/2016-04-04T13:04:39.000Z,ETFjt/s1CnRTBOFjh4GyjGUNYcuSZhEmbi2vYRrpFHc=@@2016-04-04T13:20:12.000Z/2016-04-04T13:35:44.000Z,ETFjt/s1CnRTBOFjh4GyjGUNYcuSZhEmbi2vYRrpFHc=</ns:values>
+        </ns:DataArray>
+      </om:result>
+    </om:OM_Observation>
+  </sos:observationData>
+  <sos:observationData>
+    <om:OM_Observation gml:id="o_16">
+      <gml:description>description</gml:description>
+      <om:type xlink:href="http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_SWEArrayObservation"/>
+      <om:phenomenonTime>
+        <gml:TimePeriod gml:id="phenomenonTime_16">
+          <gml:beginPosition>2016-04-04T10:39:04.000Z</gml:beginPosition>
+          <gml:endPosition>2016-04-04T20:08:51.000Z</gml:endPosition>
+        </gml:TimePeriod>
+      </om:phenomenonTime>
+      <om:resultTime>
+        <gml:TimeInstant gml:id="ti_089D9D3AB1D5DE15232B7844F3D04C80711D9002">
+          <gml:timePosition>2016-04-04T11:15:38.000Z</gml:timePosition>
+        </gml:TimeInstant>
+      </om:resultTime>
+      <om:procedure xlink:href="wifi_access_point" xlink:title="Scan"/>
+      <om:parameter>
+        <om:NamedValue>
+          <om:name xlink:href="http://www.opengis.net/def/param-name/OGC-OM/2.0/samplingGeometry"/>
+          <om:value xmlns:ns="http://www.opengis.net/gml/3.2" xsi:type="ns:GeometryPropertyType">
+            <ns:Point ns:id="point_D9D4DAFB3FADF10D16914880F73CF6051B1C5F9D">
+              <ns:pos srsName="http://www.opengis.net/def/crs/EPSG/0/0">4.37053698152436 52.0056562098059</ns:pos>
+            </ns:Point>
+          </om:value>
+        </om:NamedValue>
+      </om:parameter>
+      <om:observedProperty xlink:href="mac_address" xlink:title="Mac"/>
+      <om:featureOfInterest xlink:href="A-08-F-202" xlink:title="A-08-F-202"/>
+      <om:result xmlns:ns="http://www.opengis.net/swe/2.0" xsi:type="ns:DataArrayPropertyType">
+        <ns:DataArray>
+          <ns:elementCount>
+            <ns:Count>
+              <ns:value>4</ns:value>
+            </ns:Count>
+          </ns:elementCount>
+          <ns:elementType name="Components">
+            <ns:DataRecord>
+              <ns:field name="phenomenonTime">
+                <ns:TimeRange definition="http://www.opengis.net/def/property/OGC/0/PhenomenonTime">
+                  <ns:uom xlink:href="http://www.opengis.net/def/uom/ISO-8601/0/Gregorian"/>
+                </ns:TimeRange>
+              </ns:field>
+              <ns:field name="mac_address">
+                <ns:Text definition="mac_address"/>
+              </ns:field>
+            </ns:DataRecord>
+          </ns:elementType>
+          <ns:encoding>
+            <ns:TextEncoding blockSeparator="@@" decimalSeparator="." tokenSeparator=","/>
+          </ns:encoding>
+          <ns:values>2016-04-04T10:39:04.000Z/2016-04-04T11:15:38.000Z,i0sxrQTUt34MWIn8YsuihnyyjUJchfibwi+3icirT20=@@2016-04-04T14:38:14.000Z/2016-04-04T14:48:44.000Z,i0sxrQTUt34MWIn8YsuihnyyjUJchfibwi+3icirT20=@@2016-04-04T16:24:09.000Z/2016-04-04T16:40:01.000Z,i0sxrQTUt34MWIn8YsuihnyyjUJchfibwi+3icirT20=@@2016-04-04T18:22:31.000Z/2016-04-04T20:08:51.000Z,i0sxrQTUt34MWIn8YsuihnyyjUJchfibwi+3icirT20=</ns:values>
+        </ns:DataArray>
+      </om:result>
+    </om:OM_Observation>
+  </sos:observationData>
+  <sos:observationData>
+    <om:OM_Observation gml:id="o_41">
+      <gml:description>description</gml:description>
+      <om:type xlink:href="http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_SWEArrayObservation"/>
+      <om:phenomenonTime>
+        <gml:TimePeriod gml:id="phenomenonTime_41">
+          <gml:beginPosition>2016-04-04T11:31:15.000Z</gml:beginPosition>
+          <gml:endPosition>2016-04-04T17:36:34.000Z</gml:endPosition>
+        </gml:TimePeriod>
+      </om:phenomenonTime>
+      <om:resultTime>
+        <gml:TimeInstant gml:id="ti_1DCD5A579087B9279BABDFC7AE7DE163C1CC6F9E">
+          <gml:timePosition>2016-04-04T12:33:35.000Z</gml:timePosition>
+        </gml:TimeInstant>
+      </om:resultTime>
+      <om:procedure xlink:href="wifi_access_point" xlink:title="Scan"/>
+      <om:parameter>
+        <om:NamedValue>
+          <om:name xlink:href="http://www.opengis.net/def/param-name/OGC-OM/2.0/samplingGeometry"/>
+          <om:value xmlns:ns="http://www.opengis.net/gml/3.2" xsi:type="ns:GeometryPropertyType">
+            <ns:Point ns:id="point_40AB30B4A7F8E1B254822EE8985146A1EECDCB39">
+              <ns:pos srsName="http://www.opengis.net/def/crs/EPSG/0/0">4.37550578727327 51.9988856445979</ns:pos>
+            </ns:Point>
+          </om:value>
+        </om:NamedValue>
+      </om:parameter>
+      <om:observedProperty xlink:href="mac_address" xlink:title="Mac"/>
+      <om:featureOfInterest xlink:href="A-23-0-094" xlink:title="A-23-0-094"/>
+      <om:result xmlns:ns="http://www.opengis.net/swe/2.0" xsi:type="ns:DataArrayPropertyType">
+        <ns:DataArray>
+          <ns:elementCount>
+            <ns:Count>
+              <ns:value>4</ns:value>
+            </ns:Count>
+          </ns:elementCount>
+          <ns:elementType name="Components">
+            <ns:DataRecord>
+              <ns:field name="phenomenonTime">
+                <ns:TimeRange definition="http://www.opengis.net/def/property/OGC/0/PhenomenonTime">
+                  <ns:uom xlink:href="http://www.opengis.net/def/uom/ISO-8601/0/Gregorian"/>
+                </ns:TimeRange>
+              </ns:field>
+              <ns:field name="mac_address">
+                <ns:Text definition="mac_address"/>
+              </ns:field>
+            </ns:DataRecord>
+          </ns:elementType>
+          <ns:encoding>
+            <ns:TextEncoding blockSeparator="@@" decimalSeparator="." tokenSeparator=","/>
+          </ns:encoding>
+          <ns:values>2016-04-04T11:31:15.000Z/2016-04-04T12:33:35.000Z,eyQgmhRLlQ+Q/rO5QJ9CRHVqggwSFsJBKKhyS+E2ja8=@@2016-04-04T13:04:40.000Z/2016-04-04T13:56:30.000Z,eyQgmhRLlQ+Q/rO5QJ9CRHVqggwSFsJBKKhyS+E2ja8=@@2016-04-04T14:43:27.000Z/2016-04-04T15:04:27.000Z,eyQgmhRLlQ+Q/rO5QJ9CRHVqggwSFsJBKKhyS+E2ja8=@@2016-04-04T17:26:27.000Z/2016-04-04T17:36:34.000Z,eyQgmhRLlQ+Q/rO5QJ9CRHVqggwSFsJBKKhyS+E2ja8=</ns:values>
+        </ns:DataArray>
+      </om:result>
+    </om:OM_Observation>
+  </sos:observationData>
+  <sos:observationData>
+    <om:OM_Observation gml:id="o_26">
+      <gml:description>description</gml:description>
+      <om:type xlink:href="http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_TextObservation"/>
+      <om:phenomenonTime>
+        <gml:TimePeriod gml:id="phenomenonTime_26">
+          <gml:beginPosition>2016-04-04T14:33:02.000Z</gml:beginPosition>
+          <gml:endPosition>2016-04-04T14:38:14.000Z</gml:endPosition>
+        </gml:TimePeriod>
+      </om:phenomenonTime>
+      <om:resultTime>
+        <gml:TimeInstant gml:id="ti_378109F08BD750B5EC374118D76DD5BAA2B98A4F">
+          <gml:timePosition>2016-04-04T14:38:14.000Z</gml:timePosition>
+        </gml:TimeInstant>
+      </om:resultTime>
+      <om:procedure xlink:href="wifi_access_point" xlink:title="Scan"/>
+      <om:parameter>
+        <om:NamedValue>
+          <om:name xlink:href="http://www.opengis.net/def/param-name/OGC-OM/2.0/samplingGeometry"/>
+          <om:value xmlns:ns="http://www.opengis.net/gml/3.2" xsi:type="ns:GeometryPropertyType">
+            <ns:Point ns:id="point_09BF9213D97DC9668AB05241B098AB6808AF39C2">
+              <ns:pos srsName="http://www.opengis.net/def/crs/EPSG/0/0">4.37053698152436 52.0056562098059</ns:pos>
+            </ns:Point>
+          </om:value>
+        </om:NamedValue>
+      </om:parameter>
+      <om:observedProperty xlink:href="mac_address" xlink:title="Mac"/>
+      <om:featureOfInterest xlink:href="A-08-E-103" xlink:title="A-08-E-103"/>
+      <om:result xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">i0sxrQTUt34MWIn8YsuihnyyjUJchfibwi+3icirT20=</om:result>
+    </om:OM_Observation>
+  </sos:observationData>
+  <sos:observationData>
+    <om:OM_Observation gml:id="o_100">
+      <gml:description>description</gml:description>
+      <om:type xlink:href="http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_TextObservation"/>
+      <om:phenomenonTime>
+        <gml:TimePeriod gml:id="phenomenonTime_100">
+          <gml:beginPosition>2016-04-04T12:28:24.000Z</gml:beginPosition>
+          <gml:endPosition>2016-04-04T12:33:24.000Z</gml:endPosition>
+        </gml:TimePeriod>
+      </om:phenomenonTime>
+      <om:resultTime>
+        <gml:TimeInstant gml:id="ti_A28A50BF31FAECAD5476DE58B44E4B0B68AB5B03">
+          <gml:timePosition>2016-04-04T12:33:24.000Z</gml:timePosition>
+        </gml:TimeInstant>
+      </om:resultTime>
+      <om:procedure xlink:href="wifi_access_point" xlink:title="Scan"/>
+      <om:parameter>
+        <om:NamedValue>
+          <om:name xlink:href="http://www.opengis.net/def/param-name/OGC-OM/2.0/samplingGeometry"/>
+          <om:value xmlns:ns="http://www.opengis.net/gml/3.2" xsi:type="ns:GeometryPropertyType">
+            <ns:Point ns:id="point_2A233CD4721A38A9828C90F5DD9ABE4F2B3563A2">
+              <ns:pos srsName="http://www.opengis.net/def/crs/EPSG/0/0">4.36951442415562 52.0015085932109</ns:pos>
+            </ns:Point>
+          </om:value>
+        </om:NamedValue>
+      </om:parameter>
+      <om:observedProperty xlink:href="mac_address" xlink:title="Mac"/>
+      <om:featureOfInterest xlink:href="A-132-0-088" xlink:title="A-132-0-088"/>
+      <om:result xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">W8cTUDrM2FbpbU8Iagu2F5z0BwhISyK/eB0gdyubO/I=</om:result>
+    </om:OM_Observation>
+  </sos:observationData>
+  <sos:observationData>
+    <om:OM_Observation gml:id="o_18">
+      <gml:description>description</gml:description>
+      <om:type xlink:href="http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_SWEArrayObservation"/>
+      <om:phenomenonTime>
+        <gml:TimePeriod gml:id="phenomenonTime_18">
+          <gml:beginPosition>2016-04-04T12:12:50.000Z</gml:beginPosition>
+          <gml:endPosition>2016-04-04T16:24:08.000Z</gml:endPosition>
+        </gml:TimePeriod>
+      </om:phenomenonTime>
+      <om:resultTime>
+        <gml:TimeInstant gml:id="ti_75E740FFE9A44CA6D83EF802B8239BC682561E44">
+          <gml:timePosition>2016-04-04T13:35:44.000Z</gml:timePosition>
+        </gml:TimeInstant>
+      </om:resultTime>
+      <om:procedure xlink:href="wifi_access_point" xlink:title="Scan"/>
+      <om:parameter>
+        <om:NamedValue>
+          <om:name xlink:href="http://www.opengis.net/def/param-name/OGC-OM/2.0/samplingGeometry"/>
+          <om:value xmlns:ns="http://www.opengis.net/gml/3.2" xsi:type="ns:GeometryPropertyType">
+            <ns:Point ns:id="point_71CBE0A438218341B4E00AC813262D932431FB6E">
+              <ns:pos srsName="http://www.opengis.net/def/crs/EPSG/0/0">4.37053698152436 52.0056562098059</ns:pos>
+            </ns:Point>
+          </om:value>
+        </om:NamedValue>
+      </om:parameter>
+      <om:observedProperty xlink:href="mac_address" xlink:title="Mac"/>
+      <om:featureOfInterest xlink:href="A-08-F-201" xlink:title="A-08-F-201"/>
+      <om:result xmlns:ns="http://www.opengis.net/swe/2.0" xsi:type="ns:DataArrayPropertyType">
+        <ns:DataArray>
+          <ns:elementCount>
+            <ns:Count>
+              <ns:value>2</ns:value>
+            </ns:Count>
+          </ns:elementCount>
+          <ns:elementType name="Components">
+            <ns:DataRecord>
+              <ns:field name="phenomenonTime">
+                <ns:TimeRange definition="http://www.opengis.net/def/property/OGC/0/PhenomenonTime">
+                  <ns:uom xlink:href="http://www.opengis.net/def/uom/ISO-8601/0/Gregorian"/>
+                </ns:TimeRange>
+              </ns:field>
+              <ns:field name="mac_address">
+                <ns:Text definition="mac_address"/>
+              </ns:field>
+            </ns:DataRecord>
+          </ns:elementType>
+          <ns:encoding>
+            <ns:TextEncoding blockSeparator="@@" decimalSeparator="." tokenSeparator=","/>
+          </ns:encoding>
+          <ns:values>2016-04-04T12:12:50.000Z/2016-04-04T13:35:44.000Z,i0sxrQTUt34MWIn8YsuihnyyjUJchfibwi+3icirT20=@@2016-04-04T14:48:45.000Z/2016-04-04T16:24:08.000Z,i0sxrQTUt34MWIn8YsuihnyyjUJchfibwi+3icirT20=</ns:values>
+        </ns:DataArray>
+      </om:result>
+    </om:OM_Observation>
+  </sos:observationData>
+  <sos:observationData>
+    <om:OM_Observation gml:id="o_92">
+      <gml:description>description</gml:description>
+      <om:type xlink:href="http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_TextObservation"/>
+      <om:phenomenonTime>
+        <gml:TimePeriod gml:id="phenomenonTime_92">
+          <gml:beginPosition>2016-04-04T19:28:18.000Z</gml:beginPosition>
+          <gml:endPosition>2016-04-04T19:33:21.000Z</gml:endPosition>
+        </gml:TimePeriod>
+      </om:phenomenonTime>
+      <om:resultTime>
+        <gml:TimeInstant gml:id="ti_669F49081E5AE8B899212B7D4B98527AC8674FC1">
+          <gml:timePosition>2016-04-04T19:33:21.000Z</gml:timePosition>
+        </gml:TimeInstant>
+      </om:resultTime>
+      <om:procedure xlink:href="wifi_access_point" xlink:title="Scan"/>
+      <om:parameter>
+        <om:NamedValue>
+          <om:name xlink:href="http://www.opengis.net/def/param-name/OGC-OM/2.0/samplingGeometry"/>
+          <om:value xmlns:ns="http://www.opengis.net/gml/3.2" xsi:type="ns:GeometryPropertyType">
+            <ns:Point ns:id="point_BCB854735B68D3E3C36AAAD9B4386014C058DC51">
+              <ns:pos srsName="http://www.opengis.net/def/crs/EPSG/0/0">4.3690096404798 52.0024338288824</ns:pos>
+            </ns:Point>
+          </om:value>
+        </om:NamedValue>
+      </om:parameter>
+      <om:observedProperty xlink:href="mac_address" xlink:title="Mac"/>
+      <om:featureOfInterest xlink:href="A-31-0-039" xlink:title="A-31-0-039"/>
+      <om:result xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">8OZx8NngjYfymL/gdK4R8EmzGJ7AESgwVdfcTvNk1eg=</om:result>
+    </om:OM_Observation>
+  </sos:observationData>
+  <sos:observationData>
+    <om:OM_Observation gml:id="o_12">
+      <gml:description>description</gml:description>
+      <om:type xlink:href="http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_TextObservation"/>
+      <om:phenomenonTime>
+        <gml:TimePeriod gml:id="phenomenonTime_12">
+          <gml:beginPosition>2016-04-04T08:45:11.000Z</gml:beginPosition>
+          <gml:endPosition>2016-04-04T10:12:48.000Z</gml:endPosition>
+        </gml:TimePeriod>
+      </om:phenomenonTime>
+      <om:resultTime>
+        <gml:TimeInstant gml:id="ti_3D7898FCE23CCA3B18FBD081B98D426EBC167137">
+          <gml:timePosition>2016-04-04T10:12:48.000Z</gml:timePosition>
+        </gml:TimeInstant>
+      </om:resultTime>
+      <om:procedure xlink:href="wifi_access_point" xlink:title="Scan"/>
+      <om:parameter>
+        <om:NamedValue>
+          <om:name xlink:href="http://www.opengis.net/def/param-name/OGC-OM/2.0/samplingGeometry"/>
+          <om:value xmlns:ns="http://www.opengis.net/gml/3.2" xsi:type="ns:GeometryPropertyType">
+            <ns:Point ns:id="point_9547814D4EC793B5068E37CA4881CA8D1292679D">
+              <ns:pos srsName="http://www.opengis.net/def/crs/EPSG/0/0">4.37559467104233 51.9956676910073</ns:pos>
+            </ns:Point>
+          </om:value>
+        </om:NamedValue>
+      </om:parameter>
+      <om:observedProperty xlink:href="mac_address" xlink:title="Mac"/>
+      <om:featureOfInterest xlink:href="A-37-0-004" xlink:title="A-37-0-004"/>
+      <om:result xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">i0sxrQTUt34MWIn8YsuihnyyjUJchfibwi+3icirT20=</om:result>
+    </om:OM_Observation>
+  </sos:observationData>
+  <sos:observationData>
+    <om:OM_Observation gml:id="o_82">
+      <gml:description>description</gml:description>
+      <om:type xlink:href="http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_SWEArrayObservation"/>
+      <om:phenomenonTime>
+        <gml:TimePeriod gml:id="phenomenonTime_82">
+          <gml:beginPosition>2016-04-04T13:51:19.000Z</gml:beginPosition>
+          <gml:endPosition>2016-04-04T16:13:21.000Z</gml:endPosition>
+        </gml:TimePeriod>
+      </om:phenomenonTime>
+      <om:resultTime>
+        <gml:TimeInstant gml:id="ti_8A38CC1471D17787122567BBF4BF017F39B0CF8D">
+          <gml:timePosition>2016-04-04T14:48:44.000Z</gml:timePosition>
+        </gml:TimeInstant>
+      </om:resultTime>
+      <om:procedure xlink:href="wifi_access_point" xlink:title="Scan"/>
+      <om:parameter>
+        <om:NamedValue>
+          <om:name xlink:href="http://www.opengis.net/def/param-name/OGC-OM/2.0/samplingGeometry"/>
+          <om:value xmlns:ns="http://www.opengis.net/gml/3.2" xsi:type="ns:GeometryPropertyType">
+            <ns:Point ns:id="point_1BCB3C050390D21CD559C93283AD15DFBD01D51F">
+              <ns:pos srsName="http://www.opengis.net/def/crs/EPSG/0/0">4.37142624632561 52.0008242350308</ns:pos>
+            </ns:Point>
+          </om:value>
+        </om:NamedValue>
+      </om:parameter>
+      <om:observedProperty xlink:href="mac_address" xlink:title="Mac"/>
+      <om:featureOfInterest xlink:href="A-134-0-028" xlink:title="A-134-0-028"/>
+      <om:result xmlns:ns="http://www.opengis.net/swe/2.0" xsi:type="ns:DataArrayPropertyType">
+        <ns:DataArray>
+          <ns:elementCount>
+            <ns:Count>
+              <ns:value>3</ns:value>
+            </ns:Count>
+          </ns:elementCount>
+          <ns:elementType name="Components">
+            <ns:DataRecord>
+              <ns:field name="phenomenonTime">
+                <ns:TimeRange definition="http://www.opengis.net/def/property/OGC/0/PhenomenonTime">
+                  <ns:uom xlink:href="http://www.opengis.net/def/uom/ISO-8601/0/Gregorian"/>
+                </ns:TimeRange>
+              </ns:field>
+              <ns:field name="mac_address">
+                <ns:Text definition="mac_address"/>
+              </ns:field>
+            </ns:DataRecord>
+          </ns:elementType>
+          <ns:encoding>
+            <ns:TextEncoding blockSeparator="@@" decimalSeparator="." tokenSeparator=","/>
+          </ns:encoding>
+          <ns:values>2016-04-04T13:51:19.000Z/2016-04-04T14:48:44.000Z,ZR793mQT/degBrdgL5OhoOE7PndMoeYZI18lpf3qp54=@@2016-04-04T14:53:56.000Z/2016-04-04T15:25:12.000Z,ZR793mQT/degBrdgL5OhoOE7PndMoeYZI18lpf3qp54=@@2016-04-04T15:42:12.000Z/2016-04-04T16:13:21.000Z,ZR793mQT/degBrdgL5OhoOE7PndMoeYZI18lpf3qp54=</ns:values>
+        </ns:DataArray>
+      </om:result>
+    </om:OM_Observation>
+  </sos:observationData>
+  <sos:observationData>
+    <om:OM_Observation gml:id="o_39">
+      <gml:description>description</gml:description>
+      <om:type xlink:href="http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_SWEArrayObservation"/>
+      <om:phenomenonTime>
+        <gml:TimePeriod gml:id="phenomenonTime_39">
+          <gml:beginPosition>2016-04-04T11:05:16.000Z</gml:beginPosition>
+          <gml:endPosition>2016-04-04T14:38:14.000Z</gml:endPosition>
+        </gml:TimePeriod>
+      </om:phenomenonTime>
+      <om:resultTime>
+        <gml:TimeInstant gml:id="ti_60DB2813E406F04D7F3DB9C81C618CC95FFBD341">
+          <gml:timePosition>2016-04-04T11:10:27.000Z</gml:timePosition>
+        </gml:TimeInstant>
+      </om:resultTime>
+      <om:procedure xlink:href="wifi_access_point" xlink:title="Scan"/>
+      <om:parameter>
+        <om:NamedValue>
+          <om:name xlink:href="http://www.opengis.net/def/param-name/OGC-OM/2.0/samplingGeometry"/>
+          <om:value xmlns:ns="http://www.opengis.net/gml/3.2" xsi:type="ns:GeometryPropertyType">
+            <ns:Point ns:id="point_DF6EDA3AD2626E1954C093167A408BA06DFFEE98">
+              <ns:pos srsName="http://www.opengis.net/def/crs/EPSG/0/0">4.37550578727327 51.9988856445979</ns:pos>
+            </ns:Point>
+          </om:value>
+        </om:NamedValue>
+      </om:parameter>
+      <om:observedProperty xlink:href="mac_address" xlink:title="Mac"/>
+      <om:featureOfInterest xlink:href="A-23-0-029" xlink:title="A-23-0-029"/>
+      <om:result xmlns:ns="http://www.opengis.net/swe/2.0" xsi:type="ns:DataArrayPropertyType">
+        <ns:DataArray>
+          <ns:elementCount>
+            <ns:Count>
+              <ns:value>2</ns:value>
+            </ns:Count>
+          </ns:elementCount>
+          <ns:elementType name="Components">
+            <ns:DataRecord>
+              <ns:field name="phenomenonTime">
+                <ns:TimeRange definition="http://www.opengis.net/def/property/OGC/0/PhenomenonTime">
+                  <ns:uom xlink:href="http://www.opengis.net/def/uom/ISO-8601/0/Gregorian"/>
+                </ns:TimeRange>
+              </ns:field>
+              <ns:field name="mac_address">
+                <ns:Text definition="mac_address"/>
+              </ns:field>
+            </ns:DataRecord>
+          </ns:elementType>
+          <ns:encoding>
+            <ns:TextEncoding blockSeparator="@@" decimalSeparator="." tokenSeparator=","/>
+          </ns:encoding>
+          <ns:values>2016-04-04T11:05:16.000Z/2016-04-04T11:10:27.000Z,eyQgmhRLlQ+Q/rO5QJ9CRHVqggwSFsJBKKhyS+E2ja8=@@2016-04-04T14:17:21.000Z/2016-04-04T14:38:14.000Z,eyQgmhRLlQ+Q/rO5QJ9CRHVqggwSFsJBKKhyS+E2ja8=</ns:values>
+        </ns:DataArray>
+      </om:result>
+    </om:OM_Observation>
+  </sos:observationData>
+  <sos:observationData>
+    <om:OM_Observation gml:id="o_115">
+      <gml:description>description</gml:description>
+      <om:type xlink:href="http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_TextObservation"/>
+      <om:phenomenonTime>
+        <gml:TimePeriod gml:id="phenomenonTime_115">
+          <gml:beginPosition>2016-04-04T13:04:40.000Z</gml:beginPosition>
+          <gml:endPosition>2016-04-04T13:14:50.000Z</gml:endPosition>
+        </gml:TimePeriod>
+      </om:phenomenonTime>
+      <om:resultTime>
+        <gml:TimeInstant gml:id="ti_EFAC9EA7A40E26AB5E510A449D667D250BDEDFEF">
+          <gml:timePosition>2016-04-04T13:14:50.000Z</gml:timePosition>
+        </gml:TimeInstant>
+      </om:resultTime>
+      <om:procedure xlink:href="wifi_access_point" xlink:title="Scan"/>
+      <om:parameter>
+        <om:NamedValue>
+          <om:name xlink:href="http://www.opengis.net/def/param-name/OGC-OM/2.0/samplingGeometry"/>
+          <om:value xmlns:ns="http://www.opengis.net/gml/3.2" xsi:type="ns:GeometryPropertyType">
+            <ns:Point ns:id="point_BEA51175D63D85F4963B0DCCFE0192705319A487">
+              <ns:pos srsName="http://www.opengis.net/def/crs/EPSG/0/0">4.37053698152436 52.0056562098059</ns:pos>
+            </ns:Point>
+          </om:value>
+        </om:NamedValue>
+      </om:parameter>
+      <om:observedProperty xlink:href="mac_address" xlink:title="Mac"/>
+      <om:featureOfInterest xlink:href="A-08-E-201" xlink:title="A-08-E-201"/>
+      <om:result xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">ETFjt/s1CnRTBOFjh4GyjGUNYcuSZhEmbi2vYRrpFHc=</om:result>
+    </om:OM_Observation>
+  </sos:observationData>
+  <sos:observationData>
+    <om:OM_Observation gml:id="o_66">
+      <gml:description>description</gml:description>
+      <om:type xlink:href="http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_TextObservation"/>
+      <om:phenomenonTime>
+        <gml:TimePeriod gml:id="phenomenonTime_66">
+          <gml:beginPosition>2016-04-04T15:57:52.000Z</gml:beginPosition>
+          <gml:endPosition>2016-04-04T16:02:52.000Z</gml:endPosition>
+        </gml:TimePeriod>
+      </om:phenomenonTime>
+      <om:resultTime>
+        <gml:TimeInstant gml:id="ti_573049DCC0752C55109F00327AF5975B9CEE2712">
+          <gml:timePosition>2016-04-04T16:02:52.000Z</gml:timePosition>
+        </gml:TimeInstant>
+      </om:resultTime>
+      <om:procedure xlink:href="wifi_access_point" xlink:title="Scan"/>
+      <om:parameter>
+        <om:NamedValue>
+          <om:name xlink:href="http://www.opengis.net/def/param-name/OGC-OM/2.0/samplingGeometry"/>
+          <om:value xmlns:ns="http://www.opengis.net/gml/3.2" xsi:type="ns:GeometryPropertyType">
+            <ns:Point ns:id="point_384E07B35CF7FE64080D056E914EE870EC56FE88">
+              <ns:pos srsName="http://www.opengis.net/def/crs/EPSG/0/0">4.36891378927259 52.0040834950037</ns:pos>
+            </ns:Point>
+          </om:value>
+        </om:NamedValue>
+      </om:parameter>
+      <om:observedProperty xlink:href="mac_address" xlink:title="Mac"/>
+      <om:featureOfInterest xlink:href="A-12-0-050" xlink:title="A-12-0-050"/>
+      <om:result xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">F8C0TXvMYfYAP8qKtLmONf6+c9UuikYWoccV/o2Wcn0=</om:result>
+    </om:OM_Observation>
+  </sos:observationData>
+  <sos:observationData>
+    <om:OM_Observation gml:id="o_79">
+      <gml:description>description</gml:description>
+      <om:type xlink:href="http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_TextObservation"/>
+      <om:phenomenonTime>
+        <gml:TimePeriod gml:id="phenomenonTime_79">
+          <gml:beginPosition>2016-04-04T23:21:02.000Z</gml:beginPosition>
+          <gml:endPosition>2016-04-04T23:26:02.000Z</gml:endPosition>
+        </gml:TimePeriod>
+      </om:phenomenonTime>
+      <om:resultTime>
+        <gml:TimeInstant gml:id="ti_C66ADBF28677DE345DD4EC4A9BB21494F3E3267A">
+          <gml:timePosition>2016-04-04T23:26:02.000Z</gml:timePosition>
+        </gml:TimeInstant>
+      </om:resultTime>
+      <om:procedure xlink:href="wifi_access_point" xlink:title="Scan"/>
+      <om:parameter>
+        <om:NamedValue>
+          <om:name xlink:href="http://www.opengis.net/def/param-name/OGC-OM/2.0/samplingGeometry"/>
+          <om:value xmlns:ns="http://www.opengis.net/gml/3.2" xsi:type="ns:GeometryPropertyType">
+            <ns:Point ns:id="point_F573C27758587DC12DE2AE3C297D3D74D7D7A609">
+              <ns:pos srsName="http://www.opengis.net/def/crs/EPSG/0/0">4.3690096404798 52.0024338288824</ns:pos>
+            </ns:Point>
+          </om:value>
+        </om:NamedValue>
+      </om:parameter>
+      <om:observedProperty xlink:href="mac_address" xlink:title="Mac"/>
+      <om:featureOfInterest xlink:href="A-31-0-024" xlink:title="A-31-0-024"/>
+      <om:result xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">9UHpulunuwjd6LKyJ5vNPr5D2hYtO2nZkOAaHVlc+1s=</om:result>
+    </om:OM_Observation>
+  </sos:observationData>
+  <sos:observationData>
+    <om:OM_Observation gml:id="o_17">
+      <gml:description>description</gml:description>
+      <om:type xlink:href="http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_SWEArrayObservation"/>
+      <om:phenomenonTime>
+        <gml:TimePeriod gml:id="phenomenonTime_17">
+          <gml:beginPosition>2016-04-04T11:15:39.000Z</gml:beginPosition>
+          <gml:endPosition>2016-04-04T18:22:30.000Z</gml:endPosition>
+        </gml:TimePeriod>
+      </om:phenomenonTime>
+      <om:resultTime>
+        <gml:TimeInstant gml:id="ti_0E36863B23008FFDEC323AE97BEA4A394238B818">
+          <gml:timePosition>2016-04-04T12:12:49.000Z</gml:timePosition>
+        </gml:TimeInstant>
+      </om:resultTime>
+      <om:procedure xlink:href="wifi_access_point" xlink:title="Scan"/>
+      <om:parameter>
+        <om:NamedValue>
+          <om:name xlink:href="http://www.opengis.net/def/param-name/OGC-OM/2.0/samplingGeometry"/>
+          <om:value xmlns:ns="http://www.opengis.net/gml/3.2" xsi:type="ns:GeometryPropertyType">
+            <ns:Point ns:id="point_A19313D4549975DC59E91032B60978DB3D6EBC8F">
+              <ns:pos srsName="http://www.opengis.net/def/crs/EPSG/0/0">4.37053698152436 52.0056562098059</ns:pos>
+            </ns:Point>
+          </om:value>
+        </om:NamedValue>
+      </om:parameter>
+      <om:observedProperty xlink:href="mac_address" xlink:title="Mac"/>
+      <om:featureOfInterest xlink:href="A-08-F-102" xlink:title="A-08-F-102"/>
+      <om:result xmlns:ns="http://www.opengis.net/swe/2.0" xsi:type="ns:DataArrayPropertyType">
+        <ns:DataArray>
+          <ns:elementCount>
+            <ns:Count>
+              <ns:value>2</ns:value>
+            </ns:Count>
+          </ns:elementCount>
+          <ns:elementType name="Components">
+            <ns:DataRecord>
+              <ns:field name="phenomenonTime">
+                <ns:TimeRange definition="http://www.opengis.net/def/property/OGC/0/PhenomenonTime">
+                  <ns:uom xlink:href="http://www.opengis.net/def/uom/ISO-8601/0/Gregorian"/>
+                </ns:TimeRange>
+              </ns:field>
+              <ns:field name="mac_address">
+                <ns:Text definition="mac_address"/>
+              </ns:field>
+            </ns:DataRecord>
+          </ns:elementType>
+          <ns:encoding>
+            <ns:TextEncoding blockSeparator="@@" decimalSeparator="." tokenSeparator=","/>
+          </ns:encoding>
+          <ns:values>2016-04-04T11:15:39.000Z/2016-04-04T12:12:49.000Z,i0sxrQTUt34MWIn8YsuihnyyjUJchfibwi+3icirT20=@@2016-04-04T17:16:11.000Z/2016-04-04T18:22:30.000Z,i0sxrQTUt34MWIn8YsuihnyyjUJchfibwi+3icirT20=</ns:values>
+        </ns:DataArray>
+      </om:result>
+    </om:OM_Observation>
+  </sos:observationData>
+  <sos:observationData>
+    <om:OM_Observation gml:id="o_97">
+      <gml:description>description</gml:description>
+      <om:type xlink:href="http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_TextObservation"/>
+      <om:phenomenonTime>
+        <gml:TimePeriod gml:id="phenomenonTime_97">
+          <gml:beginPosition>2016-04-04T11:10:27.000Z</gml:beginPosition>
+          <gml:endPosition>2016-04-04T11:36:26.000Z</gml:endPosition>
+        </gml:TimePeriod>
+      </om:phenomenonTime>
+      <om:resultTime>
+        <gml:TimeInstant gml:id="ti_915407E2DCFAFF989CB47B55918C6030CE53C2C4">
+          <gml:timePosition>2016-04-04T11:36:26.000Z</gml:timePosition>
+        </gml:TimeInstant>
+      </om:resultTime>
+      <om:procedure xlink:href="wifi_access_point" xlink:title="Scan"/>
+      <om:parameter>
+        <om:NamedValue>
+          <om:name xlink:href="http://www.opengis.net/def/param-name/OGC-OM/2.0/samplingGeometry"/>
+          <om:value xmlns:ns="http://www.opengis.net/gml/3.2" xsi:type="ns:GeometryPropertyType">
+            <ns:Point ns:id="point_47C9E0FE80D5115CFADDE12AA98596CDC9525E20">
+              <ns:pos srsName="http://www.opengis.net/def/crs/EPSG/0/0">4.36951442415562 52.0015085932109</ns:pos>
+            </ns:Point>
+          </om:value>
+        </om:NamedValue>
+      </om:parameter>
+      <om:observedProperty xlink:href="mac_address" xlink:title="Mac"/>
+      <om:featureOfInterest xlink:href="A-132-0-051" xlink:title="A-132-0-051"/>
+      <om:result xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">W8cTUDrM2FbpbU8Iagu2F5z0BwhISyK/eB0gdyubO/I=</om:result>
+    </om:OM_Observation>
+  </sos:observationData>
+  <sos:observationData>
+    <om:OM_Observation gml:id="o_6">
+      <gml:description>description</gml:description>
+      <om:type xlink:href="http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_TextObservation"/>
+      <om:phenomenonTime>
+        <gml:TimePeriod gml:id="phenomenonTime_6">
+          <gml:beginPosition>2016-04-04T18:32:39.000Z</gml:beginPosition>
+          <gml:endPosition>2016-04-04T18:37:39.000Z</gml:endPosition>
+        </gml:TimePeriod>
+      </om:phenomenonTime>
+      <om:resultTime>
+        <gml:TimeInstant gml:id="ti_6945D45D870F4BC91F7CDF67C8FDA70A07651701">
+          <gml:timePosition>2016-04-04T18:37:39.000Z</gml:timePosition>
+        </gml:TimeInstant>
+      </om:resultTime>
+      <om:procedure xlink:href="wifi_access_point" xlink:title="Scan"/>
+      <om:parameter>
+        <om:NamedValue>
+          <om:name xlink:href="http://www.opengis.net/def/param-name/OGC-OM/2.0/samplingGeometry"/>
+          <om:value xmlns:ns="http://www.opengis.net/gml/3.2" xsi:type="ns:GeometryPropertyType">
+            <ns:Point ns:id="point_71E3D9B7BEEDC3D9CF6BBAF9B356AF416A2E7689">
+              <ns:pos srsName="http://www.opengis.net/def/crs/EPSG/0/0">4.37041133388247 52.0038354674135</ns:pos>
+            </ns:Point>
+          </om:value>
+        </om:NamedValue>
+      </om:parameter>
+      <om:observedProperty xlink:href="mac_address" xlink:title="Mac"/>
+      <om:featureOfInterest xlink:href="A-12-0-109" xlink:title="A-12-0-109"/>
+      <om:result xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">hJQOPV5UH1bGueYGNNTzKrmDLzpRRtRpZYY984UUGC0=</om:result>
+    </om:OM_Observation>
+  </sos:observationData>
+  <sos:observationData>
+    <om:OM_Observation gml:id="o_9">
+      <gml:description>description</gml:description>
+      <om:type xlink:href="http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_TextObservation"/>
+      <om:phenomenonTime>
+        <gml:TimePeriod gml:id="phenomenonTime_9">
+          <gml:beginPosition>2016-04-04T01:34:20.000Z</gml:beginPosition>
+          <gml:endPosition>2016-04-04T01:39:20.000Z</gml:endPosition>
+        </gml:TimePeriod>
+      </om:phenomenonTime>
+      <om:resultTime>
+        <gml:TimeInstant gml:id="ti_C4C5792A881A5F883BB612DB89528C3332C64B45">
+          <gml:timePosition>2016-04-04T01:39:20.000Z</gml:timePosition>
+        </gml:TimeInstant>
+      </om:resultTime>
+      <om:procedure xlink:href="wifi_access_point" xlink:title="Scan"/>
+      <om:parameter>
+        <om:NamedValue>
+          <om:name xlink:href="http://www.opengis.net/def/param-name/OGC-OM/2.0/samplingGeometry"/>
+          <om:value xmlns:ns="http://www.opengis.net/gml/3.2" xsi:type="ns:GeometryPropertyType">
+            <ns:Point ns:id="point_1280B029377487EDCD36E2025014B17F2C40850E">
+              <ns:pos srsName="http://www.opengis.net/def/crs/EPSG/0/0">4.37355252109371 52.0022144047065</ns:pos>
+            </ns:Point>
+          </om:value>
+        </om:NamedValue>
+      </om:parameter>
+      <om:observedProperty xlink:href="mac_address" xlink:title="Mac"/>
+      <om:featureOfInterest xlink:href="A-20-0-044" xlink:title="A-20-0-044"/>
+      <om:result xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">i0sxrQTUt34MWIn8YsuihnyyjUJchfibwi+3icirT20=</om:result>
+    </om:OM_Observation>
+  </sos:observationData>
+  <sos:observationData>
+    <om:OM_Observation gml:id="o_108">
+      <gml:description>description</gml:description>
+      <om:type xlink:href="http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_TextObservation"/>
+      <om:phenomenonTime>
+        <gml:TimePeriod gml:id="phenomenonTime_108">
+          <gml:beginPosition>2016-04-04T15:42:12.000Z</gml:beginPosition>
+          <gml:endPosition>2016-04-04T15:52:25.000Z</gml:endPosition>
+        </gml:TimePeriod>
+      </om:phenomenonTime>
+      <om:resultTime>
+        <gml:TimeInstant gml:id="ti_3223B813C3E6407FDDAA3E41D2E00C739EA93F31">
+          <gml:timePosition>2016-04-04T15:52:25.000Z</gml:timePosition>
+        </gml:TimeInstant>
+      </om:resultTime>
+      <om:procedure xlink:href="wifi_access_point" xlink:title="Scan"/>
+      <om:parameter>
+        <om:NamedValue>
+          <om:name xlink:href="http://www.opengis.net/def/param-name/OGC-OM/2.0/samplingGeometry"/>
+          <om:value xmlns:ns="http://www.opengis.net/gml/3.2" xsi:type="ns:GeometryPropertyType">
+            <ns:Point ns:id="point_F9C002907C9391EBA304F1E631FE2C23E7F0C6ED">
+              <ns:pos srsName="http://www.opengis.net/def/crs/EPSG/0/0">4.37142624632561 52.0008242350308</ns:pos>
+            </ns:Point>
+          </om:value>
+        </om:NamedValue>
+      </om:parameter>
+      <om:observedProperty xlink:href="mac_address" xlink:title="Mac"/>
+      <om:featureOfInterest xlink:href="A-134-0-039" xlink:title="A-134-0-039"/>
+      <om:result xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">W8cTUDrM2FbpbU8Iagu2F5z0BwhISyK/eB0gdyubO/I=</om:result>
+    </om:OM_Observation>
+  </sos:observationData>
+  <sos:observationData>
+    <om:OM_Observation gml:id="o_60">
+      <gml:description>description</gml:description>
+      <om:type xlink:href="http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_TextObservation"/>
+      <om:phenomenonTime>
+        <gml:TimePeriod gml:id="phenomenonTime_60">
+          <gml:beginPosition>2016-04-04T08:45:11.000Z</gml:beginPosition>
+          <gml:endPosition>2016-04-04T08:50:15.000Z</gml:endPosition>
+        </gml:TimePeriod>
+      </om:phenomenonTime>
+      <om:resultTime>
+        <gml:TimeInstant gml:id="ti_5D28BC005453CF34EAF2A7609E2D52FC184DE31B">
+          <gml:timePosition>2016-04-04T08:50:15.000Z</gml:timePosition>
+        </gml:TimeInstant>
+      </om:resultTime>
+      <om:procedure xlink:href="wifi_access_point" xlink:title="Scan"/>
+      <om:parameter>
+        <om:NamedValue>
+          <om:name xlink:href="http://www.opengis.net/def/param-name/OGC-OM/2.0/samplingGeometry"/>
+          <om:value xmlns:ns="http://www.opengis.net/gml/3.2" xsi:type="ns:GeometryPropertyType">
+            <ns:Point ns:id="point_F265DA86951B29D4AC7D283AC42413B6E2EE1500">
+              <ns:pos srsName="http://www.opengis.net/def/crs/EPSG/0/0">4.37346394905794 51.9988525836389</ns:pos>
+            </ns:Point>
+          </om:value>
+        </om:NamedValue>
+      </om:parameter>
+      <om:observedProperty xlink:href="mac_address" xlink:title="Mac"/>
+      <om:featureOfInterest xlink:href="A-36-0-027" xlink:title="A-36-0-027"/>
+      <om:result xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">F8C0TXvMYfYAP8qKtLmONf6+c9UuikYWoccV/o2Wcn0=</om:result>
+    </om:OM_Observation>
+  </sos:observationData>
+  <sos:observationData>
+    <om:OM_Observation gml:id="o_72">
+      <gml:description>description</gml:description>
+      <om:type xlink:href="http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_SWEArrayObservation"/>
+      <om:phenomenonTime>
+        <gml:TimePeriod gml:id="phenomenonTime_72">
+          <gml:beginPosition>2016-04-04T12:07:38.000Z</gml:beginPosition>
+          <gml:endPosition>2016-04-04T12:23:13.000Z</gml:endPosition>
+        </gml:TimePeriod>
+      </om:phenomenonTime>
+      <om:resultTime>
+        <gml:TimeInstant gml:id="ti_FED0DB75284C2D2D086E1F882C7668BAAD655C74">
+          <gml:timePosition>2016-04-04T12:12:50.000Z</gml:timePosition>
+        </gml:TimeInstant>
+      </om:resultTime>
+      <om:procedure xlink:href="wifi_access_point" xlink:title="Scan"/>
+      <om:parameter>
+        <om:NamedValue>
+          <om:name xlink:href="http://www.opengis.net/def/param-name/OGC-OM/2.0/samplingGeometry"/>
+          <om:value xmlns:ns="http://www.opengis.net/gml/3.2" xsi:type="ns:GeometryPropertyType">
+            <ns:Point ns:id="point_5F96D64459D6296858BAF99B6955D8C82898A8BB">
+              <ns:pos srsName="http://www.opengis.net/def/crs/EPSG/0/0">4.3690096404798 52.0024338288824</ns:pos>
+            </ns:Point>
+          </om:value>
+        </om:NamedValue>
+      </om:parameter>
+      <om:observedProperty xlink:href="mac_address" xlink:title="Mac"/>
+      <om:featureOfInterest xlink:href="A-31-0-012" xlink:title="A-31-0-012"/>
+      <om:result xmlns:ns="http://www.opengis.net/swe/2.0" xsi:type="ns:DataArrayPropertyType">
+        <ns:DataArray>
+          <ns:elementCount>
+            <ns:Count>
+              <ns:value>2</ns:value>
+            </ns:Count>
+          </ns:elementCount>
+          <ns:elementType name="Components">
+            <ns:DataRecord>
+              <ns:field name="phenomenonTime">
+                <ns:TimeRange definition="http://www.opengis.net/def/property/OGC/0/PhenomenonTime">
+                  <ns:uom xlink:href="http://www.opengis.net/def/uom/ISO-8601/0/Gregorian"/>
+                </ns:TimeRange>
+              </ns:field>
+              <ns:field name="mac_address">
+                <ns:Text definition="mac_address"/>
+              </ns:field>
+            </ns:DataRecord>
+          </ns:elementType>
+          <ns:encoding>
+            <ns:TextEncoding blockSeparator="@@" decimalSeparator="." tokenSeparator=","/>
+          </ns:encoding>
+          <ns:values>2016-04-04T12:07:38.000Z/2016-04-04T12:12:50.000Z,9UHpulunuwjd6LKyJ5vNPr5D2hYtO2nZkOAaHVlc+1s=@@2016-04-04T12:18:02.000Z/2016-04-04T12:23:13.000Z,9UHpulunuwjd6LKyJ5vNPr5D2hYtO2nZkOAaHVlc+1s=</ns:values>
+        </ns:DataArray>
+      </om:result>
+    </om:OM_Observation>
+  </sos:observationData>
+  <sos:observationData>
+    <om:OM_Observation gml:id="o_88">
+      <gml:description>description</gml:description>
+      <om:type xlink:href="http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_TextObservation"/>
+      <om:phenomenonTime>
+        <gml:TimePeriod gml:id="phenomenonTime_88">
+          <gml:beginPosition>2016-04-04T18:17:26.000Z</gml:beginPosition>
+          <gml:endPosition>2016-04-04T18:27:34.000Z</gml:endPosition>
+        </gml:TimePeriod>
+      </om:phenomenonTime>
+      <om:resultTime>
+        <gml:TimeInstant gml:id="ti_6832433D5D0A7378282F3930FFE27E8F50739BB6">
+          <gml:timePosition>2016-04-04T18:27:34.000Z</gml:timePosition>
+        </gml:TimeInstant>
+      </om:resultTime>
+      <om:procedure xlink:href="wifi_access_point" xlink:title="Scan"/>
+      <om:parameter>
+        <om:NamedValue>
+          <om:name xlink:href="http://www.opengis.net/def/param-name/OGC-OM/2.0/samplingGeometry"/>
+          <om:value xmlns:ns="http://www.opengis.net/gml/3.2" xsi:type="ns:GeometryPropertyType">
+            <ns:Point ns:id="point_9743FD5174E31DEAF4F555521477CCC57D1353A2">
+              <ns:pos srsName="http://www.opengis.net/def/crs/EPSG/0/0">4.3690096404798 52.0024338288824</ns:pos>
+            </ns:Point>
+          </om:value>
+        </om:NamedValue>
+      </om:parameter>
+      <om:observedProperty xlink:href="mac_address" xlink:title="Mac"/>
+      <om:featureOfInterest xlink:href="A-31-0-050" xlink:title="A-31-0-050"/>
+      <om:result xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">8OZx8NngjYfymL/gdK4R8EmzGJ7AESgwVdfcTvNk1eg=</om:result>
+    </om:OM_Observation>
+  </sos:observationData>
+  <sos:observationData>
+    <om:OM_Observation gml:id="o_13">
+      <gml:description>description</gml:description>
+      <om:type xlink:href="http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_TextObservation"/>
+      <om:phenomenonTime>
+        <gml:TimePeriod gml:id="phenomenonTime_13">
+          <gml:beginPosition>2016-04-04T10:12:49.000Z</gml:beginPosition>
+          <gml:endPosition>2016-04-04T10:18:00.000Z</gml:endPosition>
+        </gml:TimePeriod>
+      </om:phenomenonTime>
+      <om:resultTime>
+        <gml:TimeInstant gml:id="ti_4EC24C991A95C90617F929C6C2811502DC194B83">
+          <gml:timePosition>2016-04-04T10:18:00.000Z</gml:timePosition>
+        </gml:TimeInstant>
+      </om:resultTime>
+      <om:procedure xlink:href="wifi_access_point" xlink:title="Scan"/>
+      <om:parameter>
+        <om:NamedValue>
+          <om:name xlink:href="http://www.opengis.net/def/param-name/OGC-OM/2.0/samplingGeometry"/>
+          <om:value xmlns:ns="http://www.opengis.net/gml/3.2" xsi:type="ns:GeometryPropertyType">
+            <ns:Point ns:id="point_4370C109F090B9547FCD767385AF2DB30352A94A">
+              <ns:pos srsName="http://www.opengis.net/def/crs/EPSG/0/0">4.37559467104233 51.9956676910073</ns:pos>
+            </ns:Point>
+          </om:value>
+        </om:NamedValue>
+      </om:parameter>
+      <om:observedProperty xlink:href="mac_address" xlink:title="Mac"/>
+      <om:featureOfInterest xlink:href="A-37-0-001" xlink:title="A-37-0-001"/>
+      <om:result xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">i0sxrQTUt34MWIn8YsuihnyyjUJchfibwi+3icirT20=</om:result>
+    </om:OM_Observation>
+  </sos:observationData>
+  <sos:observationData>
+    <om:OM_Observation gml:id="o_3">
+      <gml:description>description</gml:description>
+      <om:type xlink:href="http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_SWEArrayObservation"/>
+      <om:phenomenonTime>
+        <gml:TimePeriod gml:id="phenomenonTime_3">
+          <gml:beginPosition>2016-04-04T12:02:26.000Z</gml:beginPosition>
+          <gml:endPosition>2016-04-04T18:27:34.000Z</gml:endPosition>
+        </gml:TimePeriod>
+      </om:phenomenonTime>
+      <om:resultTime>
+        <gml:TimeInstant gml:id="ti_F662A6FE159BBF35C46DFE44992372B26898DCCB">
+          <gml:timePosition>2016-04-04T15:31:31.000Z</gml:timePosition>
+        </gml:TimeInstant>
+      </om:resultTime>
+      <om:procedure xlink:href="wifi_access_point" xlink:title="Scan"/>
+      <om:parameter>
+        <om:NamedValue>
+          <om:name xlink:href="http://www.opengis.net/def/param-name/OGC-OM/2.0/samplingGeometry"/>
+          <om:value xmlns:ns="http://www.opengis.net/gml/3.2" xsi:type="ns:GeometryPropertyType">
+            <ns:Point ns:id="point_57A9B04558F760726608788E5E91C214A4B189F8">
+              <ns:pos srsName="http://www.opengis.net/def/crs/EPSG/0/0">4.37096071809295 52.0028218180504</ns:pos>
+            </ns:Point>
+          </om:value>
+        </om:NamedValue>
+      </om:parameter>
+      <om:observedProperty xlink:href="mac_address" xlink:title="Mac"/>
+      <om:featureOfInterest xlink:href="A-30-0-040" xlink:title="A-30-0-040"/>
+      <om:result xmlns:ns="http://www.opengis.net/swe/2.0" xsi:type="ns:DataArrayPropertyType">
+        <ns:DataArray>
+          <ns:elementCount>
+            <ns:Count>
+              <ns:value>2</ns:value>
+            </ns:Count>
+          </ns:elementCount>
+          <ns:elementType name="Components">
+            <ns:DataRecord>
+              <ns:field name="phenomenonTime">
+                <ns:TimeRange definition="http://www.opengis.net/def/property/OGC/0/PhenomenonTime">
+                  <ns:uom xlink:href="http://www.opengis.net/def/uom/ISO-8601/0/Gregorian"/>
+                </ns:TimeRange>
+              </ns:field>
+              <ns:field name="mac_address">
+                <ns:Text definition="mac_address"/>
+              </ns:field>
+            </ns:DataRecord>
+          </ns:elementType>
+          <ns:encoding>
+            <ns:TextEncoding blockSeparator="@@" decimalSeparator="." tokenSeparator=","/>
+          </ns:encoding>
+          <ns:values>2016-04-04T12:02:26.000Z/2016-04-04T15:31:31.000Z,hJQOPV5UH1bGueYGNNTzKrmDLzpRRtRpZYY984UUGC0=@@2016-04-04T15:36:59.000Z/2016-04-04T18:27:34.000Z,hJQOPV5UH1bGueYGNNTzKrmDLzpRRtRpZYY984UUGC0=</ns:values>
+        </ns:DataArray>
+      </om:result>
+    </om:OM_Observation>
+  </sos:observationData>
+  <sos:observationData>
+    <om:OM_Observation gml:id="o_44">
+      <gml:description>description</gml:description>
+      <om:type xlink:href="http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_TextObservation"/>
+      <om:phenomenonTime>
+        <gml:TimePeriod gml:id="phenomenonTime_44">
+          <gml:beginPosition>2016-04-04T12:59:29.000Z</gml:beginPosition>
+          <gml:endPosition>2016-04-04T13:04:39.000Z</gml:endPosition>
+        </gml:TimePeriod>
+      </om:phenomenonTime>
+      <om:resultTime>
+        <gml:TimeInstant gml:id="ti_8BB678B01B9BE8BCF2518B3A47EBCE98F6C1B07E">
+          <gml:timePosition>2016-04-04T13:04:39.000Z</gml:timePosition>
+        </gml:TimeInstant>
+      </om:resultTime>
+      <om:procedure xlink:href="wifi_access_point" xlink:title="Scan"/>
+      <om:parameter>
+        <om:NamedValue>
+          <om:name xlink:href="http://www.opengis.net/def/param-name/OGC-OM/2.0/samplingGeometry"/>
+          <om:value xmlns:ns="http://www.opengis.net/gml/3.2" xsi:type="ns:GeometryPropertyType">
+            <ns:Point ns:id="point_E16234D760B14BD2E1AAC75A86D51E952A6021FE">
+              <ns:pos srsName="http://www.opengis.net/def/crs/EPSG/0/0">4.37550578727327 51.9988856445979</ns:pos>
+            </ns:Point>
+          </om:value>
+        </om:NamedValue>
+      </om:parameter>
+      <om:observedProperty xlink:href="mac_address" xlink:title="Mac"/>
+      <om:featureOfInterest xlink:href="A-23-0-026" xlink:title="A-23-0-026"/>
+      <om:result xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">eyQgmhRLlQ+Q/rO5QJ9CRHVqggwSFsJBKKhyS+E2ja8=</om:result>
+    </om:OM_Observation>
+  </sos:observationData>
+  <sos:observationData>
+    <om:OM_Observation gml:id="o_67">
+      <gml:description>description</gml:description>
+      <om:type xlink:href="http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_SWEArrayObservation"/>
+      <om:phenomenonTime>
+        <gml:TimePeriod gml:id="phenomenonTime_67">
+          <gml:beginPosition>2016-04-04T09:20:48.000Z</gml:beginPosition>
+          <gml:endPosition>2016-04-04T20:54:29.000Z</gml:endPosition>
+        </gml:TimePeriod>
+      </om:phenomenonTime>
+      <om:resultTime>
+        <gml:TimeInstant gml:id="ti_318DE2698F17B128624EA2516566C850637C1459">
+          <gml:timePosition>2016-04-04T09:25:54.000Z</gml:timePosition>
+        </gml:TimeInstant>
+      </om:resultTime>
+      <om:procedure xlink:href="wifi_access_point" xlink:title="Scan"/>
+      <om:parameter>
+        <om:NamedValue>
+          <om:name xlink:href="http://www.opengis.net/def/param-name/OGC-OM/2.0/samplingGeometry"/>
+          <om:value xmlns:ns="http://www.opengis.net/gml/3.2" xsi:type="ns:GeometryPropertyType">
+            <ns:Point ns:id="point_9A06A581DBF2D544671E5BCC7A50C691DB5013D9">
+              <ns:pos srsName="http://www.opengis.net/def/crs/EPSG/0/0">4.3690096404798 52.0024338288824</ns:pos>
+            </ns:Point>
+          </om:value>
+        </om:NamedValue>
+      </om:parameter>
+      <om:observedProperty xlink:href="mac_address" xlink:title="Mac"/>
+      <om:featureOfInterest xlink:href="A-31-0-005" xlink:title="A-31-0-005"/>
+      <om:result xmlns:ns="http://www.opengis.net/swe/2.0" xsi:type="ns:DataArrayPropertyType">
+        <ns:DataArray>
+          <ns:elementCount>
+            <ns:Count>
+              <ns:value>3</ns:value>
+            </ns:Count>
+          </ns:elementCount>
+          <ns:elementType name="Components">
+            <ns:DataRecord>
+              <ns:field name="phenomenonTime">
+                <ns:TimeRange definition="http://www.opengis.net/def/property/OGC/0/PhenomenonTime">
+                  <ns:uom xlink:href="http://www.opengis.net/def/uom/ISO-8601/0/Gregorian"/>
+                </ns:TimeRange>
+              </ns:field>
+              <ns:field name="mac_address">
+                <ns:Text definition="mac_address"/>
+              </ns:field>
+            </ns:DataRecord>
+          </ns:elementType>
+          <ns:encoding>
+            <ns:TextEncoding blockSeparator="@@" decimalSeparator="." tokenSeparator=","/>
+          </ns:encoding>
+          <ns:values>2016-04-04T09:20:48.000Z/2016-04-04T09:25:54.000Z,9UHpulunuwjd6LKyJ5vNPr5D2hYtO2nZkOAaHVlc+1s=@@2016-04-04T09:36:09.000Z/2016-04-04T11:31:14.000Z,9UHpulunuwjd6LKyJ5vNPr5D2hYtO2nZkOAaHVlc+1s=@@2016-04-04T20:34:12.000Z/2016-04-04T20:54:29.000Z,9UHpulunuwjd6LKyJ5vNPr5D2hYtO2nZkOAaHVlc+1s=</ns:values>
+        </ns:DataArray>
+      </om:result>
+    </om:OM_Observation>
+  </sos:observationData>
+  <sos:observationData>
+    <om:OM_Observation gml:id="o_90">
+      <gml:description>description</gml:description>
+      <om:type xlink:href="http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_TextObservation"/>
+      <om:phenomenonTime>
+        <gml:TimePeriod gml:id="phenomenonTime_90">
+          <gml:beginPosition>2016-04-04T19:13:07.000Z</gml:beginPosition>
+          <gml:endPosition>2016-04-04T19:23:13.000Z</gml:endPosition>
+        </gml:TimePeriod>
+      </om:phenomenonTime>
+      <om:resultTime>
+        <gml:TimeInstant gml:id="ti_EAA757AF0FBCFA115444A13A0F019B1B54D09E0D">
+          <gml:timePosition>2016-04-04T19:23:13.000Z</gml:timePosition>
+        </gml:TimeInstant>
+      </om:resultTime>
+      <om:procedure xlink:href="wifi_access_point" xlink:title="Scan"/>
+      <om:parameter>
+        <om:NamedValue>
+          <om:name xlink:href="http://www.opengis.net/def/param-name/OGC-OM/2.0/samplingGeometry"/>
+          <om:value xmlns:ns="http://www.opengis.net/gml/3.2" xsi:type="ns:GeometryPropertyType">
+            <ns:Point ns:id="point_44D44A5D2FF4E94F5747B79A77A7A151228F0288">
+              <ns:pos srsName="http://www.opengis.net/def/crs/EPSG/0/0">4.3690096404798 52.0024338288824</ns:pos>
+            </ns:Point>
+          </om:value>
+        </om:NamedValue>
+      </om:parameter>
+      <om:observedProperty xlink:href="mac_address" xlink:title="Mac"/>
+      <om:featureOfInterest xlink:href="A-31-0-028" xlink:title="A-31-0-028"/>
+      <om:result xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">8OZx8NngjYfymL/gdK4R8EmzGJ7AESgwVdfcTvNk1eg=</om:result>
+    </om:OM_Observation>
+  </sos:observationData>
+  <sos:observationData>
+    <om:OM_Observation gml:id="o_7">
+      <gml:description>description</gml:description>
+      <om:type xlink:href="http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_TextObservation"/>
+      <om:phenomenonTime>
+        <gml:TimePeriod gml:id="phenomenonTime_7">
+          <gml:beginPosition>2016-04-04T00:54:09.000Z</gml:beginPosition>
+          <gml:endPosition>2016-04-04T01:24:18.000Z</gml:endPosition>
+        </gml:TimePeriod>
+      </om:phenomenonTime>
+      <om:resultTime>
+        <gml:TimeInstant gml:id="ti_DCBD2B43E828ACFAFC67D8BC7573DD2C542FAA90">
+          <gml:timePosition>2016-04-04T01:24:18.000Z</gml:timePosition>
+        </gml:TimeInstant>
+      </om:resultTime>
+      <om:procedure xlink:href="wifi_access_point" xlink:title="Scan"/>
+      <om:parameter>
+        <om:NamedValue>
+          <om:name xlink:href="http://www.opengis.net/def/param-name/OGC-OM/2.0/samplingGeometry"/>
+          <om:value xmlns:ns="http://www.opengis.net/gml/3.2" xsi:type="ns:GeometryPropertyType">
+            <ns:Point ns:id="point_C624FB38839B606260ABBE2F1697209E548F9E5C">
+              <ns:pos srsName="http://www.opengis.net/def/crs/EPSG/0/0">4.37558001672138 52.0026454610105</ns:pos>
+            </ns:Point>
+          </om:value>
+        </om:NamedValue>
+      </om:parameter>
+      <om:observedProperty xlink:href="mac_address" xlink:title="Mac"/>
+      <om:featureOfInterest xlink:href="A-21-0-062" xlink:title="A-21-0-062"/>
+      <om:result xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">i0sxrQTUt34MWIn8YsuihnyyjUJchfibwi+3icirT20=</om:result>
+    </om:OM_Observation>
+  </sos:observationData>
+  <sos:observationData>
+    <om:OM_Observation gml:id="o_15">
+      <gml:description>description</gml:description>
+      <om:type xlink:href="http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_TextObservation"/>
+      <om:phenomenonTime>
+        <gml:TimePeriod gml:id="phenomenonTime_15">
+          <gml:beginPosition>2016-04-04T10:33:52.000Z</gml:beginPosition>
+          <gml:endPosition>2016-04-04T10:39:04.000Z</gml:endPosition>
+        </gml:TimePeriod>
+      </om:phenomenonTime>
+      <om:resultTime>
+        <gml:TimeInstant gml:id="ti_AF5165FA5456983076D029C320CB86B8F653E2AF">
+          <gml:timePosition>2016-04-04T10:39:04.000Z</gml:timePosition>
+        </gml:TimeInstant>
+      </om:resultTime>
+      <om:procedure xlink:href="wifi_access_point" xlink:title="Scan"/>
+      <om:parameter>
+        <om:NamedValue>
+          <om:name xlink:href="http://www.opengis.net/def/param-name/OGC-OM/2.0/samplingGeometry"/>
+          <om:value xmlns:ns="http://www.opengis.net/gml/3.2" xsi:type="ns:GeometryPropertyType">
+            <ns:Point ns:id="point_3624925B059A3C972D41370E6D7770AD74FDC490">
+              <ns:pos srsName="http://www.opengis.net/def/crs/EPSG/0/0">4.37053698152436 52.0056562098059</ns:pos>
+            </ns:Point>
+          </om:value>
+        </om:NamedValue>
+      </om:parameter>
+      <om:observedProperty xlink:href="mac_address" xlink:title="Mac"/>
+      <om:featureOfInterest xlink:href="A-08-G-103" xlink:title="A-08-G-103"/>
+      <om:result xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">i0sxrQTUt34MWIn8YsuihnyyjUJchfibwi+3icirT20=</om:result>
+    </om:OM_Observation>
+  </sos:observationData>
+  <sos:observationData>
+    <om:OM_Observation gml:id="o_73">
+      <gml:description>description</gml:description>
+      <om:type xlink:href="http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_TextObservation"/>
+      <om:phenomenonTime>
+        <gml:TimePeriod gml:id="phenomenonTime_73">
+          <gml:beginPosition>2016-04-04T12:12:50.000Z</gml:beginPosition>
+          <gml:endPosition>2016-04-04T12:18:01.000Z</gml:endPosition>
+        </gml:TimePeriod>
+      </om:phenomenonTime>
+      <om:resultTime>
+        <gml:TimeInstant gml:id="ti_6B8F935DC22C671157D89413569FF9E750DE3C22">
+          <gml:timePosition>2016-04-04T12:18:01.000Z</gml:timePosition>
+        </gml:TimeInstant>
+      </om:resultTime>
+      <om:procedure xlink:href="wifi_access_point" xlink:title="Scan"/>
+      <om:parameter>
+        <om:NamedValue>
+          <om:name xlink:href="http://www.opengis.net/def/param-name/OGC-OM/2.0/samplingGeometry"/>
+          <om:value xmlns:ns="http://www.opengis.net/gml/3.2" xsi:type="ns:GeometryPropertyType">
+            <ns:Point ns:id="point_069D7F39B46887D2A609A0EB7FBF9D3192F28184">
+              <ns:pos srsName="http://www.opengis.net/def/crs/EPSG/0/0">4.3690096404798 52.0024338288824</ns:pos>
+            </ns:Point>
+          </om:value>
+        </om:NamedValue>
+      </om:parameter>
+      <om:observedProperty xlink:href="mac_address" xlink:title="Mac"/>
+      <om:featureOfInterest xlink:href="A-31-0-014" xlink:title="A-31-0-014"/>
+      <om:result xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">9UHpulunuwjd6LKyJ5vNPr5D2hYtO2nZkOAaHVlc+1s=</om:result>
+    </om:OM_Observation>
+  </sos:observationData>
+</sos:GetObservationResponse>
