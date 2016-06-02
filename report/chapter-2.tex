@@ -50,46 +50,48 @@ implements the OGC SOS 2.0 \textit{Core} and \textit{Extended} profiles, while
 the Transactional database model extends the Core model to implement the OGC SOS
 2.0 \textit{Transactional} and \textit{Result Handling} profiles. 
 
-In the Core database model, the following tables (\autoref{cheese})are relevant for disseminating Wi-Fi tracking data:
+In the Core database model, the following tables (\autoref{cheese})are relevant
+for disseminating Wi-Fi tracking data.
 
 \begin{table}[]
 \centering
 \caption{Tables in the Core database model}
 \label{cheese}
-\begin{tabular}{@{}ll@{}}
-\toprule
-Table name                 & Description                                                                                                                                                \\ \midrule
-codespace                  & contains the \textit\{codespace\} and \textit\{codespacename\} for the identifiers of Procedure, ObservableProperty, FeatureOfInterest and Offering        \\
-featureOfInterest          & the geometries of the observations                                                                                                                         \\
-featureOfInterestType      & the type of the geometries of the observations                                                                                                             \\
-observableProperty         & parameters that are observed                                                                                                                               \\
-series                     & describes a series, a combination of featureOfInterest, observableProperty and procedure                                                                   \\
-observation                & contains the observations                                                                                                                                  \\
-observationHasOffering     & relates the offerings to the observations                                                                                                                  \\
-offering                   & needed for structuring the data in a SOS server                                                                                                            \\
-procedure                  & the processes thorough which the observed values were generated                                                                                            \\
-procedureDescriptionFormat & the format in which procedures shall be described                                                                                                          \\
-unit                       & units of a measurement                                                                                                                                     \\
-textvalue                  & contains the measured values, which are of type OM\_TextObservation                                                                                        \\
-observationConstellation   & look-up table to check if the observation type of the InsertObservation,request is valid for the constellation procedure, observableProperty,,and offering \\
-observationType            & stores the observation types                                                                                                                               \\ \bottomrule
+\begin{tabular}{ll}
+\hline
+\textbf{Table name}                 & \textbf{Description}                                                                                                                                                                                   \\ \hline
+codespace                           & \begin{tabular}[c]{@{}l@{}}contains the \textit\{codespace\} and \textit\{codespacename\} for the identifiers of\\  Procedure, ObservableProperty, FeatureOfInterest and Offering\end{tabular}         \\
+\textit{featureOfInterest}          & the geometries of the observations                                                                                                                                                                     \\
+\textit{featureOfInterestType}      & the type of the geometries of the observations                                                                                                                                                         \\
+\textit{observableProperty}         & parameters that are observed                                                                                                                                                                           \\
+\textit{series}                     & \begin{tabular}[c]{@{}l@{}}describes a series, a combination of featureOfInterest, observableProperty\\  and procedure\end{tabular}                                                                    \\
+\textit{observation}                & contains the observations                                                                                                                                                                              \\
+\textit{observationHasOffering}     & relates the offerings to the observations                                                                                                                                                              \\
+\textit{offering}                   & needed for structuring the data in a SOS server                                                                                                                                                        \\
+\textit{procedure}                  & the processes thorough which the observed values were generated                                                                                                                                        \\
+\textit{procedureDescriptionFormat} & the format in which procedures shall be described                                                                                                                                                      \\
+\textit{unit}                       & units of a measurement                                                                                                                                                                                 \\
+\textit{textvalue}                  & contains the measured values, which are of type OM\_TextObservation                                                                                                                                    \\
+\textit{observationConstellation}   & \begin{tabular}[c]{@{}l@{}}look-up table to check if the observation type of the InsertObservation, \\ request is valid for the constellation procedure, observableProperty,,and offering\end{tabular} \\
+\textit{observationType}            & stores the observation types                                                                                                                                                                           \\ \hline
 \end{tabular}
 \end{table}
 
-In the Transactional database model, the following tables are relevant for disseminating Wi-Fi tracking data:
+In the Transactional database model, the following tables (\autoref{wine}) are
+relevant for disseminating Wi-Fi tracking data.
 
 \begin{table}[]
 \centering
 \caption{Tables in the Transactional database model}
-\label{my-label}
-\begin{tabular}{@{}ll@{}}
-\toprule
-Table name                     & Description                                                                                  \\
-featureRelation                & hierarchy of features                                                                        \\
-offeringAllowedFeatureType     & look-up table for the feature types which are valid for the offering                         \\
-offeringAllowedObservationType & look-up table for the observation types which are valid for the offering                     \\
-resultTemplate                 & holds the result template information which are necessary for the result handling operations \\
-validProcedureTime             & stores the procedure description                                                            
+\label{wine}
+\begin{tabular}{ll}
+\hline
+\textbf{Table name}                     & \textbf{Description}                                                                                                                    \\ \hline
+\textit{featureRelation}                & hierarchy of features                                                                                                                   \\
+\textit{offeringAllowedFeatureType}     & look-up table for the feature types which are valid for the offering                                                                    \\
+\textit{offeringAllowedObservationType} & look-up table for the observation types which are valid for the offering                                                                \\
+\textit{resultTemplate}                 & \begin{tabular}[c]{@{}l@{}}holds the result template information which are necessary for the \\ result handling operations\end{tabular} \\
+\textit{validProcedureTime}             & stores the procedure description                                                                                                       
 \end{tabular}
 \end{table}
 
