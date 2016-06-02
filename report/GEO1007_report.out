@@ -5,14 +5,14 @@
 \BOOKMARK [0][-]{chapter.2}{Functionality}{}% 5
 \BOOKMARK [1][-]{section.2.1}{52North application}{chapter.2}% 6
 \BOOKMARK [2][-]{subsection.2.1.1}{Database model}{section.2.1}% 7
-\BOOKMARK [2][-]{subsection.2.1.2}{Standards}{section.2.1}% 8
-\BOOKMARK [0][-]{chapter.3}{Technical Description}{}% 9
-\BOOKMARK [1][-]{section.3.1}{Preprocessing \(of the wifilog data\)}{chapter.3}% 10
-\BOOKMARK [1][-]{section.3.2}{Filling the tables}{chapter.3}% 11
-\BOOKMARK [2][-]{subsection.3.2.1}{'Simple' tables}{section.3.2}% 12
-\BOOKMARK [2][-]{subsection.3.2.2}{FeatureOfInterest}{section.3.2}% 13
-\BOOKMARK [2][-]{subsection.3.2.3}{Series}{section.3.2}% 14
-\BOOKMARK [2][-]{subsection.3.2.4}{Observation}{section.3.2}% 15
-\BOOKMARK [2][-]{subsection.3.2.5}{ComplexValue}{section.3.2}% 16
-\BOOKMARK [0][-]{chapter.4}{Status of the application}{}% 17
-\BOOKMARK [0][-]{chapter.5}{Conclusions and recommendations}{}% 18
+\BOOKMARK [0][-]{chapter.3}{Technical Description}{}% 8
+\BOOKMARK [1][-]{section.3.1}{Preprocessing \(of the wifilog data\)}{chapter.3}% 9
+\BOOKMARK [1][-]{section.3.2}{Filling the tables}{chapter.3}% 10
+\BOOKMARK [2][-]{subsection.3.2.1}{'Simple' tables}{section.3.2}% 11
+\BOOKMARK [2][-]{subsection.3.2.2}{FeatureOfInterest}{section.3.2}% 12
+\BOOKMARK [2][-]{subsection.3.2.3}{Series}{section.3.2}% 13
+\BOOKMARK [2][-]{subsection.3.2.4}{Observation}{section.3.2}% 14
+\BOOKMARK [2][-]{subsection.3.2.5}{ComplexValue}{section.3.2}% 15
+\BOOKMARK [0][-]{chapter.4}{Status of the application}{}% 16
+\BOOKMARK [0][-]{chapter.5}{Conclusions and recommendations}{}% 17
+\BOOKMARK [0][-]{appendix.A}{}{}% 18

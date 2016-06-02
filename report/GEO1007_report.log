@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.16)  2 JUN 2016 17:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.16)  2 JUN 2016 18:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1975,10 +1975,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 67--1
 ]
 Chapter 2.
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <12> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 7.
-) (./chapter-3.tex [5] [6
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 45.
 
-]
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 55.
+
+
+Overfull \hbox (312.58789pt too wide) in paragraph at lines 59--77
+ [][] 
+ []
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 81.
+
+
+Overfull \hbox (83.51826pt too wide) in paragraph at lines 85--94
+ [][] 
+ []
+
+[5]) (./chapter-3.tex [6]
 Chapter 3.
 
 Underfull \hbox (badness 10000) in paragraph at lines 16--18
@@ -1990,38 +2006,65 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--21
 
  []
 
-) (./chapter-4.tex [7] [8
+) (./chapter-4.tex [7
+
+] [8
 
 ]
 Chapter 4.
-
-LaTeX Warning: Reference `' on page 9 undefined on input line 11.
-
-<figures/testqueries.png, id=198, 310.2792pt x 162.6075pt>
+<figures/testqueries.png, id=206, 310.2792pt x 162.6075pt>
 File: figures/testqueries.png Graphic file (type png)
 
 <use figures/testqueries.png>
-Package pdftex.def Info: figures/testqueries.png used on input line 15.
+Package pdftex.def Info: figures/testqueries.png used on input line 14.
 (pdftex.def)             Requested size: 248.2237pt x 130.08617pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
+
+ []
+
 ) (./chapter-5.tex [9 <./figures/testqueries.png>] [10
 
 ]
 Chapter 5.
+) (./appendix-a.tex [11] [12
+
+]
+Appendix A.
+<figures/appendix-a1.png, id=227, 1255.69125pt x 511.9125pt>
+File: figures/appendix-a1.png Graphic file (type png)
+
+<use figures/appendix-a1.png>
+Package pdftex.def Info: figures/appendix-a1.png used on input line 4.
+(pdftex.def)             Requested size: 376.71028pt x 153.57494pt.
+
+<figures/appendix-a2.png, id=229, 1243.64626pt x 541.02126pt>
+File: figures/appendix-a2.png Graphic file (type png)
+
+<use figures/appendix-a2.png>
+Package pdftex.def Info: figures/appendix-a2.png used on input line 14.
+(pdftex.def)             Requested size: 373.09676pt x 162.30762pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--18
+
+ []
+
 )
 
-LaTeX Warning: Empty bibliography on input line 50.
+LaTeX Warning: Empty bibliography on input line 52.
 
 \Changes@OutFile=\write7
 \openout7 = `GEO1007_report.soc'.
 
-[11]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 52.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 52.
- (./GEO1007_report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 52.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 52.
+[13 <./figures/appendix-a1.png> <./figures/appendix-a2.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 54.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 54.
+
+(./GEO1007_report.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 54.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 54.
 Package rerunfilecheck Info: File `GEO1007_report.out' has not changed.
-(rerunfilecheck)             Checksum: F7560FE862165E54E986CD7020A7226C;1127.
+(rerunfilecheck)             Checksum: 601FE470CD9932446B22F91D9F0D2D7C;1101.
 
 
 LaTeX Warning: There were undefined references.
@@ -2034,13 +2077,13 @@ Package biblatex Warning: Please (re)run Biber on the file:
 Package logreq Info: Writing requests to 'GEO1007_report.run.xml'.
 \openout1 = `GEO1007_report.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 52.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 54.
  ) 
 Here is how much of TeX's memory you used:
- 29210 strings out of 493089
- 516281 string characters out of 6134842
- 951910 words of memory out of 5000000
- 32038 multiletter control sequences out of 15000+600000
+ 29241 strings out of 493089
+ 516784 string characters out of 6134842
+ 954172 words of memory out of 5000000
+ 32054 multiletter control sequences out of 15000+600000
  126330 words of font info for 92 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,15n,66p,1142b,1631s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2055,10 +2098,10 @@ ype1/google/roboto/Roboto-ThinItalic.pfb></usr/local/texlive/2015/texmf-dist/fo
 nts/type1/adobe/utopia/putb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/typ
 e1/adobe/utopia/putr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/adob
 e/utopia/putri8a.pfb>
-Output written on GEO1007_report.pdf (19 pages, 355897 bytes).
+Output written on GEO1007_report.pdf (21 pages, 981284 bytes).
 PDF statistics:
- 258 PDF objects out of 1000 (max. 8388607)
- 204 compressed objects within 3 object streams
- 40 named destinations out of 1000 (max. 500000)
- 172 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 284 PDF objects out of 1000 (max. 8388607)
+ 224 compressed objects within 3 object streams
+ 50 named destinations out of 1000 (max. 500000)
+ 182 words of extra memory for PDF output out of 10000 (max. 10000000)
 
