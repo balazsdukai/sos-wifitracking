@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.16)  2 JUN 2016 21:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.16)  2 JUN 2016 23:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1632,7 +1632,23 @@ Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'english'.
 
-(./GEO1007_report.aux)
+(./GEO1007_report.aux
+
+LaTeX Warning: Label `my-label' multiply defined.
+
+
+LaTeX Warning: Label `my-label' multiply defined.
+
+
+LaTeX Warning: Label `my-label' multiply defined.
+
+
+LaTeX Warning: Label `my-label' multiply defined.
+
+
+LaTeX Warning: Label `my-label' multiply defined.
+
+)
 \openout1 = `GEO1007_report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
@@ -1651,8 +1667,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
 LaTeX Font Info:    ... okay on input line 24.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 24.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ts1cmr.fd
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 24.
@@ -1832,14 +1847,14 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarycalc.code.tex
 File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.0 (rcs-revision 1.9)
-) <cover_article.jpg, id=79, 337.26pt x 168.63pt>
-File: cover_article.jpg Graphic file (type jpg)
+)
+<cover_article.png, id=59, 1028.84375pt x 395.4775pt>
+File: cover_article.png Graphic file (type png)
+ <use cover_article.png>
+Package pdftex.def Info: cover_article.png used on input line 33.
+(pdftex.def)             Requested size: 597.50787pt x 229.67883pt.
 
-<use cover_article.jpg>
-Package pdftex.def Info: cover_article.jpg used on input line 33.
-(pdftex.def)             Requested size: 597.50787pt x 298.76068pt.
-
-<cover/logo_black.pdf, id=80, 125.46875pt x 77.28876pt>
+<cover/logo_black.pdf, id=60, 125.46875pt x 77.28876pt>
 File: cover/logo_black.pdf Graphic file (type pdf)
 
 <use cover/logo_black.pdf>
@@ -1858,7 +1873,7 @@ LaTeX Font Info:    Font shape `T1/fla/m/sl' in size <30> not available
 
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./cover
-_article.jpg> <./cover/logo_black.pdf>] (./title.tex [2
+_article.png> <./cover/logo_black.pdf>] (./title.tex [2
 
 
 ]
@@ -1996,20 +2011,62 @@ LaTeX Warning: No positions in optional float specifier.
 ) (./chapter-3.tex [5] [6]
 Chapter 3.
 
-Underfull \hbox (badness 10000) in paragraph at lines 16--18
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 27.
 
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 42.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 64.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 78.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 98.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 119.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 146.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 159.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 183.
+
+
+Overfull \hbox (11.3985pt too wide) in paragraph at lines 187--191
+ [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 19--21
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 195.
 
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 208.
+
+
+Overfull \hbox (36.31831pt too wide) in paragraph at lines 212--217
+ [][] 
  []
 
 ) (./chapter-4.tex [7
 
-] [8
-
-]
+] [8] [9] [10]
 Chapter 4.
 
 Underfull \hbox (badness 10000) in paragraph at lines 9--10
@@ -2021,7 +2078,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--16
 
  []
 
-<figures/testqueries.png, id=207, 310.2792pt x 162.6075pt>
+<figures/testqueries.png, id=200, 310.2792pt x 162.6075pt>
 File: figures/testqueries.png Graphic file (type png)
 
 <use figures/testqueries.png>
@@ -2041,41 +2098,67 @@ Underfull \hbox (badness 10000) in paragraph at lines 42--43
 ce ? service = SOS & version = 2 . 0 . 0 & request =
  []
 
-[9 <./figures/testqueries.png>]
+[11
+
+ <./figures/testqueries.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 48--49
 [][][]$\T1/cmtt/m/n/10 http : / / localhost : 8080 / 52n-[]sos-[]webapp / servi
 ce ? service = SOS & version = 2 . 0 . 0 & request =
  []
 
-) (./chapter-5.tex [10]
+) (./chapter-5.tex [12]
 Chapter 5.
+) (./appendix-a.tex [13
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--4
-
- []
-
-) (./appendix-a.tex [11
-
-] [12
+] [14
 
 ]
 Appendix A.
-<figures/appendix-a1.png, id=234, 1255.69125pt x 511.9125pt>
+<figures/appendix-a1.png, id=228, 1255.69125pt x 511.9125pt>
 File: figures/appendix-a1.png Graphic file (type png)
 
 <use figures/appendix-a1.png>
 Package pdftex.def Info: figures/appendix-a1.png used on input line 4.
 (pdftex.def)             Requested size: 376.71028pt x 153.57494pt.
 
-<figures/appendix-a2.png, id=236, 1243.64626pt x 541.02126pt>
+<figures/appendix-a2.png, id=231, 1243.64626pt x 541.02126pt>
 File: figures/appendix-a2.png Graphic file (type png)
 
 <use figures/appendix-a2.png>
-Package pdftex.def Info: figures/appendix-a2.png used on input line 14.
+Package pdftex.def Info: figures/appendix-a2.png used on input line 13.
 (pdftex.def)             Requested size: 373.09676pt x 162.30762pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 9--18
+Overfull \hbox (4.25887pt too wide) in paragraph at lines 9--17
+[][]$\T1/cmtt/m/n/10 http : / / localhost : 8080 / 52n-[]sos-[]webapp / service
+ ? service = SOS & request = GetFeatureOfInterest &
+ []
 
+<figures/GetObservation_KVP.png, id=234, 1213.53375pt x 694.595pt>
+File: figures/GetObservation_KVP.png Graphic file (type png)
+
+<use figures/GetObservation_KVP.png>
+Package pdftex.def Info: figures/GetObservation_KVP.png used on input line 23.
+(pdftex.def)             Requested size: 424.74318pt x 243.1119pt.
+
+Overfull \hbox (4.25887pt too wide) in paragraph at lines 18--27
+[][]$\T1/cmtt/m/n/10 http : / / localhost : 8080 / 52n-[]sos-[]webapp / service
+ ? service = SOS & request = GetFeatureOfInterest &
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--27
+
+ []
+
+[15 <./figures/appendix-a1.png> <./figures/appendix-a2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
+[][][]$\T1/cmtt/m/n/10 http : / / localhost : 8080 / 52n-[]sos-[]webapp / servi
+ce ? service = SOS & version = 2 . 0 . 0 & request =
  []
 
 )
@@ -2085,18 +2168,20 @@ LaTeX Warning: Empty bibliography on input line 53.
 \Changes@OutFile=\write7
 \openout7 = `GEO1007_report.soc'.
 
-[13 <./figures/appendix-a1.png> <./figures/appendix-a2.png>]
+[16 <./figures/GetObservation_KVP.png>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 55.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 55.
-
-(./GEO1007_report.aux)
+ (./GEO1007_report.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 55.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 55.
 Package rerunfilecheck Info: File `GEO1007_report.out' has not changed.
-(rerunfilecheck)             Checksum: 80A2595DD88E21724419B0F8E604DD38;1126.
+(rerunfilecheck)             Checksum: C8A814C22E0C0712E7EF3827610DF5AE;764.
 
 
 LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
 
 
 Package biblatex Warning: Please (re)run Biber on the file:
@@ -2109,10 +2194,10 @@ Package logreq Info: Writing requests to 'GEO1007_report.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 55.
  ) 
 Here is how much of TeX's memory you used:
- 29277 strings out of 493089
- 517737 string characters out of 6134842
- 954383 words of memory out of 5000000
- 32082 multiletter control sequences out of 15000+600000
+ 29293 strings out of 493089
+ 517926 string characters out of 6134842
+ 962794 words of memory out of 5000000
+ 32088 multiletter control sequences out of 15000+600000
  126643 words of font info for 93 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,15n,66p,1142b,1635s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2129,10 +2214,10 @@ s/type1/adobe/utopia/putb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1
 /adobe/utopia/putr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/adobe/
 utopia/putri8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-su
 per/sftt1000.pfb>
-Output written on GEO1007_report.pdf (21 pages, 1016155 bytes).
+Output written on GEO1007_report.pdf (24 pages, 1602460 bytes).
 PDF statistics:
- 295 PDF objects out of 1000 (max. 8388607)
- 234 compressed objects within 3 object streams
- 50 named destinations out of 1000 (max. 500000)
- 182 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 306 PDF objects out of 1000 (max. 8388607)
+ 245 compressed objects within 3 object streams
+ 60 named destinations out of 1000 (max. 500000)
+ 147 words of extra memory for PDF output out of 10000 (max. 10000000)
 
