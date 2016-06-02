@@ -56,7 +56,7 @@ Wi-Fi tracking data:
 % \usepackage{booktabs}
 \begin{table}[]
 \centering
-\caption{My caption}
+\caption{Tables in the Core database model}
 \label{my-label}
 \begin{tabular}{@{}ll@{}}
 \toprule
@@ -81,7 +81,18 @@ observationType            & stores the observation types                       
 In the Transactional database model, the following tables are relevant for disseminating
 Wi-Fi tracking data:
 
-
-\subsection{Standards}
-% Not sure if needed..
+\begin{table}[]
+\centering
+\caption{Tables in the Transactional database model}
+\label{my-label}
+\begin{tabular}{@{}ll@{}}
+\toprule
+Table name                     & Description                                                                                  \\
+featureRelation                & hierarchy of features                                                                        \\
+offeringAllowedFeatureType     & look-up table for the feature types which are valid for the offering                         \\
+offeringAllowedObservationType & look-up table for the observation types which are valid for the offering                     \\
+resultTemplate                 & holds the result template information which are necessary for the result handling operations \\
+validProcedureTime             & stores the procedure description                                                            
+\end{tabular}
+\end{table}
 
