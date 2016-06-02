@@ -38,10 +38,12 @@ resultTime, procedure identifier and name, observedProperty identifier and
 name, result and the type, name, identifier, coordinates of the 
 featureOfInterest}. See the request below and a screenshot of the result in the 
 appendix.
-
+\begin{sloppypar}
 \url{http://localhost:8080/52n-sos-webapp/service?service=SOS&version=2.0.0&request=GetObservation&MergeObservationsIntoDataArray=true&procedure=wifi_access_point}
-
+\end{sloppypar}
 However, the same request without using the extension returns an empty result,
 no error message. See the url below.
 
+\begin{sloppypar}
 \url{http://localhost:8080/52n-sos-webapp/service?service=SOS&version=2.0.0&request=GetObservation&procedure=wifi_access_point}
+\end{sloppypar}
