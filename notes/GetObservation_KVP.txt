@@ -1,0 +1,1 @@
+http://localhost:8080/52n-sos-webapp/service?service=SOS&version=2.0.0&request=GetObservation&MergeObservationsIntoDataArray=true&procedure=wifi_access_point

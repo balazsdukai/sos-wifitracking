@@ -52,6 +52,35 @@ the Transactional database model extends the Core model to implement the OGC SOS
 
 In the Core database model, the following tables are relevant for disseminating
 Wi-Fi tracking data:
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+\begin{table}[]
+\centering
+\caption{My caption}
+\label{my-label}
+\begin{tabular}{@{}ll@{}}
+\toprule
+Table name                 & Description                                                                                                                                                \\ \midrule
+codespace                  & contains the \textit\{codespace\} and \textit\{codespacename\} for the identifiers of Procedure, ObservableProperty, FeatureOfInterest and Offering        \\
+featureOfInterest          & the geometries of the observations                                                                                                                         \\
+featureOfInterestType      & the type of the geometries of the observations                                                                                                             \\
+observableProperty         & parameters that are observed                                                                                                                               \\
+series                     & describes a series, a combination of featureOfInterest, observableProperty and procedure                                                                   \\
+observation                & contains the observations                                                                                                                                  \\
+observationHasOffering     & relates the offerings to the observations                                                                                                                  \\
+offering                   & needed for structuring the data in a SOS server                                                                                                            \\
+procedure                  & the processes thorough which the observed values were generated                                                                                            \\
+procedureDescriptionFormat & the format in which procedures shall be described                                                                                                          \\
+unit                       & units of a measurement                                                                                                                                     \\
+textvalue                  & contains the measured values, which are of type OM\_TextObservation                                                                                        \\
+observationConstellation   & look-up table to check if the observation type of the InsertObservation,request is valid for the constellation procedure, observableProperty,,and offering \\
+observationType            & stores the observation types                                                                                                                               \\ \bottomrule
+\end{tabular}
+\end{table}
+
+In the Transactional database model, the following tables are relevant for disseminating
+Wi-Fi tracking data:
+
 
 \subsection{Standards}
 % Not sure if needed..
