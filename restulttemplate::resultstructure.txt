@@ -1,0 +1,17 @@
+<swe:DataRecord xmlns:swe="http://www.opengis.net/swe/2.0" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <swe:field name="phenomenonTime">
+    <swe:TimeRange xmlns:ns="http://www.opengis.net/swe/2.0" definition="http://www.opengis.net/def/property/OGC/0/PhenomenonTime">
+      <ns:uom xlink:href="http://www.opengis.net/def/uom/ISO-8601/0/Gregorian"/>
+    </swe:TimeRange>
+  </swe:field>
+  <swe:field name="resultTime">
+    <swe:Time xmlns:ns="http://www.opengis.net/swe/2.0" definition="http://www.opengis.net/def/property/OGC/0/ResultTime">
+      <ns:uom code="testunit1"/>
+    </swe:Time>
+  </swe:field>
+  <swe:field name="observable_property_6">
+    <swe:Quantity xmlns:ns="http://www.opengis.net/swe/2.0" definition="http://www.52north.org/test/observableProperty/6">
+      <ns:uom code="test_unit_6"/>
+    </swe:Quantity>
+  </swe:field>
+</swe:DataRecord>
