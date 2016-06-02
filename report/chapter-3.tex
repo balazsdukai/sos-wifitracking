@@ -1,43 +1,217 @@
-\chapter{Technical Description}
-% General introduction, describes what we did and why
-% \textbf{mapped parameters/values}
-% diagram comes here
+\chapter{Implementation}
 
-\section{Preprocessing (of the wifilog data)}
-% - Setting up the SOS client for installation
+\section{Preprocessing}
+The first step, before inserting the data into the tables, would be to create 
+copy of (a part of) the wifilog datasource, and make it part of the SOS datamodel.
+Each record in the raw wifilog datasource can be seen as an observation of a device 
+by an access point at a certain location. The building of which the access point is 
+located in is known, but the exact location in the building is not known. For this 
+reason the access points in a building are snapped to one point (approximately the 
+center of the building). This has as a result that for instance, all access points 
+in the Faculty of Architecture will have the same location. The table containing each 
+access point, including the geometry. The geometrical location of each building on the 
+campus and the raw wifilog datasource are used to create the access\_points table. 
+This table contains each and every access points including the geometry. The location 
+of the access points are required for the sensor observation service. 
+
+%maybe we can put a screenshot of the access_points table here (access_points_table.png in Drive)
 
 \section{Filling the tables}
-% - Introduction
-% - Filling of tables in the database
-% - Difficulties with filling discussed in the subsections
+The data is inserted into the tables using a combination of Python and SQL scripts 
+(see code document). This subsection will describes our implementation of the wifilog 
+datasource into the 52North SOS datamodel. %degrees symbol in 52North
 
-\subsection{'Simple' tables}
-% The tables that could be filled 'easily'
-\textbf{codespace}\\
-FeatureOfInterest::codeSpace is the codespace attribute for the identifier (\textit{gml:identifier}) of the access points. As the GML 3.2. schema defines the \textit{gml:identifier} is a “special identifier is assigned to an object by the maintaining authority with the intention that it is used in references to the object.” Furthermore, the attribute \textit{codeSpace} is of type \textit{anyURI}. In the present case the Technical University Delft is the maintaining authority of the campus WLAN and with it the access points. Because there is no official repository that contains the identifiers of the access points, we defined the codespace as \textit{tudelft-wlan}.\\
+%code space table
+The codeSpace (see \autoref{codespace}) is the attribute for the identifier (gml:identifier) of the access points. As the GML 3.2. schema defines the gml:identifier is a “special identifier assigned to an object by the maintaining authority with the intention that it is used in references to the object.” The attribute codeSpace is of type anyURI. In the present case the Technical University Delft is the maintaining authority of the campus WLAN and with it the access points. Because there is no official repository that contains the identifiers of the access points, we defined the codespace as tudelft-wlan.
 
-\textbf{name and codespacename}\\
-\textit{Codespacename} refers to the codespace for the \textit{name} of the \textit{featureOfInterest}. \textit{FeatureOfInterest:name} refers to \textit{gml:name} in the GML 3.2 schema. In the case of the TU Delft WLAN the access point names equal to the access point identifiers, thus they have the same codespace as well.\\
+\begin{table}[]
+\centering
+\caption{codeSpace table}
+\label{codespace}
+\begin{tabular}{|l|l|}
+\hline
+codespaceid & 1\\ \hline
+codespace & tudelft-wlan\\ \hline
+\hline
+\end{tabular}
+\end{table}
 
-\textbf{hibernatediscriminator}\\
-According to the SensorObservationService documentation provided by 52North’s wiki page, four tables require the attribute ‘hibernatediscriminator’. The wiki page describes this attribute as ‘only needed for internal purposes’, but this is rather unclear. Because there is no clear description on the value of this attribute, the value ‘F’ is chosen, as indicator for a ‘False’ value.
+%featureofinterest table
+Both the identifier and name are corresponding to the name of the measurement station. In our case this is the name of the access point (apname) as it is stated in the wifilog database.
 
-\subsection{FeatureOfInterest}
-% Creating the access point table (Xander)
-% Using the buildings table
-% Extracting IDs from the apnames
+\begin{table}[]
+\centering
+\caption{FeatureOfInterest table}
+\label{FOI}
+\begin{tabular}{@{}ll@{}}
+featureOfInterestId     & id of the featureOfInterest                                                                                                            \\
+hibernatediscriminator  & F                                                                                                                                      \\
+featureofinteresttypeid & 1 (there is only one type of featureofinterest)                                                                                        \\
+identifier              & the name of the measurement station (the Wi-Fi access point, i.e. A-12-0-005)                                                          \\
+codespace               & 1; the (only) entry in the codespace table                                                                                             \\
+name                    & the name of the measurement station (the Wi-Fi access point, i.e. A-12-0-005)                                                          \\
+codespaceName           & 1; the (only) entry in the codespace table                                                                                             \\
+description             & \begin{tabular}[c]{@{}l@{}}the maploc i.e. System Campus;  the textual description of this feature \\ 23-CITG Beganegrond\end{tabular} \\
+geom                    & the geometry of the station                                                                                                            \\
+descriptionXml          &                                                                                                                                        \\
+url                     &                                                                                                                                       
+\end{tabular}
+\end{table}
 
-\subsection{Series}
-% What exactly is a serie?
-% Series vs old concept
-% Complex constraint
+%featureOfInterestType table
+In our case the featureOfInterest (see \autoref{FOIT}) is a Wi-Fi access point, with their concrete locations of measurements represented through sampling points (the featureofinteresttype).
 
-\subsection{Observation}
-% Difficulties with inserting
-% First and last timestamp automatically from timeseries API
+\begin{table}[]
+\centering
+\caption{FeatureOfInterestType table}
+\label{FOIT}
+\begin{tabular}{@{}ll@{}}
+\toprule
+featureOfInterestTypeId & 1; id of the featureOfInterestType                                                                                                                  \\ \midrule
+featureOfInterestType   & \begin{tabular}[c]{@{}l@{}}http://www.opengis.net/def/samplingFeatureType/OGC-OM/2.0/\\ SF\_SamplingPoint; featureOfInterestType value\end{tabular} \\ \bottomrule
+\end{tabular}
+\end{table}
 
-\subsection{ComplexValue}
-% Could not use this because of not released version, so used TextValue
-% See recommendations for newer versions
+%observableProperty table
+We could distinguish four different observable properties (phenomena, see \autoref{obsprop}); mac, netid, rssi and snr. In our implementation the mac address, which is a unique identifier assigned to the device, is used, since complex values are only supported for SOS version 4.4.
 
-% Automation...?
+\begin{table}[]
+\centering
+\caption{ObservableProperty}
+\label{obsprop}
+\begin{tabular}{@{}ll@{}}
+\toprule
+\textbf{observablepropertyid} & \textbf{1; the id of the observableProperty (which is the mac address)} \\ \midrule
+hibernatediscriminator        & F                                                                       \\ \midrule
+identifier                    & mac\_address; the identifier of the observable property (phenomenon)    \\ \midrule
+codespace                     & 1; the (only) entry in the codespace table                              \\ \midrule
+name                          & Mac; the name of the observable property                                \\ \midrule
+codespacename                 & 1; the (only) entry in the codespace table                              \\ \midrule
+description                   & Mac addresses scanned by wifi access point; long name of the phenomenon \\
+disabled                      & F                                                                       \\ \bottomrule
+\end{tabular}
+\end{table}
+
+%series table
+\autoref{series} describes a serie, a combination of a featureOfInterest, observableProperty and procedure. The number of series is equal to the number sensors, the Wi-Fi access points. This means that every  feature of interest contains one single unique serie.
+
+\begin{table}[]
+\centering
+\caption{Series table}
+\label{series}
+\begin{tabular}{@{}ll@{}}
+\toprule
+\textbf{seriesid}    & \textbf{id of the series}                                                       \\ \midrule
+featureofinterestid  & pointing to the entry in the featureOfInterest table                            \\ \midrule
+observablepropertyid & 1; pointing to the first entry in the observableProperty table (the mac adress) \\ \midrule
+procedureid          & 1; the (only) entry in the procedure table                                      \\ \midrule
+deleted              & F                                                                               \\ \midrule
+published            &                                                                                 \\ \midrule
+firsttimestamp       &                                                                                 \\ \midrule
+lasttimestamp        &                                                                                 \\ \midrule
+firstnumericvalue    &                                                                                 \\ \midrule
+lastnumericvalue     &                                                                                 \\
+unitid               &                                                                                 \\ \bottomrule
+\end{tabular}
+\end{table}
+
+%observation table
+\begin{table}[]
+\centering
+\caption{My caption}
+\label{my-label}
+\begin{tabular}{@{}ll@{}}
+\toprule
+observationid & id of the observation\\ \midrule
+seriesid & pointing to the entry in the series table\\ \midrule
+phenomenontimestart & asstime i.e. 2016-04-04 16:45:13; timestamp for which the measured value applied\\ \midrule
+phenomenonTimeEnd & asstime+sesdur i.e. 2016-04-04 17:52:00; end of the measurement\\ \midrule
+resulttime & asstime+sesdur i.e. 2016-04-04 17:52:00; end of the measurement\\ \midrule
+identifier &\\ \midrule
+codespace & 1; the (only) entry in the codespace table\\ \midrule
+name & Scan; the name of the observation\\ \midrule
+codespacename &\\ \midrule
+description & WiFi Scan; the textual description of this observation\\ \midrule
+deleted &\\ \midrule
+validtimestart &\\ \midrule
+validtimeend &\\ \midrule
+unitid & 1; the (only) entry in the unit table\\ \midrule
+samplinggeometry & the geometry of the station\\ \bottomrule
+\end{tabular}
+\end{table}
+
+
+%observationhasoffering table
+
+\begin{table}[]
+\centering
+\caption{ObservationHasOffering}
+\label{my-label}
+\begin{tabular}{@{}ll@{}}
+\toprule
+\textbf{observationid} & \textbf{id of the observation}            \\ \midrule
+offeringid             & 1; the (only) entry in the offering table \\ \bottomrule
+\end{tabular}
+\end{table}
+
+%procedure table
+
+\begin{table}[]
+\centering
+\caption{My caption}
+\label{my-label}
+\begin{tabular}{@{}ll@{}}
+\toprule
+procedureid & 1; the (only) id of the procedure\\ \midrule
+hibernatediscriminator & F\\ \hline
+proceduredescriptionformatid & 1; the (only) entry in the proceduredescriptionformatid table\\ \midrule
+identifier & wifi\_access\_point, the identifier of the procedure\\ \midrule
+codespace & 1; the (only) entry in the codespace table\\ \midrule
+name & Scan; the name of the procedure\\ \midrule
+codespacename & 1; the (only) entry in the codespace table\\ \midrule
+description & Scan; the name of the observation\\ \midrule
+deleted & F\\ \midrule
+disabled & F\\ \midrule
+descriptionfile &\\ \midrule
+referenceflag & F\\ \bottomrule
+\end{tabular}
+\end{table}
+
+
+%proceduredescriptionformat table
+
+\begin{table}[]
+\centering
+\caption{My caption}
+\label{my-label}
+\begin{tabular}{@{}ll@{}}
+proceduredescriptionformatid & id of the procedureDescriptionFormat                                    \\
+proceduredescriptionformat   & http://www.opengis.net/sensorML/1.0.1; procedureDescriptionFormat value
+\end{tabular}
+\end{table}
+
+%unit table
+
+\begin{table}[]
+\centering
+\caption{My caption}
+\label{my-label}
+\begin{tabular}{@{}ll@{}}
+\toprule
+\textbf{unitid} & \textbf{1; id of the unit}                                \\ \midrule
+unitid          & mac adress; unit value representing a unit of measurement \\ \bottomrule
+\end{tabular}
+\end{table}
+
+%textvalue table
+
+\begin{table}[]
+\centering
+\caption{My caption}
+\label{my-label}
+\begin{tabular}{@{}ll@{}}
+\toprule
+\textbf{observationid} & \textbf{id of the observation, pointing to the entry in the observation table}           \\ \midrule
+value                  & the measured value i.e. rhQO/vg4AnEVjXNqgQscJu8Q3bXC+JiBL5e4FR8ZxPE= (hashed mac adress)
+\end{tabular}
+\end{table}
