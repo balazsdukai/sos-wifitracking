@@ -7,10 +7,10 @@ In this project, the focus lies on the Wi-Fi network of the TU Delft campus. The
 \section{Problem description}
 % What are we going to research, what are we going to build/develop?
 %%% Include literature here? That there hasnt been any implementation of SOS for wifi tracking data untill now? %%%
-% The difference between SOS for “occupancy” or SOS for “movement”
+Implementing a SOS from Wi-Fi tracking data is a topic that has little to no scientific literature. So far sensor observations services are most commonly used with sensors that observe natural or meteorological properties, such as temperature. Using it for publishing Wi-Fi tracking data is uncommon and will require much trial and error.
 
 During this project, the research will be guided by the following question:\\
-\textit{How can the 52North webapplication be used to publish and visualize the WiFi tracking data from the TU Delft eduroam network?}\\
+\textit{How can the 52North web application be used to publish and visualize the WiFi tracking data from the TU Delft eduroam network?}\\
 
 This research question can be divided into the following subjects which need to be addressed:
 \begin{itemize}
@@ -19,14 +19,14 @@ This research question can be divided into the following subjects which need to 
 \item Testing the SOS client
 \end{itemize}
 
-These questions can be answerd once the goals and objectives have been established.
+These questions can be answered once the goals and objectives have been established.
 
 \section{Objectives}
 % What is the purpose of the research (what will it solve), what is the purpose of the developed app (what can a user do with it)?
 % Must, Should, Could, Won't
-To answer the research question and subquestions, the purpose of the research has to be clearly defined. The purpose of the research is captured into two main objectives:
+To answer the research question and sub questions, the purpose of the research has to be clearly defined. The purpose of the research is captured into two main objectives:
 \begin{itemize}
-\item To provide a method for publishing WiFi-based tracking data through an SOS service and visualize the data in a client. The user can view and subset the data in the client and eventually download it. This allows a quick, preliminary data filtering which speeds up the data analysis workflow.
+\item To provide a method for publishing WiFi-based tracking data through an SOS service and visualize the data in a client. The user can view and subset the data in the client and eventually download it. This allows a quick, preliminary data filtering which speeds up the data analysis work flow.
 \item To set up a SES service which pushes newly added tracking data to the client/user.
 \end{itemize}
 To dive deeper into the steps that need to be taken to answer the research question, the objectives can be divided into sub-goals:\\
@@ -55,7 +55,15 @@ Finally, to structure the objectives and goals and to define the scope of the pr
 
 \section{Methods}
 % What methods do we use to get to the objectives?
-
-
-\subsection{Tools}
-% The tools we used, e.g. SQL / PostgreSQL, Python, 52N application
+% The difference between SOS for “occupancy” or SOS for “movement”
+Publishing the Wi-Fi tracking data using the SOS can be done using different methods. For this project multiple tools are used, these are listed below. 
+\begin{itemize}
+\item PostgreSQL
+\item Python
+\item GeoServer
+\item Apache Tomcat
+\item 52North Application
+\end{itemize}
+The 52North application was used as a guide for the implementation of the SOS on the server. This application is very well documented on their website. An work flow combining Python and PostgreSQL is used to automate as much of the SQL that is needed for the implementation i.e. limiting the manual work.\\\\
+\textbf{Occupancy vs Movement}\\
+This project aligns with the Synthesis project of the MSc Geomatics programme. During that project, we focus on movement in and between buildings. The first idea was to publish this movement data using the SOS, but this soon became rather difficult. Because the SOS uses time series to organize the data, there are limitations on the use of the data. When consider the access points as sensors in the SOS, one observation can include a mac address, SNR and RSSI. The time series organize these measurements in a way that one access point can have multiple observations, but one observation (mac address in this case) can not be tracked. Another way of looking at this would be to consider each mac address as sensor and each observation is the access point that it connects to. The first method will consider the data as occupancy information, whereas the second method will consider it movement data, in which tracking one person over time is possible. Because the time in this project is limited, the decision was made to see the access points as sensors, i.e. considering not movement but occupancy. 
