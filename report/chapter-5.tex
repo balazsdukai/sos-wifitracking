@@ -1,8 +1,36 @@
 \chapter{Conclusions and recommendations}
 \textbf{Conclusions}\\
-From current status of the application, it can be concluded that to some extent the 52°North web app is suitable for publishing Wi-Fi tracking data. However, not every part of the implementation currently works as it should. Creating a database compliant with the SOS database model is very feasible, if one takes time to understand the database model and has understanding on how to populate the tables in the database. As discussed in \autoref{H2}, mapping the correct attribute values to the correct tables is very important and should be done carefully. \\
+From current status of the application, it can be concluded that to some extent 
+the 52°North web app is suitable for publishing Wi-Fi tracking data. However, 
+not every part of the implementation currently works as we expected. Creating a 
+database compliant with the SOS database model is very feasible, if one takes 
+time to understand the database model and has understanding on how to populate 
+the tables in the database. As discussed in \autoref{H2}, mapping the correct 
+attribute values to the correct tables is very important and should be done 
+carefully.\\
+The company Geonovum created their own SOS pilot project (REF)
+%REF: sospilot.readthedocs.io/en/latest/
+and they are using SOS Transactions (SOS-T) to populate the tables in the 
+database. In their opinion populating the tables directly is cumbersome and 
+error prone and we can confrim that. Therefore we also recommend to use 
+SOS-T in future applications.
 
 \textbf{Recommendations}
-For this project research into the implementation of Sensor Observation Services for Wi-Fi tracking data was conducted, but other services were disregarded. There was discussion about whether or not WFS would be a better service to publish Wi-Fi tracking data, but no in depth research was conducted. For better assessment, WFS should be investigated.\\
-Furthermore, this project focusses SOS only, but with SOS as starting point, a Sensor Event Service (SES) could serve as a standard to push notifications to users when there is new data available. In further research, this could be a useful addition when creating an application to publish and monitor Wi-Fi tracking data. \\
-Additionally,  
+For this project research into the implementation of Sensor Observation 
+Services for Wi-Fi tracking data was conducted, but other services were 
+disregarded. There was discussion about whether or not WFS would be a better 
+service to publish Wi-Fi tracking data, but no in depth research was conducted. 
+For better assessment, WFS should be investigated.\\
+Furthermore, this project focusses on SOS only, but with SOS as starting point, 
+a Sensor Event Service (SES) could serve as a standard to push notifications to 
+users when there is new data available. The SES could open up applications in 
+the field of real-time occupation monitoring for facility management 
+organizations.\\
+Visualizing the observation results would provide additional insight into the 
+observed phenomenon. In the case of Wi-Fi tracking data, aggregated 
+measurements, e.g. number of people over time are often of more value than the 
+raw measurements. Therefore future research could investigate the posibilites 
+to publish and visualize aggregated measurements, eventually to provide the 
+option for the user to switch between the two.
+
+
