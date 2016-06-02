@@ -1,8 +1,46 @@
 \chapter{Functionality}
 % General introduction, what will the chapter discuss?
+The following chapter describes the OGC SOS standard implementaion by the
+52°North organization. The OGC SOS 2.0 standard was adopted in 2012 which
+serves the basis of the 52°North SOS 4.x implementation. Firstly the
+functionalities of the implementation are detailed, then the underlying data model is described.
 
 \section{52North application}
 % General introduction of the 52N application, what can it do, implementation, services
+The 52°North SOS 4.x supports the requriements of the SOS 2.0 specification,
+implementing all of its extensions and their operations:
+\begin{enumerate}
+    \item Core
+        \begin{itemize}
+            \item GetCapabilities, GetObservation, DescribeSensor
+        \end{itemize}
+    \item Enhanced
+        \begin{itemize}
+            \item GetFeatureOfInterest, GetObservaitonById
+        \end{itemize}
+    \item Transactional
+        \begin{itemize}
+            \item InsertSensor, UpdateSensorDescription, DeleteSensor,
+            InsertObservation
+        \end{itemize}
+    \item Result Handling
+        \begin{itemize}
+            \item InsertResultTemplate, InsertResult, GetResultTemplate,
+            GetResult
+        \end{itemize}
+\end{enumerate}
+
+Additionally, 52°North SOS 4.x offers the following main features:
+\begin{itemize}
+    \item SOS API
+    \item Persistence framework to easily change the underlying database
+    management system and database model (\textit{Hibernate} and
+    \textit{Hibernatespatial})
+    \item Administration GUI
+    \item Installer GUI
+    \item Bundle including SWC REST-API and JavaScript SOS Client
+    \item RESTFul binding extension
+\end{itemize}
 
 \subsection{Database model}
 % The database model, why did we chose non-transactional and other choices / assumptions we made 
