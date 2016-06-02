@@ -38,9 +38,8 @@ select nextval('observationtypeid_seq'), 'http://www.opengis.net/def/observation
 insert into offering
 select nextval('offeringid_seq'), 'F', 'wifi_access_points', 1, 'WiFi Access Points', 1, 'Network of all WiFi Access Points';
 
-
-
 --ONLY FOR OLD MODEL--
+/*
 insert into observation(
 observationid, 
 featureofinterestid, 
@@ -59,6 +58,14 @@ select nextval('observationid_seq'), featureofinterestid, 1, 1, asstime, asstime
 from featureofinterest, wifilog
 where featureofinterest.identifier = wifilog.apname
 ------------------------------------------------------------
+---ONLY FOR OLD MODEL---
+---TEXT VALUE---
+insert into textvalue
+select observationid, mac
+from observation, wifilog, featureofinterest
+where phenomenontimestart=asstime and phenomenontimeend = (asstime+sesdur) 
+and observation.featureofinterestid = featureofinterest.featureofinterestid
+*/
 
 ---for series model---
 INSERT INTO series (
@@ -72,7 +79,7 @@ from (SELECT DISTINCT featureofinterestid, 1 ,1
     WHERE identifier=apname) as hola
  
 --observation
---RUN SCRIPT  
+--RUN SCRIPT (which also creates and inserts the values) 
     
 INSERT INTO observationhasoffering
 SELECT observationid, 1 
@@ -86,12 +93,5 @@ INSERT INTO observationconstellation (
     offeringid)
 SELECT nextval('observationconstellationid_seq'), 1, 1, 1, 1;
 
----ONLY FOR OLD MODEL---
----TEXT VALUE---
-insert into textvalue
-select observationid, mac
-from observation, wifilog, featureofinterest
-where phenomenontimestart=asstime and phenomenontimeend = (asstime+sesdur) 
-and observation.featureofinterestid = featureofinterest.featureofinterestid
 
 
